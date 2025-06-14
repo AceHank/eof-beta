@@ -1,0 +1,498 @@
+Next
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v3.9 
+
+New Civs:
+-Aureignis Dominium: An empire built upon alchemical and scholarly achivement, will their hubris become their downfal or their eternal glory?
+-Bakunawa's Chosen: A take on Philippines myth of the moon swallowing dragon, by FBE Reactor
+-Dutushe Dynasty: Persian inspired civ in fantasy setting, and Unicorn cause why not, by Basil
+-Khassiya Dynasty: Fantasy take on an Arabian culture inspired dynasty
+-The Blighted: Exodus of those who survived the Mana sickness, by FastDoubloon
+-The Kaleeki: A Victorian era inspired, steampunk civilization led by the mad Architect, a chronomancer who pioneered the automaton technology, by Cosmic
+
+Universal Changes:
+-New Caster unit type
+-Elusive now gain a 2 turns cooldown
+-All Flying uniques are now active abilities with varying duration and cooldown depending on the Civs
+-Flying units can't be attacked by Melee units for its duration (Except vs Anti-Air Melee)
+-
+
+Civ changes:
+-Basalt Remainers: Lava Bomb now turn attacked tile into Lava. Unit ending their turn in Lava takes 30 damage. Lava can be removed using Worker.
+-Beastmen: Wardrummer now inline with new GnK's GG. Fly changes.
+-Dragonborn: Fly changes
+-Drow: Elusive changes
+-Einherjar: New and buffed UA, gain 10 Favor every new era adn can gain Favor from defeated unit even with Valkyrie present
+-Elmar: Nerfed UA, now retains 50% Happiness from 75%, Nerfed Armour of Frost cooldown by 2 turns.
+-Harpies: Fly changes
+-Kemetian: UU changed, now replaces Horseman and losing range
+-Lunar Theocracy: Elusive changes
+-Merfolk: UU changed into Sea Warden
+-Night Elven: UU Hovering no longer Flying due to changes to Flying
+-Sacred Sun: UU XP gain is nerfed
+-Shinso: UU is now spellcaster without special promotions
+-Spirit Pact: UB Faith cost increased to 150
+-Tauren: UB promotion Vision buffed, Winds nerfed
+-Uldra: UA now only give +1 pop max
+-Walrus: UB flat Culture reduced to 2 and +1 Maintenance
+-Wizard: UU is now spellcaster with special promotions. UA removed +1 Science from Shrine but +2 from Temple.
+-Vigilo Order: Reworked
+
+Bug fixes:
+-Fixed Spirit Pact's UB not doing Courthouse effect
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v3.8 Four Civs in one update?!
+
+New Civs:
+-Teutonica Imperium: If WWI Germany is in an arcanepunk setting, inspired by that isekai anime
+-Night Elven Enclave: Warcraft III's Night Elven inspired civilization
+-Aellenari Empire: An advanced empire led by a great Queen long gone, now ressurected by "scholars" and "academics"
+-Elmar Kingdom: A human kingdom that protects those who don't wield magic... with magic! Watch for their spellcaster! By @Basil
+
+Universal changes:
+-Updated older civs icon. By @basil.
+-Elusive changed into 100% chance (from 66%) but happens once per turn
+-Adjusted some debuffs and effects that trigger at turn end to be at turn start as initially envisioned (Burning, Frostbitten, Chilled, Valkyrie's lifespan, etc)
+
+Civ Changes:
+-Celestials: UU -1 Strength
+-Centaur: UU promotion, Crushed reduced to -15% Strength
+-Children of DD: UB -1 Culture
+-Clockwerk: UB reduced to +10% Faith and +1 Production, UI now has same yield at Rationalism or Piety Complete
+-Dwarven: Changed UA Science into flat, UB now gain +1 Golden Age Point every turn, doubled if adjacent to Mountain
+-Einherjar: Valkyrie's Favor cost reduced to 30
+-Elven: UU -1 Ranged STR, UB changed some of the threshold effects to be more scaling
+-Enkantos: UU Illusion now only last for 2 turns, but increasd chance to 35% and lowered heal to 20 HP
+-Nature's Keeper: UA reveal Forest/Jungle now into 15-tile radius but only happen once
+-Necrontia: Military Land units are now Undead
+-Nerubian: UA now only affects Land Ranged units
+-Precursor: UB Culture bonus is removed, removed Scouting I from UU but gain Detect Ruins: Activate to reveal all Ancient Ruins in a 6-tiles radius. May only be used once. Cost: 2 Move
+-Sacred Sun: UB +2 Maintenance and +2 Golden Age points every turn
+-Scazari: UU promotion changed into: Armored Exoskeleton: 50% damage reduction when below 50 HP
+-Tauren: UU Enchant Totem Cooldown increased to 10 turns.
+-The Amazons: UU Disarm cooldown to 6 from 5
+-The Chroniclers: UA +25% to construct Science building down from +34%, new UA: Empires in Golden Age gain -10% Strength when fighting vs The Chroniclers
+-The Eternals: Military Land units are now Undead, UA heals reduced into 15 HP
+-The Kobolds: UU now requires Iron and gain Forced March: Activate to gain +2 Movement and Fatigued. This ability can be toggled. Cooldown: 1 turn.
+-Wizards: UA -1 Science from Temple, buffed Peacemaker Spell Strength when vs units
+
+Fixes:
+-Fixed some weird and inconsistent wording
+-Fixed Tauren Totemwielder's Enchant Totem, now is a proper 'free' attack instead additional attack
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v3.7 New Sprites are coming!!
+
+More sprites are coming with this patch! Mostly by @Indonesian Gentleman. (And one shameless AI sprite from the [Freepik](https://www.freepik.com/premium-ai-image/golden-sphinx-pixel-art-atop-books-pile_343316830.htm))
+For information, I've abandoned thinking too much about balance, I will still try to balance the Civs as much as possible, but, it is now has reduced focus.
+And because of the power creep of the new Civs, alongside the introduction of abilities (Patch 3.5), I recommend using Only Mod Civilizations by @amfauzn.
+Of course if you have suggestion on balancing I'll gladly listen and give it some thoughts!
+
+New Civs:
+-Einherjar Legion: The warriors of Valhalla has descended onto this realm
+-Kemetian Dynasty: Ancient Egyptian inspired civilization
+
+New Sprites:
+-Indonesian Gentleman
+-Bucketeer city template
+
+Universal Changes:
+-Water Creature units now has -15% Strength vs Ships
+-Chilled debuff Frozen chance up to 15% (from 10%)
+-Changed some personalities to better fit their Civilizations lore
+-Changed some Civ's color scheme to make it easier on the eyes
+
+Changes:
+-Basalt Remainers: -1 Faith from UB's City ruins bonus, City ruins now can be worked without assigned pop
+-Celestials: UB heal changed into: Adjacent unit takes 10 less damage, UU Volatile now affect Water units, but Ranged unit at half damage
+-Clockwerk: UI gain +1 Faith after completing Piety OR Rationalism, but -1 base Faith and +10 Faith when pillaged
+-Dragonborn: UU Gryphon abilities changed into 'Wings' and 'Sturdy' promotions, but -2 Strength
+-Enkantos: Slightly buffed Science gain from building Happiness buildings
+-Gnoll: UB -1 maintenance cost
+-Gnome: UU Strength reduced to 40, UA's GPP now all Science building except Library
+-Hellbourne: Infernal Regeneration now heals 50 HP, but increased mana cost to 15
+-High Elf: UU -1 Strength, Revived Zealot changed into Second Wind: Gain 25 HP upon reaching 25 HP or less, can only be activated once
+-Leonin: Removes Overwhelming Attack full HP condition but cooldown is increased to 7 turns
+-Lithoid: UU Reckless Spewing now gives "No damage penalty for wounded units"
+-Orc: Flank bonus to +25%, UI defensive bonus reduced to 15%
+-Salamander: Sun Obelisk now can't receive XP and reduced Sun Obelisk's Strength by around 10%
+-Walrus: UA free Settler now within 1 tile of Snow instead of on Snow
+-Wizard: UA -1 Science from Shrine, UB -3 Science, UB gain new specialist Spellweaver: +3 Science, +3 Peacemaker Spell Point
+-Troglodyte: Heavily Armored to +15% from +10%
+-Undines: Free Worker from River now only up to three times, Dowsing cost increased by around 40% & 2nd Manawell requires 12 pops. Also gain +1 Science when adjacent to Manawell & removed `Unpillageable`/`Irremoveable`
+
+Fixes:
+-Fixed broken encoding for words and city names, by sls1005
+-Fixed Argonautian States' doubled heal from Agathinus' promotion
+-Fixed Shinso' UA description to match actual effect
+-Fixed Spirit Pact's captured unit not destroying improvement on attack
+-Fixed Troglodyte Retribution description to matches with the in game effect
+-Fixed Withered status heals from promotions (Healer I/II, Medics, various UU's abilities)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v3.5 Abilities!!!
+
+This patch introduces some little new mechanics of Abilities.
+Abilities don't really require much explanation, they work as they are written (supposedly, please report for errors).
+
+Abilities:
+-Plenty of units now have abilities with cooldown, meaning they only activates when not in cooldown.
+-There are passive abilities and active abilities. Passive abilities are activated instantly when their conditions are satisfied.
+-Active abilities must be activated manually, and some of them has the same cooldown mechanic applied as well.
+
+New Civs:
+-Leonin Kingdom: The kingdom of Leonin, lion demihuman race
+-Phrygian Kingdom: The mythical kingdom of King Midas, the infamous greedy King
+
+Universal changes:
+-Water Creature promotion now lets unit attack when embarked but bonus Strength is removed and is NOT counted as Embarked
+-Bloodbath promotion changed into heals 5 HP upon damaging enemy (from "Heals 33 HP upon defeating")
+-Sentry promotion now can see invisible `Invisibility` units
+
+Civ changes:
+-Argonautian: Achiles' Bloodbath promotion changes
+-Basalt Remainers: All units gain +1 Move & +10% Strength after eruption for 10 turns, UU gain Invisibility tag, UB +1 Culture, NA +1 more Gold from City ruins, +5% more maintenance
+-Beastmen: Reduce the penalty of negative Happiness by half, Wyvern gain Wings
+-Celestials: All unit gain +1% Strength when defending for every Curative Spire in the empire
+-Centaur: UU -2 Strength, Charge promotion changed into Stampede: Attack applies Crushed, Crushed unit has -20% Strength
+-Deep Dweller: UU gain Water Creature promotion, now require Old God Monument to be built, UB now requires Pottery
+-Clockwerk: UU Cover promotion removed, UU can now sacrifice HP to gain +35% Strength for 2 turns
+-Dragonborn: UU -2 Strength, now gain Executioner: Receive +25% Strength for 1 turn and May attack again upon defeating a unit
+-Drow: UA gain +1 Food in Desert within 2 tiles of City center
+-Dwarven: +5% Science +1 Production in all cities for every Golden Age achieved, Strategic resources stats removed, UB Science reduced to +25%
+-Elven: UU -1 Strength, UB 2nd stats changed into milestones rather than static stats
+-Enkantos: Also gain random Population upon entering Golden Age
+-Fanrong: UU Cost +30, UU gain Supply promotion
+-Gaia: UU Invis now can be manually activated for 3 turns, +25% Strength during invis, Cooldown: 8 turns
+-Gnoll: UB's unique changed in cities with Courthouse, UU Fervor changed into Bonebreaker: Stun target unit for 1 turn with 15% chance
+-Gnome: Removed +2 Science from UA, +1 Great Engineer Points from Univ/Public School/Research Lab buildings, UB -1 Production, -1 Science, +1 Gold
+-Harpies: UU +2 Melee Strength & gain Galestorm Leap: Teleport up to 5 tiles from inside friendly territory. Cooldown: 10 turns.
+-Hellbourne: UU Bloodbath promotion changes, Azaniroth several abilities that need Mana to cast
+-High Elf: UU gain ability: Comebacks alive with 1 HP after defeated and is protected from all attack for 1 turn but can't attack, can only trigger once
+-Holy Lunar Theocracy: UU +1 Strength, UB now gain 1 Lunar Disciple specialist, +3 Faith & +3 Lunar Missionary Points, Lunar Missionary is a much better Missionary
+-Inquisitorial: UU -1 Strength and removed Spread Religion action UB now provide +1 Apostle Points, Apostle new UU that can spread religion like a Great Prophet once
+-Lithoid: UU -1 Strength, now may trigger an ability to attack limitlessly, but takes 30 damages everytime it attacks, duration 1 turn, can only be casted when in full health 
+-Lizardmen: UU -1 Strength, Amphibious II changed into +1 Movement & Can move after attacking in Fresh Water
+-Lyrian: UU -1 Strength, new promotion Divine Smite: Target unit takes extra 15 damage, cooldown 5 turns
+-Magnar: UU gain Bonebreaker promotion, Forced Levy now may choose its unit instead of Sword-line only
+-Merfolk: UU now may construct Floating City once, UI gain more yields but can't be next to one another, Water Creature promotion changes
+-Nature's: UU may instantly construct an improvement, +20 cost
+-Nerubian: UU -1 Strength, +2 cost, Barrage I changed into Shukuchi: Invis & +1 Movement for 2 turn, deals 15 damage on attack, buff is lost upon attacking, Cooldown: 10 turns
+-Necrontia: UU gain Ice Attack: Applies Chilled for 2 turns, -10% Strength and 10% chance of Freezing upon turn end
+-Precursor: All unit now gain access to Mobility promotion as first option
+-Pyre: UU -1 Strength, promotion changed into Mark of Bane: Attack applies Baned for 3 turns, all damage received is increased by 5 and damage dealt is reduced by 5
+-Sacred Sun: UU gain 1 XP upon turn end when adjacent to a Great Prophet
+-Salamander: Sun Obelisk range increased to 2, UU promotion reduced to 15%, UU and Sun Obelisk attack Burns target Land unit for 2 turns, taking 10 damages every turn unless in tile with access to water
+-Scazari: UU promotion from 25% to 15% and 2nd part into Heal 5 HP upon taking damage
+-Shinso: Tsukaima changed Mobility I to Elusive, Onmyouji -3 Melee Strength, gain Withering Curse: Attack apllies Withered for 2 turns, can't heal/fortify, pilage, and no terrain bonus. Cooldown: 5 turns.
+-Tauren: Nerfed Strengths promotion line, UU -1 Strength and gain Enchant Totem: Activate to gain 1 free attack for thir turn. Cooldown: 8 turns.
+-Amazons: UU -1 Strength, cost +10, gain Disarming Strike: Attack applies Disarmed for 1 turn, Disarmed unit can't attack. Cooldown: 5 turns.
+-Chroniclers: UU -1 Strength, promotion +33% Strength to +25%, changed +1 Move in friendly land into see over obstacle, and gain Sentry promotion
+-Walrus: UU ability changed into Frostbrand: Attack applies Frostbitten for 2, -1 Movement and takes 10 damage every turn
+-Wizard: UU -1 Strength, Mana Shield changed into every 5 turns instead of when full HP and protect from enemy Spells as well, Peacemaker Spell now Stun target for 2 turn
+-Troglodyte: UU promotion reduced to +10%, and gain Retribution: Land Melee units attacking this unit takes 10 damages, Ranged takes 5 damages
+-Troll: UU ability changed into Hunter's Mark: target unit receive 2-turn debuff that grants attacking unit +1 Move and +15% Strength
+-Uldra: UU now replaces Spearman, -1 Strength, promiton reduced to +15% Strength, and gain Winter's Grasp: Attack applies Chilled for 2 turns, -10% Strength and 10% chance of Freezing upon turn end
+-Undine: UU -1 Strength, and heals for 10 HP per turn when not in combat in the last 2 turns
+-Vigilo: UU now Uncaptureable and removes most negative statuses from nearby units
+
+Fixes:
+-Fixed plenty of obsolete uniques
+-Fixed Beastmen's Great General unable to be gained through combat
+-Fixed Inquisitorial's UU doesn't have religious strength
+-Fixed Troglodyte's Cavernhold not providing the correct yields
+-Fixed Undine's Manaline needs Jungle removal and now is improving resource instead of providing new ones
+
+Statuses list:
+-Baned: Takes extra 5 damage upon taking damage, deals 5 less damage upon dealing damage
+-Binded: Set movement to 1
+-Burning: Takes 10 damage on turn end, removed when in tile with water access
+-Chained: -3 Movement
+-Chilled: -10% Strength, 10% chance to be Frozen on turn end
+-Crushed: -20% Strength
+-Disarmed: Can't attack
+-Frostbitten: -1 Movement, takes 10 damage on turn end
+-Frozen: -50% Strength, Frozen is lost upon taking damage, otherwise same as Stunned
+-Marked: Give the attacker +1 Movement and +10% Strength
+-Stunned: -15% Strength, Can't do anything, including healing and fortifying
+-Withered: Can't heal by any means, can't Fortify, and receive no defensive terrain bonus
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v3.0
+
+New Civs:
+-The Enkantos: Enchanted people of the ethereal city of Biringan inspired from Philippines mythology 
+
+Changes:
+-Argonautian: Agathinus (Heroic General) now heal adjacent allies by 10 and has Medic promotion
+-Beastmen: +2 Happiness from Courthouse to annexed cities
+-Celestials: Archon's Volatile Core is now actually Volatile
+-Centaurs: Mounted units resist half of Anti-cav bonus Strength
+-Deep Dweller: 100% Faith to 50% Faith and Science, UB: +1 Faith, Science, Culture
+-Clockwerk: UU now regenerate HP every turn
+-Dragonborn: Now has actual Dragonborn, which can fly
+-Drow: Vengeful now actually involves 'revenge'
+-Dwarven: UB doesn't require Mountain
+-Elven: Nerfed Ancestor Tree, isn't National Wonder and reduced yield
+-Fanrong: Changed original UB into UA, new UB Trade Hub
+-Gaia: UU invis now chance-based and promotion. Countered by `Sight` promotion
+-Gnoll: UA change from Gold to short Golden Age, UB's yield separated, UU gain new promotion
+-Harpies: Now actually flies but reduced UA yield, UI buffed for simplicity
+-Hellbourne: Azaniroth is cheaper to revive
+-Inquisitorial: Now can remove and spread religion once
+-Lyrian: Healer promotion changed
+-Magnar: UB cost more but has +2 Culture
+-Merfolk: may enter ocean after Compass, Work Boats now construct UI without consuming
+-Keeper: UA reworked, UB less reliant on Forest
+-Necrontia: +50% Production when constructing Courthouse, UU Lich ability is now promotion
+-Nerubian: UB cost more but has +2 Production
+-Orc: UA reduced by 5%, Orc Brute ability now promotion, UI now sabotage enemies and is mini-Citadel
+-Pyre: 2 Free Pitlords upon finishing first Policy tree
+-Salamander: Sun Obelisk now doesn't need Desert, UU promotion from 50% Desert to 25% Desert and Friendly Land
+-Scazari: Unique Specialist from +3 Culture to +2
+-Shinso: 1 Extra unique Wonder and everything is cheaper. Completing them give free Great Person and unique Specialist
+-Tauren: Healer promotion changed
+-Amazons: UA now less reliant on Jungle
+-Chroniclers: UA now less reliant on Desert but needs Writing
+-Titans: UA buff to +40% Production
+-Wizard: UU changed to Sorcerer, new promotions
+-Troglodyte: UB +1 Production from mined strategic resource
+-Troll: UA buffed to last the entire game, UB nerfed from +2 Production to +1 Production
+-Uldra: UA now less reliant on terrain
+-Vigilo: UU now grants passive healing to adjacent allies
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v2.7
+
+New Civs:
+-The Amazons: A matriarch civilization inspired from Greeks mythology
+-Undines: Water nymph civilization
+
+Changes:
+-Orc Horde: Nerfed Orc Brute, increased cost, reduce strength, added Iron requirement
+-Tauren Clan: Rites of the Earthmother now destroyed when the city is captured, preventing the promotions to be used by other civs
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v2.6
+
+New Civs:
+-Spirit Pact (by @Bamboolord): Evil spirits possesing everyone to dominate the world
+
+Changes:
+-Argonautian States: UA now uses trigger condition
+-Merfolk Council: Changed Water Creature promotion, removed -1 Movement speed but added -10% Strength in tiles without access to water
+-Salamander Empire: UA now uses trigger condition and buffed condition to on Desert and next to Desert tile
+-The Walrus People: UA now uses trigger condition
+-Uldra: Changed +UA now uses trigger condition, indirectly nerfing them (But this is the intended design)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v2.5 
+
+New Civs:
+-Gnoll Warband: Hyena demihuman civilization
+-Troglodyte: Cave-dwelling lizardmen civilization
+
+Changes:
+-Changed Gnome Alliance color
+-Changed Harpies Tribe color
+-Celestial Beings: Removed self-destruct from Volatile Core because it's not working, and nerfed from +200% to +150%
+-Lizardmen Tribes: Buffed UA from 15% Strength to +20% Strength
+-Scazari Hive: Nerfed Spawner Drone from +3 Culture to +2 Culture
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v2.4 Here Comes Some Sprites!!
+
+Added sprites for all unique units, uses AbsoluteUnits tileset - by Indonesian Gentleman
+
+New Civs:
+-Celestial Beings: Angelic civilization coming from the Higher Plane
+-Hellbourne: Creature from the abysmal Hell surfaces to conquer the land
+
+Changes:
+-Argonautian States: Buffed the Strength of Achilles, Orion, and Daedalus 
+-Necrontia: Nerfed Lich from 20 Ranged Strength to 18 Ranged Strength
+-The Chroniclers: Changed leader name into a more lore-friendly one, Buffed Sentinel and changed into Construct
+-The Kobolds: Buffed Lodepit with +1 Culture
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v2.3
+
+New Civs:
+-Precursor: Primordial highly intelegent race, they are among the first sentient being in the world
+-The Eternals: Long-lived creatures able to drain the life-essence of other lesser being.
+
+Changes:
+-Nature's Keeper: Nerfed Mother Tree (UA), reduced all 5 flat yields by 1
+-Scazari Hive: Adjusted Spawning Pool from +2 Food to +1 Food but increases Spawner Drone from +1 Food from +2 Food
+-Tauren Clan: Nerfed Tauren Totemwielder, reduced Strength to 23 from 24
+-Uldra: Nerfed Frost Giant, reduced Strength to 13 from 14
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v2.2 
+
+New Civs:
+-Basalt Remainer (by Bamboolord): Undeads construct consisting of volcanic ash and rocks
+-Salamander Empire: Lizardmen variant that lives in the Desert
+-The Chroniclers: Secret societies that aims to record all history of the world
+
+Changes:
+-Added explanation on some civilization's mechanic in Civilopedia
+-Ambush promotions now deals extra damage to Construct units
+-Dwarven Kingdom: Nerfed Orichalcum Golem, removed +25% Strength when defending but added Strength to 22 from 21
+-Lithoid Combine: Buffed UA to be able to build extra population again after being conquered
+-Magnar Empire: Buffed UA to be able to build Forced Levy again after being conquered
+-Uldra: Buffed UA to be able to build extra population again after being conquered
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+V2.1 
+
+New Civs:
+-Magnar Empire: A human Empire built on slavery
+-The Lithoids: Sentient rock creature civilization
+
+Fixes:
+-Fixed some missing icons
+-Fixed Argonautian States different Heroic General having the same icon
+
+Changes:
+-Added some more nation lines to existing civilizations
+-Dragonborn Union: Buffed Dragon Knight, upgrades to Rifleman instead of Musketman
+-Dwarven Kingdom: Nerfed Orichalcum Golem, reduced Strength to 21 from 23
+-Necrontia: Buffed UB's Sacrifice promotion to +20 Culture from +15
+-Orc Horde: Nerfed Orc Brute to cost 100 from 85
+-Scazari Hive: Nerfed UA to +1 Production from +2 Production
+-Vigilo Order: Buffed Potionist to cost 50 Production from 90
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v2.0 
+
+New Civs:
+-Holy Lunar Theocracy: Lunari civilization, a nocturnal humanoid race, rival nation of Sacred Sun Theocracy
+-Lyrian Kingdom: Human civilization
+
+Fixes:
+-Fixed Divine Watch promotion not working as intended (Again!)
+
+Changes:
+-Added lines to some existing civilizations
+-High Elf Concordat: Buffed UA added +2 Faith
+-The Walrus People: Nerfed UA to +1 yield on non-Snow/Tundra, +2 on Tundra
+-The Titans: Buffed UA to +33% from +25% when constructing World Wonder for the first time
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v1.9 The Warcraft Specials!
+
+New Civs:
+-Nerubian Kingdom: Ancient arachnid kingdom
+-Tauren Clan: Half human half bull, minotaur-like civilization
+-The Walrus People: Walrus-like race
+
+Fixes:
+-Fixed same icons
+
+Changes:
+-Added civilopedia entries for most unique components of every civilizations
+-Merfolk Council: Land units gain the Water Creature promotion (Stronger in tile with access to water and the other way around)
+-The Wizard Council: Buffed UA +2 Science from Shrine and Temple from +1 Science
+-Children of Deep Dweller: Nerfed Deep One cost to 48 from 46
+-Gnome Alliance: Buffed UA to +2 Science from +1 Science
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v1.8 A big one incoming!
+
+New Civs:
+-Scazari Hive (suggested by @rendieval): Sentient hive-minded insectoid civilization (Epic of Sci-fi?)
+-Troll Tribes
+
+Fixes:
+-Fixed units with 'Divine Watch' promotion not working correctly
+-Fixed icons
+-Fixed some missing prefered victory from civilization
+-Fixed Lizardmen color scheme
+
+Changes:
+-Beastmen Empire: Buffed unique ability, 5x production -> Culture from 3x
+-Clockwerk Church: Buffed Mechanite, reduced cost to 160 from 170
+-Dwarven Kingdom: Buffed unique ability, +1 Production from mined strategic resource
+-Fanrong Republic: Buffed Junk Ship, reduced cost to 90 from 100
+-Inquisitorial Illuminate: Nerfed Covenant Temple, added 2 maintenance from 0
+-Merfolk Council: Buffed Floating City, +1 Gold after discovering Guilds
+-Necrontia: Buffed Throne of the Dead from +1 Culture into +4 Culture
+-Orc Horde: Buffed Orc Brute, -10% Strength from -15%
+-Pyre Clan: Nerfed Pitlord, reduce Strength to 22 from 24
+-Sacred Sun Theocracy: Buffed Devotee, ddded 'Divine Watch' promotion
+-Shinso: Buffed Onmyouji, added Accuracy I promotion
+-The Wizard COuncil: Nerfed Peacemaker Spell, now won't 'prevent' the AI from attacking player
+
+Current Issues:
+-Battle preview involving Troll Headhunter (and its upgraded version) can be misleading because the chance of it's being true is 50%
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v1.7 Player suggestion special
+
+Fixes:
+-Fixed missing icons (yet another missing icons!)
+
+Changes:
+-2 new civs: Fanrong Republic and The Wizard Council
+-Beastmen Empire: 2x Production -> Culture changed into 3x Production -> Culture
+-Necrontia: Buffed Lich capture chance from 20% chance into 75% chance && Lich's Ranged Strength into 20 from 19
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v1.6
+
+Fixes:
+-Fixed missing icons
+
+Changes:
+-2 new civ: The Titans and The Kobolds
+-Harpies Tribe: Changed promotions of Stormwing into a more relevant one
+-Gnome Alliance: Buffed National Ability and unique National Wonder
+
+Current Issues:
+-When playing as Gaia Preserver and The Kobolds, automating Worker may potentially puts Worker in a loop of swapping between improvement on the same tile
+ Solution: You need to uncheck Automated worker replace improvement in Gameplay option
+-Another issue when playing The Kobolds, they will prioritize Mine over Lodepit.
+ Solution: You need to manually build Lodepit
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v1.5
+
+Fixes:
+-Fixed Drow Village Vengeful promotion affecting Water units
+
+Changes:
+-2 new civs: Harpies Tribe and Gaia Preserver
+-Merfolk Council: Nerfed NA from +3 Culture to +2 Culture
+-High Elf Concordat: Changed NA from +3 Culture, +1 Production into +2 Culture, +2 Production &&& Buffed Arcane Spire from +1 Science to +2 Science
+-Dragonborn Union: Changed NA so not to copy-paste from Austria into +10% Strength within 2 tiles of Mountain &&& Nerfed influence gain from 15 to 10
+-Shinso: Buffed unique Wonders by reducing their cost
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v1.4
+
+Fixes:
+-Fixed exploitable Uldra's free population
+-Fixed missing icons (yet again!)
+-Fixed promotions for the new Unciv 4.2.17 update 
+
+Changes:
+-1 new civ: Gnome Alliance
+-Dwarven Kingdom: Tinkerer's Depot +10% Production Bonus
+-Nature's Keepers: Buffed NA to better reflect on its attribute as Forest-based civilization
+-Clockwerk Church: Name changed from Cyborg Priest into Priest of Cog
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v1.3
+
+Fixes:
+-Fixed Fresh Water Lumber mill bonus not working on Lizardmen Tribes
+-Fixed missing icons
+-Added civilopedia text to explain details on a civilization's history and lore
+
+Changes:
+-2 new civs: Shinso (Imported from Fantasia) and Centaur Tribes
+-Buffed Lich: May capture Military units with 20% chance
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

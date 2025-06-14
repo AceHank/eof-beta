@@ -1,0 +1,1773 @@
+[	
+	//Dwarven Kingdom
+	{
+		"name": "Tinkerer's Depot",
+		"uniqueTo": "Dwarven Kingdom",
+		"replaces": "Observatory",
+		"maintenance": 0,
+		"percentStatBonus": {"science": 25},
+		"uniques": ["Comment [Gain +1 Golden Age Point every turn, doubled if adjacent to a [Mountain]]",
+					"Instantly gain [1] [Golden Age points] <upon turn end> <hidden from users>",
+					"Instantly gain [1] [Golden Age points] <upon turn end> <within [1] tiles of a [Mountain]> <hidden from users>"
+					],
+		"requiredTech": "Astronomy",
+		"civilopediaText": [
+			{"text": "Dwarven tinkerer often has their own place to tinker and mess around with their invention."},
+        ]
+	},
+	
+	//Drow Village
+	{
+		"name": "Training Ground",
+		"replaces": "Barracks",
+		"uniqueTo": "Drow Village",
+		"hurryCostModifier": 25,
+		"happiness": 1,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [25] XP [in this city]"],
+		"requiredTech": "Bronze Working",
+		"civilopediaText": [
+			{"text": "Drow trains to the death in this place."},
+        ]
+	},
+	
+	//Uldra
+	{
+		"name": "Iceygloo",
+		"replaces": "Workshop",
+		"uniqueTo": "Uldra",
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"requiredTech": "Metal Casting"
+		"uniques": ["[20]% Food is carried over after population increases [in this city]", "[+1 Production] from [Tundra] tiles [in this city]"],
+		"civilopediaText": [
+			{"text": "A place for storage, both food and non-food. To protect it from the harsh cold of the arctic."},
+        ]
+	},
+	/* NO NEED ANYMORE
+	{
+		"name": "TundraFreePop",
+		"uniqueTo": "Uldra",
+		"maintenance": 0,
+		"cost": 1,
+		"uniques": ["Unsellable", "Must be on [Tundra]", "Will not be displayed in Civilopedia", "Destroyed when the city is captured",
+					"[+1] population [in this city]"]
+	},
+	{
+		"name": "SnowFreePop",
+		"uniqueTo": "Uldra",
+		"maintenance": 0,
+		"cost": 1,
+		"uniques": ["Unsellable", "Must be on [Snow]", "Will not be displayed in Civilopedia", "Destroyed when the city is captured",
+					"[+1] population [in this city]"]
+	},
+	NO NEED ANYMORE */
+	
+	/* No need anymore
+	//Merfolk Council
+	{
+		"name": "CoastCulture",
+		"uniqueTo": "Merfolk Council",
+		"maintenance": 0,
+		"cost": 1,
+		"uniques": ["Unsellable", "Must be on [Coastal]", "Will not be displayed in Civilopedia", "[+3 Culture] [in this city] <after discovering [Drama and Poetry]>"]
+	},
+	No need anymore */
+	
+	//Elven Kingdom
+	{
+		"name": "Ancestor Tree",
+		"uniqueTo": "Elven Kingdom",
+		"cost": 175,
+		"culture": 1,
+		"faith": 1,
+		"uniques": ["Comment [Unlocked at [Civil Service]]", "Cannot be purchased <hidden from users>", 
+					"Comment [Gain yields based on the number of [Ancestor Tree]s in your empire]",
+					"Comment [>1: +5% [Culture]]",
+					"Comment [>3: +1 [Culture] for every 4 [Ancestor Tree]]",
+					"Comment [>5: +2 [Production]]",
+					"Comment [>7: +10% [Science], +10% [Faith]]",
+					"Comment [>9: +2 [Great Artist] Points]",
+					],
+		"requiredTech": "Civil Service",
+		"civilopediaText": [
+			{"text": "A tree sprout from the fallen body of the first ever Elven. Ancestor Tree is a sacred site, a rememberance of the ever-changing nature of life."},
+        ]
+	},
+	{
+		"name": "Ancestor Artist",
+		"maintenance": 0,
+		"greatPersonPoints": {"Great Artist": 2},
+		"cost": 1,
+		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Destroyed when the city is captured",
+					"Unbuildable"]
+	},
+	
+		/* Scrapped concept
+		{
+			"name": "Ancestor Tree Sapling",
+			"uniqueTo": "Elven Kingdom",
+			"cost": 175,
+			"culture": 2,
+			"faith": 1,
+			"requiredTech": "Civil Service",
+			"civilopediaText": [
+				{"text": ""},
+			]
+		},
+		*/
+	
+	//Orz'athoth of Children of Deep Dweller
+	{
+		"name": "Old God Monument",
+		"uniqueTo": "Children of Deep Dweller",
+		"faith": 1,
+		"science": 1,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["Comment [Unlocked at [Pottery]]", "Destroyed when the city is captured", "New [Military] units start with [10] XP [in this city]"],
+		"civilopediaText": [
+			{"text": "Monument for the Old God. An altar of worship."},
+        ]
+	},
+	
+	//Vigilo Order
+	{
+		"name": "Athanor",
+		"replaces": "University",
+		"uniqueTo": "Vigilo Order",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Alchemist": 2},
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "Comment [+2 Alchemist slots (+3 [Science], +5 [Great Alchemist] points)]"],
+		"requiredTech": "Education",
+		"civilopediaText": [
+			{"text": "A place to learn for young alchemist."},
+        ]
+	},
+	
+			{
+				"name": "Circus Maximus Great Alchemist",
+				"uniqueTo": "Vigilo Order",
+				"greatPersonPoints": {"Great Scientist": 2},
+				"cost": 1,
+				"uniques": ["Only available <in cities with a [Circus Maximus]>", "Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
+							"Unsellable", "Will not be displayed in Civilopedia"
+							]
+			},
+			{
+				"name": "National College Great Alchemist",
+				"uniqueTo": "Vigilo Order",
+				"greatPersonPoints": {"Great Scientist": 2},
+				"cost": 1,
+				"uniques": ["Only available <in cities with a [National College]>", "Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
+							"Unsellable", "Will not be displayed in Civilopedia"
+							]
+			},
+			{
+				"name": "National Epic Great Alchemist",
+				"uniqueTo": "Vigilo Order",
+				"greatPersonPoints": {"Great Scientist": 2},
+				"cost": 1,
+				"uniques": ["Only available <in cities with a [National Epic]>", "Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
+							"Unsellable", "Will not be displayed in Civilopedia"
+							]
+			},
+			{
+				"name": "Heroic Epic Great Alchemist",
+				"uniqueTo": "Vigilo Order",
+				"greatPersonPoints": {"Great Scientist": 2},
+				"cost": 1,
+				"uniques": ["Only available <in cities with a [Heroic Epic]>", "Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
+							"Unsellable", "Will not be displayed in Civilopedia"
+							]
+			},
+			{
+				"name": "Grand Temple Great Alchemist",
+				"uniqueTo": "Vigilo Order",
+				"greatPersonPoints": {"Great Scientist": 2},
+				"cost": 1,
+				"uniques": ["Only available <in cities with a [Grand Temple]>", "Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
+							"Unsellable", "Will not be displayed in Civilopedia"
+							]
+			},
+			{
+				"name": "National Treasury Great Alchemist",
+				"uniqueTo": "Vigilo Order",
+				"greatPersonPoints": {"Great Scientist": 2},
+				"cost": 1,
+				"uniques": ["Only available <in cities with a [National Treasury]>", "Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
+							"Unsellable", "Will not be displayed in Civilopedia"
+							]
+			},
+			{
+				"name": "Oxford University Great Alchemist",
+				"uniqueTo": "Vigilo Order",
+				"greatPersonPoints": {"Great Scientist": 2},
+				"cost": 1,
+				"uniques": ["Only available <in cities with a [Oxford University]>", "Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
+							"Unsellable", "Will not be displayed in Civilopedia"
+							]
+			},
+			{
+				"name": "Ironworks Great Alchemist",
+				"uniqueTo": "Vigilo Order",
+				"greatPersonPoints": {"Great Scientist": 2},
+				"cost": 1,
+				"uniques": ["Only available <in cities with a [Ironworks]>", "Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
+							"Unsellable", "Will not be displayed in Civilopedia"
+							]
+			},
+			{
+				"name": "Hermitage Great Alchemist",
+				"uniqueTo": "Vigilo Order",
+				"greatPersonPoints": {"Great Scientist": 2},
+				"cost": 1,
+				"uniques": ["Only available <in cities with a [Hermitage]>", "Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
+							"Unsellable", "Will not be displayed in Civilopedia"
+							]
+			},
+			{
+				"name": "National Intelligence Agency Great Alchemist",
+				"uniqueTo": "Vigilo Order",
+				"greatPersonPoints": {"Great Scientist": 2},
+				"cost": 1,
+				"uniques": ["Only available <in cities with a [National Intelligence Agency]> <when espionage is enabled>", "Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
+							"Unsellable", "Will not be displayed in Civilopedia"
+							]
+			},
+	
+	//Argonautian States
+
+	
+	//Pyre Clan
+	{
+		"name": "Demonic Portal",
+		"replaces": "Heroic Epic",
+		"uniqueTo": "Pyre Clan",
+		"cost": 125,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>", "All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
+			"Cost increases by [30] per owned city", "[+50]% Production when constructing [{Military} {Land}] units [in this city]", "[+1] Movement <for [All] units> <during a Golden Age>", "[+1] Sight <for [All] units> <during a Golden Age>"],
+		"requiredTech": "Iron Working",
+		"civilopediaText": [
+			{"text": "A rift opened from the other dimension. The Demons managed to breach through it and invade this dimension with untold amount of them."},
+        ]
+	},
+	
+	//High Elf Concordat
+	{
+		"name": "Arcane Spire",
+		"replaces": "Temple",
+		"uniqueTo": "High Elf Concordat",
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured", "[+2 Science] per [7] population [in this city]"],
+		"civilopediaText": [
+			{"text": "Tower of learning, the High Elves learn and develop arcane arts in here."},
+        ]
+	},
+	
+	//Necrontia
+	{
+		"name": "Necrontia Courthouse",
+		"replaces": "Courthouse",
+		"uniqueTo": "Necrontia",
+		"maintenance": 4,
+		"hurryCostModifier": 50,
+		"uniques": ["Remove extra unhappiness from annexed cities", "Unsellable",
+					"Can only be built <in [in annexed cities] cities>", "Will not be displayed in Civilopedia",
+					"Free [Warrior] appears <before discovering [Iron Working]>", 
+					"Free [Swordsman] appears <after discovering [Iron Working]> <before discovering [Steel]>",
+					"Free [Longswordsman] appears <after discovering [Steel]> <before discovering [Gunpowder]>",
+					"Free [Musketman] appears <after discovering [Gunpowder]> <before discovering [Rifling]>",
+					"Free [Rifleman] appears <after discovering [Rifling]> <before discovering [Replaceable Parts]>",
+					"Free [Great War Infantry] appears <after discovering [Replaceable Parts]> <before discovering [Plastics]>",
+					"Free [Infantry] appears <after discovering [Plastics]> <before discovering [Mobile Tactics]>",
+					"Free [Mechanized Infantry] appears <after discovering [Mobile Tactics]>",
+					],
+		"requiredTech": "Mathematics"
+	},
+	{
+		"name": "Throne of the Dead",
+		"replaces": "National Epic",
+		"uniqueTo": "Necrontia",
+		"cost": 125,
+		"culture": 4,
+		"faith": 4,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city",
+					"[Civilian] units gain the [Sacrifice] promotion"],
+		"requiredTech": "Drama and Poetry",
+		"civilopediaText": [
+			{"text": "Throne made from skulls and skeletons. A throne to be worshipped."},
+        ]
+	},
+	
+	//Sacred Sun Theocracy
+	{
+		"name": "Holy Tribunal",
+		"replaces": "Courthouse",
+		"uniqueTo": "Sacred Sun Theocracy",
+		"maintenance": 2,
+		"faith": 2,
+		"happiness": 2,
+		"hurryCostModifier": 50,
+		"uniques": ["Remove extra unhappiness from annexed cities", "Comment [Can be built in your own cities]",
+					"Comment [Gain +2 Golden Age points every turn]",
+					"Instantly gain [2 [Golden Age points] [Golden Age points] <upon turn end> <hidden from users>",
+		],
+		"requiredTech": "Mathematics",
+		"civilopediaText": [
+			{"text": "Infamous for their extreme law, Holy Tribunal is a place where Sacred Sun Theocracy judge the criminal with extreme prejudices. And all non-humans are criminal."},
+        ]
+	},
+	
+	//Nature's Keeper
+	{
+		"name": "Mother Tree",
+		"uniqueTo": "Nature's Keeper",
+		"replaces": "Palace",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+	//	"faith": 1,
+		"cityStrength": 2,
+		"cost": 1,
+		"percentStatBonus": {"science": 10, "faith": 10, "culture": 10},
+		"uniques": ["Indicates the capital city", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Dryad's Hut",
+		"uniqueTo": "Nature's Keeper",
+		"replaces": "Garden",
+		"specialistSlots": {"Artist": 1, "Scientist": 1},
+		"uniques": ["[+25]% Great Person generation [in this city]", "Must have an owned [Forest] within [2] tiles", "Comment [+1 Artist slot]", "Comment [+1 Scientist slot]"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Theology"
+	},
+		{
+			"name": "Artistic Allure",
+			"uniqueTo": "Nature's Keeper",
+			"greatPersonPoints": {"Great Artist": 1},
+			"cost": 1,
+			"uniques": ["Unbuildable","Destroyed when the city is captured",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+		{
+			"name": "Scientific Allure",
+			"uniqueTo": "Nature's Keeper",
+			"greatPersonPoints": {"Great Scientist": 1},
+			"cost": 1,
+			"uniques": ["Unbuildable","Destroyed when the city is captured",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+	
+	//Clockwerk Church
+	{
+		"name": "Church of Gears",
+		"replaces": "Temple",
+		"uniqueTo": "Clockwerk Church",
+		"faith": 2,
+		"production": 1,
+		"percentStatBonus": {"faith": 10},
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured"]
+	},
+	
+	//Inquisitorial Illuminate
+	{
+		"name": "Covenant Temple",
+		"replaces": "Temple",
+		"uniqueTo": "Inquisitorial Illuminate",
+		"faith": 3,
+		"requiredBuilding": "Shrine",
+		"greatPersonPoints": {"Apostle": 1},
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Comment [+1 [Apostle] points]", "Comment [[Apostle] may spread religion similiar to [Great Prophet] once]",
+					"Only available <when religion is enabled>", "Destroyed when the city is captured"]
+	},
+	
+	//Lizardmen Tribes
+	{
+		"name": "Fish Farm",
+		"uniqueTo": "Lizardmen Tribes",
+		"replaces": "Water Mill",
+		"maintenance": 2,
+		"food": 3,
+		"production": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [Fresh Water]", "[+2 Culture] <after discovering [Civil Service]>"],
+		"requiredTech": "The Wheel"
+	},
+	
+	//Centaur Tribes
+	{
+		"name": "Posha",
+		"uniqueTo": "Centaur Tribes",
+		"replaces": "Stable",
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]", "[+1 Food] from [Plains] tiles [in this city]",
+			"[+1 Production] from [Cattle] tiles [in this city]",
+			"[+1 Production] from [Horses] tiles [in this city]",
+			"[+1 Production] from [Sheep] tiles [in this city]"],
+		"requiredTech": "Horseback Riding"
+	},
+	
+	//Shinso
+	{
+		"name": "Pillar of Learning",
+		"uniqueTo": "Shinso",
+		"cost": 225,
+		"science": 3,
+		"specialistSlots": {"Scientist": 1},
+		"isNationalWonder": true,
+		"uniques": ["[+2 Science] from each Trade Route", 
+					"Will not be displayed in Civilopedia"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Pillar of Life",
+		"uniqueTo": "Shinso",
+		"cost": 225,
+		"food": 3,
+		"specialistSlots": {"Engineer": 1},
+		"isNationalWonder": true,
+		"uniques": ["[+15]% growth [in all cities]", 
+					"Will not be displayed in Civilopedia"],
+		"requiredTech": "Mathematics"
+	},
+	{
+		"name": "Pillar of Faith",
+		"uniqueTo": "Shinso",
+		"cost": 225,
+		"faith": 3,
+		"isNationalWonder": true,
+		"uniques": ["[+1 Faith] from [Land] tiles [in all cities] <with [1] to [6] neighboring [Mountain] tiles>", 
+					"Will not be displayed in Civilopedia"],
+		"requiredTech": "Theology"
+	},
+	{
+		"name": "Pillar of Wealth",
+		"uniqueTo": "Shinso",
+		"cost": 225,
+		"gold": 3,
+		"specialistSlots": {"Merchant": 1},
+		"isNationalWonder": true,
+		"uniques": ["[+1 Gold] from every [Market]", "[+1 Gold] from every [Bank]", 
+					"Will not be displayed in Civilopedia"],
+		"requiredTech": "Guilds"
+	},
+	{
+		"name": "Pillar of Legacy",
+		"uniqueTo": "Shinso",
+		"cost": 225,
+		"culture": 3,
+		"specialistSlots": {"Artist": 1},
+		"isNationalWonder": true,
+		"uniques": ["[+1 Culture] from every [Wonders]", 
+					"Will not be displayed in Civilopedia"],
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Gate of Prosperity",
+		"uniqueTo": "Shinso",
+		"cost": 1,
+		"specialistSlots": {"Zen Overseer": 1},
+		"isNationalWonder": true,
+		"uniques": ["Free Great Person", "Automatically built in all cities where it is buildable",
+					"Only available <in cities with a [Palace]> <if [Pillar of Learning] is constructed> <if [Pillar of Life] is constructed> <if [Pillar of Faith] is constructed> <if [Pillar of Wealth] is constructed> <if [Pillar of Legacy] is constructed>"
+					"Unsellable", "Never destroyed when the city is captured",
+					"Will not be displayed in Civilopedia"],
+		"replacementTextForUniques": "Free Great Person"
+	},
+	
+	//Gnome Alliance
+		/*
+		{
+			"name": "Library R&D",
+			"uniqueTo": "Gnome Alliance",
+			"greatPersonPoints": {"Great Scientist": 1},
+			"cost": 1,
+			"uniques": ["Only available <in cities with a [Library]>","Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+		*/
+		{
+			"name": "University R&D",
+			"uniqueTo": "Gnome Alliance",
+			"greatPersonPoints": {"Great Scientist": 1, "Great Engineer": 1},
+			"cost": 1,
+			"uniques": ["Only available <in cities with a [University]>","Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+		{
+			"name": "Public School R&D",
+			"uniqueTo": "Gnome Alliance",
+			"greatPersonPoints": {"Great Scientist": 1, "Great Engineer": 1},
+			"cost": 1,
+			"uniques": ["Only available <in cities with a [Public School]>","Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+		{
+			"name": "Observatory R&D",
+			"uniqueTo": "Gnome Alliance",
+			"greatPersonPoints": {"Great Scientist": 1, "Great Engineer": 1},
+			"cost": 1,
+			"uniques": ["Only available <in cities with a [Observatory]>","Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+		{
+			"name": "Research Lab R&D",
+			"uniqueTo": "Gnome Alliance",
+			"greatPersonPoints": {"Great Scientist": 1, "Great Engineer": 1},
+			"cost": 1,
+			"uniques": ["Only available <in cities with a [Research Lab]>","Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+	{
+		"name": "Inventor's Assembly",
+		"uniqueTo": "Gnome Alliance",
+		"replaces": "Ironworks",
+		"cost": 125,
+		"production": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Cost increases by [30] per owned city", "[+2 Science, +2 Production, +1 Gold] from [Mountain] tiles [in all cities]"],
+		"requiredTech": "Machinery",
+		"civilopediaText": [
+			{"text": "The royal inventors of the Gnomish Alliance will come together every once a year to discuss and share their newest invention."},
+        ]
+	},
+	
+	
+	//Gaia Preserver
+	{
+		"name": "Eco-Foundry",
+		"uniqueTo": "Gaia Preserver",
+		"replaces": "Forge",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"production": 2,
+		"requiredTech": "Metal Casting",
+		"uniques": ["Comment [Doesn't require nearby worked [Iron]]", "[+15]% Production when constructing [Spaceship part] units [in this city]",
+			"[+15]% Production when constructing [Land] units [in this city]"]
+	},
+	
+	//The Titans
+	{
+		"name": "Arena of Blood",
+		"uniqueTo": "The Titans",
+		"replaces": "Colosseum",
+		"maintenance": 1,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Shock I] promotion"],
+		"requiredTech": "Construction",
+		"civilopediaText": [
+			{"text": "The Titans has a tradition of fighting for entertainment. Even though it has 'Blood' in the name, the Arena of Blood outlaw the act of killing and incapacitating in the Arena."},
+        ]
+	},
+	
+	//Fanrong Republic
+	{
+		"name": "Qingbai Wares",
+		"isNationalWonder": true,
+		"uniques": ["Provides [3] [Porcelain]",
+					"Unbuildable", "Unsellable", "Never destroyed when the city is captured"],
+		"requiredTech": "Guilds",
+		"civilopediaText": [
+			{"text": "Fanrong Republic is famous for their Porcelain. Industry of Porcelain as its main commodity,"},
+        ]
+	},
+	{
+		"name": "Trade Hub",
+		"uniqueTo": "Fanrong Republic",
+		"replaces": "Seaport",
+		"cost": 250,
+		"hurryCostModifier": 25,
+		"maintenance": 3,
+		"requiredBuilding": "Harbor",
+		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]", "[+1 Culture] from [Luxury resource] tiles [in this city]",
+			"Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]"],
+		"requiredTech": "Astronomy"
+	},
+	
+	//The Wizard Council
+	{
+		"name": "Magic Sanctuary",
+		"uniqueTo": "The Wizard Council",
+		"faith": 3,
+	//	"science": 3,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"specialistSlots": {"Spellweaver": 1},
+		"requiredTech": "Theology",
+		"uniques": ["Destroyed when the city is captured", "Comment [Only available in cities with a [Temple] and [Library]]","Comment [+1 Spellweaver slot (+3 [Science], +3 [Peacemaker Spell] Points)]",
+					"Only available <in cities with a [Library]> <hidden from users>", "Only available <in cities with a [Temple]> <hidden from users>"],
+		"civilopediaText": [
+			{"text": "Place where magic scrolls and text are safe-guarded."},
+        ]
+	},
+	
+	//Troll Tribes
+	{
+		"name": "Troll's Hut",
+		"uniqueTo": "Troll Tribes",
+		"replaces": "Workshop",
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"uniques": ["[+1 Production] from [Camp] tiles [in this city]"],
+		"requiredTech": "Metal Casting"
+	},
+	
+	
+	//Scazari Hive
+	{
+		"name": "Spawning Pool",
+		"uniqueTo": "Scazari Hive",
+		"replaces": "Barracks",
+		"hurryCostModifier": 25,
+		"food": 1,
+		"maintenance": 1,
+		"specialistSlots": {"Spawner Drone": 2},
+		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured", "Comment [+2 Spawner Drone slots (+2 [Food], +2 [Culture])]"],
+		"requiredTech": "Bronze Working",
+		"civilopediaText": [
+			{"text": "Place where new Scazari are bred. A place where the eggs laid by their Queen are kept and protected. A spawner drone will hatch the laid eggs."},
+        ]
+	},
+	
+	//Tauren Clan
+	{
+		"name": "Rites of the Earthmother",
+		"uniqueTo": "Tauren Clan",
+		"replaces": "Shrine",
+		"faith": 1,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["Comment [All newly-trained Melee Land units in this city may access the [Strengths] promotion, which also grants access to multiple exclusive promotions.]",
+					"Only available <when religion is enabled>","All newly-trained [{Melee} {Land}] units [in this city] receive the [Strengths] promotion <hidden from users>", "Destroyed when the city is captured"],
+		"civilopediaText": [
+			{"text": "A special rites for the Tauren to prove their worth. Consisted of six rites. Rite of Strength, Courage, Honor, the Winds, Vision and Wisdom. Unit with Strengths promotion will gain access to 5 other promotions."},
+        ]
+	},
+	
+	//The Walrus People
+	{
+		"name": "Frosten Theater",
+		"uniqueTo": "The Walrus People",
+		"replaces": "Amphitheater",
+		"culture": 2,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured", "[+2 Culture] per [5] population [in this city]"],
+		"requiredTech": "Drama and Poetry"
+	},
+	
+	//Nerubian Kingdom
+	{
+		"name": "Ziggurat Fortress",
+		"uniqueTo": "Nerubian Kingdom",
+		"replaces": "Castle",
+		"cost": 130,
+		"production": 2,
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Chivalry",
+		"uniques": ["Destroyed when the city is captured", "[+1 Science] from [Tundra] tiles [in this city]"],
+		"civilopediaText": [
+			{"text": "Ancient fortress of the Nerubian. Contain a lot of lost knowledge of the past."},
+        ]
+	},
+	
+	//Lyrian Kingdom
+	{
+		"name": "Bulwark",
+		"uniqueTo": "Lyrian Kingdom",
+		"replaces": "Walls",
+	//	"cityStrength": 5
+		"cityHealth": 150,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured", 
+					"[+1 Culture] <starting from the [Classical era]>", 
+					"[+1 Culture] <starting from the [Renaissance era]>", 
+					"[+1 Culture] <starting from the [Modern era]>", 
+					"[+1 Culture] <starting from the [Information era]>"],
+		"civilopediaText": [
+			{"text": "Walls so tall, so wonderful, decorated with ornaments, a beautiful protective layer for the Lyrian people."},
+        ]
+	},
+	
+	//Holy Lunar Theocracy
+	{
+		"name": "Aspect of the Moon",
+		"uniqueTo": "Holy Lunar Theocracy",
+		"replaces": "Temple",
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"specialistSlots": {"Lunar Disciple": 1},
+		"uniques": ["Comment [+1 Lunar Disciple specialist slot (+3 [Faith], +3 [Lunarian Missionary] points)]", "Comment [[Lunarian Missionary] is a stronger [Missionary]]", "Only available <when religion is enabled>", "Destroyed when the city is captured", "[+1 Faith, +1 Science] from every specialist [in this city]"],
+		"civilopediaText": [
+			{"text": "Holy Lunar reveals to those who are deemed worthy."},
+        ]
+	},
+		{
+			"name": "Lunar's Revelation",
+			"uniqueTo": "Holy Lunar Theocracy",
+			"cost": 1,
+			"uniques": ["Only available <in cities with a [Palace]> <in cities with a [Aspect of the Moon]>", "Automatically built in all cities where it is buildable",
+						"Free [Great Prophet] appears",
+						"Unsellable", "Never destroyed when the city is captured", "Will not be displayed in Civilopedia"]
+		},
+		{
+			"name": "Lunar's Invention",
+			"uniqueTo": "Holy Lunar Theocracy",
+			"cost": 1,
+			"uniques": ["Only available <in cities with a [Palace]>", "Can only be built <in [in all cities with a world wonder] cities>",  "Automatically built in all cities where it is buildable",
+						"Free [Great Scientist] appears",
+						"Unsellable", "Never destroyed when the city is captured", "Will not be displayed in Civilopedia"]
+		},
+	
+	//Magnar Empire
+	{
+		"name": "Dueling Ground",
+		"uniqueTo": "Magnar Empire",
+		"replaces": "Colosseum",
+		"maintenance": 1,
+		"happiness": 2,
+		"culture": 2,
+		"cost": 130,
+		"hurryCostModifier": 25,
+		"uniques": ["Free [Worker] appears"],
+		"requiredTech": "Construction",
+		"civilopediaText": [
+			{"text": "The denizens of Magnar Empire have a tradition of dueling to settle dispute. And often, the losers will be sent into labor slavery."},
+        ]
+	},
+{
+			"name": "Forced Levy",
+			"uniqueTo": "Magnar Empire",
+			"cost": 1,
+			"uniques": ["Only available <in cities with at least [2] [Population]>","Destroyed when the city is captured", "Unsellable", "Will not be displayed in Civilopedia", 
+						"[-1] population [in this city]", "Triggers a [Forced Levies] event"]
+		},
+		
+	//Lithoid Combine
+	{
+		"name": "Catalyst",
+		"uniqueTo": "Lithoid Combine",
+		"replaces": "Granary",
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Mine] tiles [in this city]"],
+		"requiredTech": "Pottery",
+		"civilopediaText": [
+			{"text": "A catalyst to make earthly minerals so they can grow. A farm of rocks one might say."},
+        ]
+	},
+		{
+			"name": "Unearth Lithoid I (Hill)",
+			"uniqueTo": "Lithoid Combine",
+			"maintenance": 0,
+			"cost": 75,
+			"uniques": ["Unsellable", "Cannot be purchased", "Only available <in cities without a [Unearth Lithoid I (Mountain)]>", "Must be next to [Hill]", "Will not be displayed in Civilopedia", "Destroyed when the city is captured",
+					"[+1] population [in this city]"]
+		},
+		{
+			"name": "Unearth Lithoid II (Hill)",
+			"uniqueTo": "Lithoid Combine",
+			"maintenance": 0,
+			"cost": 100,
+			"uniques": ["Unsellable","Cannot be purchased", "Only available <in cities with a [Unearth Lithoid I (Hill)]>", "Must be next to [Hill]", "Will not be displayed in Civilopedia", "Destroyed when the city is captured",
+					"[+1] population [in this city]"]
+		},
+		{
+			"name": "Unearth Lithoid III (Hill)",
+			"uniqueTo": "Lithoid Combine",
+			"maintenance": 0,
+			"cost": 125,
+			"uniques": ["Unsellable","Cannot be purchased", "Only available <in cities with a [Unearth Lithoid II (Hill)]>", "Must be next to [Hill]", "Will not be displayed in Civilopedia", "Destroyed when the city is captured",
+					"[+1] population [in this city]"]
+		},
+		{
+			"name": "Unearth Lithoid I (Mountain)",
+			"uniqueTo": "Lithoid Combine",
+			"maintenance": 0,
+			"cost": 75,
+			"uniques": ["Unsellable","Cannot be purchased", "Only available <in cities without a [Unearth Lithoid I (Hill)]>", "Must be next to [Mountain]", "Will not be displayed in Civilopedia", "Destroyed when the city is captured",
+					"[+1] population [in this city]"]
+		},
+		{
+			"name": "Unearth Lithoid II (Mountain)",
+			"uniqueTo": "Lithoid Combine",
+			"maintenance": 0,
+			"cost": 100,
+			"uniques": ["Unsellable","Cannot be purchased", "Only available <in cities with a [Unearth Lithoid I (Mountain)]>", "Must be next to [Mountain]", "Will not be displayed in Civilopedia", "Destroyed when the city is captured",
+					"[+1] population [in this city]"]
+		},
+		{
+			"name": "Unearth Lithoid III (Mountain)",
+			"uniqueTo": "Lithoid Combine",
+			"maintenance": 0,
+			"cost": 125,
+			"uniques": ["Unsellable","Cannot be purchased", "Only available <in cities with a [Unearth Lithoid II (Mountain)]>", "Must be next to [Mountain]", "Will not be displayed in Civilopedia", "Destroyed when the city is captured",
+					"[+1] population [in this city]"]
+		},
+	//Basalt Remainers
+	{
+		"name": "Basalt Pillars",
+		"uniqueTo": "Basalt Remainers",
+		"replaces": "Amphitheater",
+		"culture": 3,
+		"requiredBuilding": "Monument",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured",
+					"[+2 Food] from [Mountain] tiles [in this city]","[+1 Food, +1 Happiness, +1 Culture, +1 Faith] from [City ruins] tiles [in this city]",],
+		"requiredTech": "Drama and Poetry",
+		"civilopediaText": [
+			{"text": "A Monument to remember the day of the eruptions, the end of a lot of mortal lives under the ashes. It's also a great place to plan wars and regulate agriculture."},
+        ]
+	},
+	{
+			"name": "Crater",
+			"uniqueTo": "Basalt Remainers",
+			"cost": 1,
+			"uniques": ["Unbuildable","Unsellable","Comment [Blocks further eruptions in this city]","Will not be displayed in Civilopedia","Never destroyed when the city is captured"],
+	},
+	{
+			"name": "Trigger Eruption",
+			"uniqueTo": "Basalt Remainers",
+			"cost": 50,
+			"uniques": ["Only available <when at war>", "Instantly provides [10] [Eruption Fervor]", "Unbuildable <when above [0] [Eruption Fervor]>",
+						"Must be next to [Mountain]","Never destroyed when the city is captured", "Will not be displayed in Civilopedia",
+						"[2] free [Lava Bomb] units appear","Nullifies Growth [in this city] <for [10] turns> <in cities with a [Trigger Eruption]>","Nullifies [Faith] [in this city] <for [10] turns>  <in cities with a [Trigger Eruption]>",
+						"[+50]% [Culture] [in this city] <for [10] turns> <in cities with a [Trigger Eruption]>","[+100]% Production when constructing [Military] units [in this city] <for [10] turns>  <in cities with a [Trigger Eruption]>",
+						"Limited to [1] per Civilization", "Triggers a global alert upon completion","Only available <in cities without a [Crater]>","Gain a free [Crater] [in this city]"],
+	},
+        {
+			"name": "Trigger Eruption 2",
+			"uniqueTo": "Basalt Remainers",
+			"cost": 50,
+			"uniques": ["Only available <when at war>", "Instantly provides [10] [Eruption Fervor]", "Unbuildable <when above [0] [Eruption Fervor]>",
+						"Must be next to [Mountain]","Never destroyed when the city is captured", "Will not be displayed in Civilopedia",
+						"[2] free [Lava Bomb] units appear","Nullifies Growth [in this city] <for [10] turns> <in cities with a [Trigger Eruption 2]>","Nullifies [Faith] [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 2]>",
+						"[+50]% [Culture] [in this city] <for [10] turns> <in cities with a [Trigger Eruption 2]>","[+100]% Production when constructing [Military] units [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 2]>",
+						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption] is constructed>","Only available <in cities without a [Crater]>","Gain a free [Crater] [in this city]"],
+	},
+        {
+			"name": "Trigger Eruption 3",
+			"uniqueTo": "Basalt Remainers",
+			"cost": 60,
+			"uniques": ["Only available <when at war>", "Instantly provides [10] [Eruption Fervor]", "Unbuildable <when above [0] [Eruption Fervor]>",
+						"Must be next to [Mountain]","Never destroyed when the city is captured", "Will not be displayed in Civilopedia",
+						"[2] free [Lava Bomb] units appear","Nullifies Growth [in this city] <for [10] turns> <in cities with a [Trigger Eruption 3]>","Nullifies [Faith] [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 3]>",
+						"[+50]% [Culture] [in this city] <for [10] turns> <in cities with a [Trigger Eruption 3]>","[+100]% Production when constructing [Military] units [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 3]>",
+						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption 2] is constructed>","Only available <in cities without a [Crater]>","Gain a free [Crater] [in this city]"],
+	},
+        {
+			"name": "Trigger Eruption 4",
+			"uniqueTo": "Basalt Remainers",
+			"cost": 60,
+			"uniques": ["Only available <when at war>", "Instantly provides [10] [Eruption Fervor]", "Unbuildable <when above [0] [Eruption Fervor]>",
+						"Must be next to [Mountain]","Never destroyed when the city is captured", "Will not be displayed in Civilopedia",
+						"[2] free [Lava Bomb] units appear","Nullifies Growth [in this city] <for [10] turns> <in cities with a [Trigger Eruption 4]>","Nullifies [Faith] [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 4]>",
+						"[+50]% [Culture] [in this city] <for [10] turns> <in cities with a [Trigger Eruption 4]>","[+100]% Production when constructing [Military] units [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 4]>",
+						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption 3] is constructed>"],
+	},
+        {
+			"name": "Trigger Eruption 5",
+			"uniqueTo": "Basalt Remainers",
+			"cost": 60,
+			"uniques": ["Only available <when at war>", "Instantly provides [10] [Eruption Fervor]", "Unbuildable <when above [0] [Eruption Fervor]>",
+						"Must be next to [Mountain]","Never destroyed when the city is captured", "Will not be displayed in Civilopedia",
+						"[2] free [Lava Bomb] units appear","Nullifies Growth [in this city] <for [10] turns> <in cities with a [Trigger Eruption 5]>","Nullifies [Faith] [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 5]>",
+						"[+50]% [Culture] [in this city] <for [10] turns> <in cities with a [Trigger Eruption 5]>","[+100]% Production when constructing [Military] units [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 5]>",
+						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption 4] is constructed>","Only available <in cities without a [Crater]>","Gain a free [Crater] [in this city]"],
+	},
+        {
+			"name": "Trigger Eruption 6",
+			"uniqueTo": "Basalt Remainers",
+			"cost": 70,
+			"uniques": ["Only available <when at war>", "Instantly provides [10] [Eruption Fervor]", "Unbuildable <when above [0] [Eruption Fervor]>",
+						"Must be next to [Mountain]","Never destroyed when the city is captured", "Will not be displayed in Civilopedia",
+						"[2] free [Lava Bomb] units appear","Nullifies Growth [in this city] <for [10] turns> <in cities with a [Trigger Eruption 6]>","Nullifies [Faith] [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 6]>",
+						"[+50]% [Culture] [in this city] <for [10] turns> <in cities with a [Trigger Eruption 6]>","[+100]% Production when constructing [Military] units [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 6]>",
+						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption 5] is constructed>","Only available <in cities without a [Crater]>","Gain a free [Crater] [in this city]"],
+	},
+        {
+			"name": "Trigger Eruption 7",
+			"uniqueTo": "Basalt Remainers",
+			"cost": 70,
+			"uniques": ["Only available <when at war>", "Instantly provides [10] [Eruption Fervor]", "Unbuildable <when above [0] [Eruption Fervor]>",
+						"Must be next to [Mountain]","Never destroyed when the city is captured", "Will not be displayed in Civilopedia",
+						"[2] free [Lava Bomb] units appear","Nullifies Growth [in this city] <for [10] turns> <in cities with a [Trigger Eruption 7]>","Nullifies [Faith] [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 7]>",
+						"[+50]% [Culture] [in this city] <for [10] turns> <in cities with a [Trigger Eruption 7]>","[+100]% Production when constructing [Military] units [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 7]>",
+						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption 6] is constructed>","Only available <in cities without a [Crater]>","Gain a free [Crater] [in this city]"],
+	},
+        {
+			"name": "Trigger Eruption 8",
+			"uniqueTo": "Basalt Remainers",
+			"cost": 70,
+			"uniques": ["Only available <when at war>", "Instantly provides [10] [Eruption Fervor]", "Unbuildable <when above [0] [Eruption Fervor]>",
+						"Must be next to [Mountain]","Never destroyed when the city is captured", "Will not be displayed in Civilopedia",
+						"[2] free [Lava Bomb] units appear","Nullifies Growth [in this city] <for [10] turns> <in cities with a [Trigger Eruption 8]>","Nullifies [Faith] [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 8]>",
+						"[+50]% [Culture] [in this city] <for [10] turns> <in cities with a [Trigger Eruption 8]>","[+100]% Production when constructing [Military] units [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 8]>",
+						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption 7] is constructed>","Only available <in cities without a [Crater]>","Gain a free [Crater] [in this city]"],
+	},
+        {
+			"name": "Trigger Eruption 9",
+			"uniqueTo": "Basalt Remainers",
+			"cost": 80,
+			"uniques": ["Only available <when at war>", "Instantly provides [10] [Eruption Fervor]", "Unbuildable <when above [0] [Eruption Fervor]>",
+						"Must be next to [Mountain]","Never destroyed when the city is captured", "Will not be displayed in Civilopedia",
+						"[2] free [Lava Bomb] units appear","Nullifies Growth [in this city] <for [10] turns> <in cities with a [Trigger Eruption 9]>","Nullifies [Faith] [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 9]>",
+						"[+50]% [Culture] [in this city] <for [10] turns> <in cities with a [Trigger Eruption 9]>","[+100]% Production when constructing [Military] units [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 9]>",
+						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption 8] is constructed>","Only available <in cities without a [Crater]>","Gain a free [Crater] [in this city]"],
+	},
+        {
+			"name": "Trigger Eruption 10",
+			"uniqueTo": "Basalt Remainers",
+			"cost": 80,
+			"uniques": ["Only available <when at war>", "Instantly provides [10] [Eruption Fervor]", "Unbuildable <when above [0] [Eruption Fervor]>",
+						"Must be next to [Mountain]","Never destroyed when the city is captured", "Will not be displayed in Civilopedia",
+						"[2] free [Lava Bomb] units appear","Nullifies Growth [in this city] <for [10] turns> <in cities with a [Trigger Eruption 10]>","Nullifies [Faith] [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 10]>",
+						"[+50]% [Culture] [in this city] <for [10] turns> <in cities with a [Trigger Eruption 10]>","[+100]% Production when constructing [Military] units [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 10]>",
+						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption 9] is constructed>","Only available <in cities without a [Crater]>","Gain a free [Crater] [in this city]"],
+	},
+        {
+			"name": "Trigger Eruption 11",
+			"uniqueTo": "Basalt Remainers",
+			"cost": 80,
+			"uniques": ["Only available <when at war>", "Instantly provides [10] [Eruption Fervor]", "Unbuildable <when above [0] [Eruption Fervor]>",
+						"Must be next to [Mountain]","Never destroyed when the city is captured", "Will not be displayed in Civilopedia",
+						"[2] free [Lava Bomb] units appear","Nullifies Growth [in this city] <for [10] turns> <in cities with a [Trigger Eruption 11]>","Nullifies [Faith] [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 11]>",
+						"[+50]% [Culture] [in this city] <for [10] turns> <in cities with a [Trigger Eruption 11]>","[+100]% Production when constructing [Military] units [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 11]>",
+						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption 10] is constructed>","Only available <in cities without a [Crater]>","Gain a free [Crater] [in this city]"],
+	},
+        {
+			"name": "Trigger Eruption 12",
+			"uniqueTo": "Basalt Remainers",
+			"cost": 90,
+			"uniques": ["Only available <when at war>", "Instantly provides [10] [Eruption Fervor]", "Unbuildable <when above [0] [Eruption Fervor]>",
+						"Must be next to [Mountain]","Never destroyed when the city is captured", "Will not be displayed in Civilopedia",
+						"[2] free [Lava Bomb] units appear","Nullifies Growth [in this city] <for [10] turns> <in cities with a [Trigger Eruption 12]>","Nullifies [Faith] [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 12]>",
+						"[+50]% [Culture] [in this city] <for [10] turns> <in cities with a [Trigger Eruption 12]>","[+100]% Production when constructing [Military] units [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 12]>",
+						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption 11] is constructed>","Only available <in cities without a [Crater]>","Gain a free [Crater] [in this city]"],
+	},
+	
+	//The Chroniclers
+	{
+		"name": "Archive",
+		"uniqueTo": "The Chroniclers",
+		"replaces": "Library",
+		"specialistSlots": {"Archiver": 1},
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [2] population [in this city]", "Comment [+1 Archiver slot (+3 [Science], +3 [Culture], +4 Great Scientist Points)]"],
+		"requiredTech": "Writing",
+		"civilopediaText": [
+			{"text": "A place where the Archiver store their records of the world."},
+        ]
+	},
+	
+	//Salamander Empire
+	{
+		"name": "Everburning Temple",
+		"uniqueTo": "Salamander Empire",
+		"replaces": "Temple",
+		"faith": 2,
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured"]
+		"civilopediaText": [
+			{"text": "A temple to the Sun, decorated with the everburning flame inside. The temple is well guarded to prevent the everburning flame to be stolen."},
+        ]
+	},
+	
+	//The Eternals
+	{
+		"name": "Aethenaeum",
+		"uniqueTo": "The Eternals",
+		"replaces": "University",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "[+20]% [Science] [in this city] <while the empire is happy>", "[+50]% Great Person generation [in this city] <during a Golden Age>"],
+		"requiredTech": "Education"
+	},
+		
+	//Precursor
+	{
+		"name": "Arcanum",
+		"uniqueTo": "Precursor",
+		"replaces": "Shrine",
+		"faith": 1,
+		"science": 1,
+		"specialistSlots": {"Scientist": 1},
+		"cost": 50,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["Only available <when religion is enabled>", "Comment [+1 Scientist slot]"]
+		"civilopediaText": [
+			{"text": "The Precursors study the secrets of the arcane in this place."},
+        ]
+	},
+	
+	//Celestial Beings
+	{
+		"name": "Curative Spire",
+		"uniqueTo": "Celestial Beings"
+		"cost": 30,
+		"cityStrength": 3,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"maintenance": 0,
+		"requiredTech": "Agriculture",
+		"uniques": ["Destroyed when the city is captured", //"[Land] Units adjacent to this city heal [15] HP per turn when healing"
+					"Comment [Unit adjacent to this city gain 10 damage reduction]", 
+					],
+		"civilopediaText": [
+			{"text": "A tower for the well-being of the Celestials."},
+        ]
+	},
+	
+	//Hellbourne
+	{
+		"name": "Altar of Azaniroth",
+		"uniqueTo": "Hellbourne",
+		"maintenance": 0,
+		"cost": 1,
+		"uniques": ["Unsellable", "Unbuildable","Will not be displayed in Civilopedia", "Never destroyed when the city is captured"]
+	},
+	{
+		"name": "Monolith",
+		"replaces": "Monument",
+		"uniqueTo": "Hellbourne",
+		"culture": 2,
+		"faith": 1,
+		"production": 1,
+		"cost": 30,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	
+	//Gnoll Warband
+	
+	{
+		"name": "Spoils Depot",
+		"uniqueTo": "Gnoll Warband",
+		"replaces": "Armory",
+		"hurryCostModifier": 25,
+		"maintenance": 0,
+		"culture": 1,
+		"gold": 1,
+		"requiredBuilding": "Barracks",
+		"uniques": ["[+2 Gold, +1 Happiness] [in annexed cities]",
+					"New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Steel",
+		"civilopediaText": [
+			{"text": "Spoils of war are trophy for the Gnolls."},
+        ]
+	},
+	
+	//Troglodyte
+	{
+		"name": "Cavernhold",
+		"uniqueTo": "Troglodyte",
+		"replaces": "Castle",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Chivalry",
+	//	"replacementTextForUniques": "+1 [Production] for each adjacent mountain",
+		"uniques": ["Destroyed when the city is captured", "Provides [2] [Iron]",
+					"[+1 Production] <for every adjacent [Mountain]>"],
+		"civilopediaText": [
+			{"text": "Stronghold of the Troglodytes, under the cavern."},
+        ]
+	},
+	
+	//Leonin Kingdom
+	/*
+	{
+		"name": "Bastion",
+		"uniqueTo": "Leonin Kingdom",
+		"replaces": "Castle",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Chivalry",
+		"uniques": ["Destroyed when the city is captured", "[+3 Production, +3 Science] <during a Golden Age>"]
+	},
+	*/
+	
+	//Spirit Pact
+	{
+		"name": "Spirify",
+		"uniqueTo": "Spirit Pact",
+		"replaces": "Courthouse",
+		"maintenance": 4,
+		"cost": 80,
+		"happiness": 1,
+		"hurryCostModifier": 50,
+		"uniques": ["Removes extra unhappiness from annexed cities",
+			"[-10]% Unhappiness from [Population] [in this city]",
+			"Comment [Can be bought for 150 [Faith]]",
+			"Can only be built <in [Annexed] cities>"
+			],
+		"requiredTech": "Mathematics"
+	},
+	
+	//The Amazons
+	{
+		"name": "Palisade",
+		"uniqueTo": "The Amazons",
+		"replaces": "Walls",
+		"production": 1,
+		"culture": 1,
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	
+	//Undines
+	{
+		"name": "Pensubur",
+		"uniqueTo": "Undines",
+		"replaces": "Granary",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Comment [+1 [Food] from Land tiles adjacent to this city]",
+					
+					"[+1 Food] from [Land] tiles [in this city] <with [1] to [6] neighboring [City center] tiles> <hidden from users>"],
+		"requiredTech": "Pottery",
+		"civilopediaText": [
+			{"text": "It's easy to fertilize a land with enough knowledge in magic."},
+        ]
+	},
+		
+		//Worker Cap
+		{
+			"name": "Undine Worker Cap",
+			"uniqueTo": "Undines",
+			"cost": 1,
+			"uniques": ["Destroyed when the city is captured <hidden from users>", "Comment [This building is just an indicator for free Worker cap]",
+						"Only available <with [First Something]>", "Instantly gain [-1] [First Something]",
+						"Must be on [River] <hidden from users>", "Limited to [3] per Civilization <hidden from users>", "Automatically built in all cities where it is buildable <hidden from users>",
+						"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>"]
+		},
+	
+		//Manaline stuff
+		{
+			"name": "Manaline Dowsing I",
+			"uniqueTo": "Undines",
+			"cost": 50,
+			"uniques": ["Never destroyed when the city is captured", "Unsellable", "Cannot be purchased",
+						"Will not be displayed in Civilopedia",
+						"Creates a [Manawell] improvement on a specific tile"]
+		},
+		{
+			"name": "Manaline Dowsing II",
+			"uniqueTo": "Undines",
+			"cost": 125,
+			"uniques": ["Never destroyed when the city is captured", "Unsellable", "Cannot be purchased",
+						"Will not be displayed in Civilopedia", "Only available <in cities with at least [12] [Population]>",
+						"Creates a [Manawell] improvement on a specific tile"]
+		},
+	
+	//Enkantos
+	{
+		"name": "Dreamweaver Theatre",
+		"uniqueTo": "Enkantos",
+		"replaces": "Theatre",
+		"happiness": 3,
+		"culture": 2,
+		"hurryCostModifier": 10,
+		"uniques": ["[+1 Science] from [Water resource] tiles [in this city]"],
+		"maintenance": 2,
+		"requiredBuilding": "Colosseum",
+		"requiredTech": "Printing Press"
+	},
+	
+	//Phrygian Kingdom
+	{
+		"name": "Jewelry Smith",
+		"uniqueTo": "Phrygian Kingdom",
+		"replaces": "Workshop",
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"uniques": ["Comment [+1 [Gold] from improved [Mine]d Luxury resource in this city]",
+					"Comment [+1 [Culture] from [Gold Ore], [Silver], [Gems] in this city]",
+					"[+1 Gold] from [Mine] tiles [in this city] <in [Gold Ore] tiles> <hidden from users>",
+					"[+1 Gold] from [Mine] tiles [in this city] <in [Silver] tiles> <hidden from users>",
+					"[+1 Gold] from [Mine] tiles [in this city] <in [Gems] tiles> <hidden from users>",
+					"[+1 Gold] from [Mine] tiles [in this city] <in [Copper] tiles> <hidden from users>",
+					"[+1 Gold] from [Mine] tiles [in this city] <in [Salt] tiles> <hidden from users>",
+					"[+1 Culture] from [Gold Ore] tiles [in this city] <hidden from users>", 
+					"[+1 Culture] from [Silver] tiles [in this city] <hidden from users>", 
+					"[+1 Culture] from [Gems] tiles [in this city] <hidden from users>",
+					],
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"requiredTech": "Metal Casting"
+	},
+	
+	//Kemetian Dynasty
+		
+		{
+			"name": "Kemetian First Four",
+			"uniqueTo": "Kemetian Dynasty",
+			"cost": 1,
+			"uniques": ["Destroyed when the city is captured <hidden from users>", "Comment [This building is just an indicator for first 4 cities]",
+						"Unbuildable", "Cannot be purchased",
+						"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>"]
+		},
+		{
+			"name": "Sphinx Great Artist 1",
+			"uniqueTo": "Kemetian Dynasty",
+			"greatPersonPoints": {"Great Artist": 1},
+			"cost": 1,
+			"uniques": ["Only available <in cities with a [Kemetian First Four]> <with [1] to [6] neighboring [Sphinx] tiles>","Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+		{
+			"name": "Sphinx Great Artist 2",
+			"uniqueTo": "Kemetian Dynasty",
+			"greatPersonPoints": {"Great Artist": 1},
+			"cost": 1,
+			"uniques": ["Only available <in cities with a [Kemetian First Four]> <with [2] to [6] neighboring [Sphinx] tiles>","Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+		{
+			"name": "Sphinx Great Artist 3",
+			"uniqueTo": "Kemetian Dynasty",
+			"greatPersonPoints": {"Great Artist": 1},
+			"cost": 1,
+			"uniques": ["Only available <in cities with a [Kemetian First Four]> <with [3] to [6] neighboring [Sphinx] tiles>","Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+		
+	//Einherjar Legion
+	
+	/* Old version
+	{
+		"name": "Shard of Gungnir",
+		"uniqueTo": "Einherjar Legion",
+		"replaces": "Barracks",
+		"cityStrength": 3,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Faith] from [Tundra] tiles [in this city]", "New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Bronze Working"
+	},
+	*/
+	
+	//Night Elven Enclave
+		
+		{
+			"name": "Elune's Shrine",
+			"uniqueTo": "Night Elven Enclave",
+			"cost": 1,
+			"uniques": ["Destroyed when the city is captured <hidden from users>", "Comment [This building is just an indicator that Night Elven Enclave is in the game]",
+						"Automatically built in all cities where it is buildable <hidden from users>", "Only available <in [Capital] cities> <hidden from users>",
+						"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>"]
+		},
+	
+	//Aellenari Empire
+	{
+		"name": "Aellenari Sanctum",
+		"uniqueTo": "Aellenari Empire",
+		"replaces": "University",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Aellenarian Scholar": 2},
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]",
+					"Comment [Gain 10% of [Bound to Serve] requirement upon entering Golden Age]",
+					"Comment [+2 [Aellenarian Scholar] slots (+5 [Science], +3 [Great Scientist] Points, -100% Unhappiness from this Population)]",
+					
+					"Instantly gain [1] [Counter Something] <upon entering a Golden Age> <hidden from users>",
+					
+					],
+		"requiredTech": "Education"
+	},
+	
+	//Elmar Kingdom
+	
+	//The Kaleeki
+	{
+		"name": "Gear Hive",
+		"replaces": "Workshop",
+		"uniqueTo": "The Kaleeki",
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"greatPersonPoints": {"Great Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"uniques": [
+					"Comment [+1 [Great Engineer] Point]",
+					"Comment [May convert 4 [Iron] and 3 Gold per turn into +1 [Temporal Reset] limit or +1 [Chrono Disruption] limit (up to 3 each)]",
+		],
+		"requiredTech": "Metal Casting"
+	},
+	
+		{
+			"name": "Increase Temporal Reset Limit",
+			"uniqueTo": "The Kaleeki",
+			"cost": 1,
+			"maintenance": 3,
+			"uniques": ["Comment [Convert 4 [Iron] into +1 limit for [Temporal Reset]]",
+						
+						"Consumes [4] [Iron] <hidden from users>", 
+						"Instantly gain [1] [TR Limit] <hidden from users>", 
+						"Only available <in cities with a [Gear Hive]> <in cities without a [Increase Chrono Disruption Limit]> <hidden from users>",
+						
+						"Limited to [2] per Civilization <hidden from users>",
+						
+						"Destroyed when the city is captured <hidden from users>", 
+						"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>"]
+		},
+		{
+			"name": "Increase Chrono Disruption Limit",
+			"uniqueTo": "The Kaleeki",
+			"cost": 1,
+			"uniques": ["Comment [This is only for a marker]",
+						
+						"Only available <in cities with a [Palace]> <hidden from users>",
+						"Automatically built in all cities where it is buildable <hidden from users>",
+						
+						"Limited to [1] per Civilization <hidden from users>",
+						
+						"Destroyed when the city is captured <hidden from users>",
+						"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>"]
+		},
+		{
+			"name": "Increase Chrono Disruption Limit I",
+			"uniqueTo": "The Kaleeki",
+			"cost": 1,
+			"maintenance": 3,
+			"requiredTech": "Industrialization",
+			"uniques": ["Comment [Convert 4 [Iron] into +1 limit for [Chrono Disruption]]",
+						
+						"Consumes [4] [Iron] <hidden from users>",  
+						"Only available <in cities with a [Gear Hive]> <in cities without a [Increase Temporal Reset Limit]> <hidden from users>",
+						
+						"Limited to [1] per Civilization <hidden from users>",
+						
+						"Destroyed when the city is captured <hidden from users>",
+						"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>"]
+		},
+		{
+			"name": "Increase Chrono Disruption Limit II",
+			"uniqueTo": "The Kaleeki",
+			"cost": 1,
+			"maintenance": 3,
+			"requiredTech": "Industrialization",
+			"uniques": ["Comment [Convert 4 [Iron] into +1 limit for [Chrono Disruption]]",
+						
+						"Consumes [4] [Iron] <hidden from users>", 
+						"Only available <in cities with a [Gear Hive]> <in cities without a [Increase Temporal Reset Limit]> <hidden from users>",
+						
+						"Limited to [1] per Civilization <hidden from users>",
+						
+						"Destroyed when the city is captured <hidden from users>",
+						"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>"]
+		},
+	
+	//Dutushe Dynasty
+	{
+		"name": "Nabardgah-e Takshakh",
+		"replaces": "Amphitheater",
+		"uniqueTo": "Dutushe Dynasty",
+		"culture": 3,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+					"Comment [+2 [Great Artist] points if in Capital]",
+					"Comment [+3 Golden Age points if in first 5 cities]",
+					"Comment [+1 [Happiness] if in all other cities]",
+					
+					"Instantly gain [3] [Golden Age points] <upon turn end> <in cities with a [Dutushe First Five]> <hidden from users>",
+					"[+1 Happiness] [in this city] <in cities without a [Dutushe First Five]> <hidden from users>",
+					
+					"Destroyed when the city is captured",
+					
+		],
+		"requiredTech": "Drama and Poetry"
+	},
+	
+		
+		{
+			"name": "Capital Great Artist",
+			"uniqueTo": "Dutushe Dynasty",
+			"greatPersonPoints": {"Great Artist": 2},
+			"cost": 1,
+			"uniques": ["Only available <in [Capital] cities> <in cities with a [Nabardgah-e Takshakh]>",
+						"Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+		{
+			"name": "Dutushe First Five",
+			"uniqueTo": "Dutushe Dynasty",
+			"cost": 1,
+			"uniques": ["Destroyed when the city is captured <hidden from users>", "Comment [This building is just an indicator for first 5 cities]",
+						"Unbuildable", "Cannot be purchased",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+		
+	//The Blighted
+	{	
+		"name": "Mana Vat",
+		"uniqueTo": "The Blighted",
+		"replaces": "Aqueduct",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["[40]% Food is carried over after population increases [in this city]",
+					
+					"[+1 Science] per [2] population [in this city]",
+					"Comment [-1% Growth per 2 Population in this city (up to -15%)]",
+					"[+25]% [Production] [in this city] <after discovering [Electricity]>",
+					
+					"[-1]% growth [in this city] <in cities with at least [2] [Population]> <hidden from users>",
+					"[-1]% growth [in this city] <in cities with at least [4] [Population]> <hidden from users>",
+					"[-1]% growth [in this city] <in cities with at least [6] [Population]> <hidden from users>",
+					"[-1]% growth [in this city] <in cities with at least [8] [Population]> <hidden from users>",
+					"[-1]% growth [in this city] <in cities with at least [10] [Population]> <hidden from users>",
+					"[-1]% growth [in this city] <in cities with at least [12] [Population]> <hidden from users>",
+					"[-1]% growth [in this city] <in cities with at least [14] [Population]> <hidden from users>",
+					"[-1]% growth [in this city] <in cities with at least [16] [Population]> <hidden from users>",
+					"[-1]% growth [in this city] <in cities with at least [18] [Population]> <hidden from users>",
+					"[-1]% growth [in this city] <in cities with at least [20] [Population]> <hidden from users>",
+					"[-1]% growth [in this city] <in cities with at least [22] [Population]> <hidden from users>",
+					"[-1]% growth [in this city] <in cities with at least [24] [Population]> <hidden from users>",
+					"[-1]% growth [in this city] <in cities with at least [26] [Population]> <hidden from users>",
+					"[-1]% growth [in this city] <in cities with at least [28] [Population]> <hidden from users>",
+					"[-1]% growth [in this city] <in cities with at least [30] [Population]> <hidden from users>",
+					
+		],
+		"requiredTech": "Engineering"
+	},
+	
+	//Khassiya Dynasty
+	{
+		"name": "Abode of Wisdom",
+		"uniqueTo": "Khassiya Dynasty",
+		"replaces": "University",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]",
+					"Comment [+1 Golden Age points for every specialist in this city (up to 10)]",
+					
+					"Instantly gain [1] [Golden Age points] <upon turn end> <in cities with at least [1] [Specialists]> <hidden from users>",
+					"Instantly gain [1] [Golden Age points] <upon turn end> <in cities with at least [2] [Specialists]> <hidden from users>",
+					"Instantly gain [1] [Golden Age points] <upon turn end> <in cities with at least [3] [Specialists]> <hidden from users>",
+					"Instantly gain [1] [Golden Age points] <upon turn end> <in cities with at least [4] [Specialists]> <hidden from users>",
+					"Instantly gain [1] [Golden Age points] <upon turn end> <in cities with at least [5] [Specialists]> <hidden from users>",
+					"Instantly gain [1] [Golden Age points] <upon turn end> <in cities with at least [6] [Specialists]> <hidden from users>",
+					"Instantly gain [1] [Golden Age points] <upon turn end> <in cities with at least [7] [Specialists]> <hidden from users>",
+					"Instantly gain [1] [Golden Age points] <upon turn end> <in cities with at least [8] [Specialists]> <hidden from users>",
+					"Instantly gain [1] [Golden Age points] <upon turn end> <in cities with at least [9] [Specialists]> <hidden from users>",
+					"Instantly gain [1] [Golden Age points] <upon turn end> <in cities with at least [10] [Specialists]> <hidden from users>",
+		],
+		"requiredTech": "Education"
+	},
+	
+	//Aureignis Dominium
+	{
+		"name": "Transmuter",
+		"uniqueTo": "Aureignis Dominium",
+		"replaces": "Windmill",
+		"production": 2,
+		"happiness": 1,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": ["Comment [+4 [Gold], -1 [Production] from [Mine]d Strategic resource in this city]",
+					"Comment [-10% [Gold] cost of purchasing buildings in this city]",
+					
+					"[+4 Gold, -1 Production] from [Iron] tiles [in this city] <hidden from users>",
+					"[+4 Gold, -1 Production] from [Coal] tiles [in this city] <hidden from users>",
+					"[+4 Gold, -1 Production] from [Aluminum] tiles [in this city] <hidden from users>",
+					"[+4 Gold, -1 Production] from [Uranium] tiles [in this city] <hidden from users>",
+					"[Gold] cost of purchasing [All] buildings [-10]% <hidden from users>",
+		],
+		"requiredTech": "Economics"
+	},
+		//Aurelionite Obelisk
+		{
+			"name": "Eternal Glory Project",
+			"uniqueTo": "Aureignis Dominium",
+			"isNationalWonder": true,
+			"cost": 750,
+			"requiredTech": "Chemistry",
+			"uniques": ["Only available <in [Capital] cities>",
+						"Cannot be hurried", 
+						"Triggers a global alert upon build start", "Triggers a global alert upon completion",
+						"Destroyed when the city is captured", 
+						"Unsellable", "Will not be displayed in Civilopedia",
+						]
+		},
+			//Aurelionite Obelisk Upgrades
+			{
+				"name": "Obelisk Height I",
+				"uniqueTo": "Aureignis Dominium",
+				"cost": 100,
+				"maintenance": 1,
+				"requiredTech": "Architecture",
+				"uniques": ["Comment [+4 Range]",
+							"Only available <in cities with a [Eternal Glory Project]>",
+							"Cannot be hurried", "Can be purchased with [Gold] [in all cities]",
+							
+							"Limited to [1] per Civilization <hidden from users>",
+							"Destroyed when the city is captured <hidden from users>", 
+							"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>",
+							]
+			},
+			{
+				"name": "Obelisk Height II",
+				"uniqueTo": "Aureignis Dominium",
+				"cost": 200,
+				"maintenance": 1,
+				"requiredTech": "Electricity",
+				"uniques": ["Comment [+4 Range]",
+							"Only available <in cities with a [Obelisk Height I]>",
+							"Cannot be hurried", "Can be purchased with [Gold] [in all cities]",
+							
+							"Limited to [1] per Civilization <hidden from users>",							
+							"Destroyed when the city is captured <hidden from users>", 
+							"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>",
+							]
+			},
+			{
+				"name": "Obelisk Height III",
+				"uniqueTo": "Aureignis Dominium",
+				"cost": 300,
+				"maintenance": 1,
+				"requiredTech": "Nuclear Fission",
+				"uniques": ["Comment [+4 Range]",
+							"Only available <in cities with a [Obelisk Height II]>",
+							"Cannot be hurried", "Can be purchased with [Gold] [in all cities]",
+							
+							"Limited to [1] per Civilization <hidden from users>",
+							"Destroyed when the city is captured <hidden from users>", 
+							"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>",
+							]
+			},
+			
+			{
+				"name": "Focusing Crystal I",
+				"uniqueTo": "Aureignis Dominium",
+				"cost": 100,
+				"maintenance": 1,
+				"requiredTech": "Military Science",
+				"uniques": ["Comment [Attack deals 5 extra damage]",
+							"Only available <in cities with a [Eternal Glory Project]>",
+							"Cannot be hurried", "Can be purchased with [Gold] [in all cities]",
+							
+							"Limited to [1] per Civilization <hidden from users>",
+							"Destroyed when the city is captured <hidden from users>", 
+							"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>",
+							]
+			},
+			{
+				"name": "Focusing Crystal II",
+				"uniqueTo": "Aureignis Dominium",
+				"cost": 200,
+				"maintenance": 1,
+				"requiredTech": "Railroads",
+				"uniques": ["Comment [Attack deals 5 extra damage]",
+							"Only available <in cities with a [Focusing Crystal I]>",
+							"Cannot be hurried", "Can be purchased with [Gold] [in all cities]",
+							
+							"Limited to [1] per Civilization <hidden from users>",
+							"Destroyed when the city is captured <hidden from users>", 
+							"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>",
+							]
+			},
+			{
+				"name": "Focusing Crystal III",
+				"uniqueTo": "Aureignis Dominium",
+				"cost": 300,
+				"maintenance": 1,
+				"requiredTech": "Rocketry",
+				"uniques": ["Comment [Attack deals 5 extra damage]",
+							"Only available <in cities with a [Focusing Crystal II]>",
+							"Cannot be hurried", "Can be purchased with [Gold] [in all cities]",
+							
+							"Limited to [1] per Civilization <hidden from users>",
+							"Destroyed when the city is captured <hidden from users>", 
+							"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>",
+							]
+			},
+			
+			{
+				"name": "Cryonite Radiator",
+				"uniqueTo": "Aureignis Dominium",
+				"cost": 400,
+				"maintenance": 2,
+				"requiredTech": "Refrigeration",
+				"uniques": ["Comment [1 additional attack]",
+							"Only available <in cities with a [Eternal Glory Project]>",
+							"Only available <if [Focusing Crystal II] is constructed> <if [Obelisk Height II] is constructed>",
+							"Cannot be hurried", "Can be purchased with [Gold] [in all cities]",
+							
+							"Limited to [1] per Civilization <hidden from users>",
+							"Destroyed when the city is captured <hidden from users>", 
+							"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>",
+							]
+			},
+			{
+				"name": "Homing Beam",
+				"uniqueTo": "Aureignis Dominium",
+				"cost": 400,
+				"maintenance": 2,
+				"requiredTech": "Radar",
+				"uniques": ["Comment [May intercept air attacks]",
+							"Only available <in cities with a [Eternal Glory Project]>",
+							"Only available <if [Focusing Crystal II] is constructed> <if [Obelisk Height II] is constructed>",
+							"Cannot be hurried", "Can be purchased with [Gold] [in all cities]",
+							
+							"Limited to [1] per Civilization <hidden from users>",
+							"Destroyed when the city is captured <hidden from users>", 
+							"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>",
+							]
+			},
+			{
+				"name": "Mindwarping Ray",
+				"uniqueTo": "Aureignis Dominium",
+				"cost": 400,
+				"maintenance": 2,
+				"requiredTech": "Atomic Theory",
+				"uniques": ["Comment [Attack applies [Disoriented] for 1 turn	 ]",
+							"Only available <in cities with a [Eternal Glory Project]>",
+							"Only available <if [Focusing Crystal II] is constructed> <if [Obelisk Height II] is constructed>",
+							"Cannot be hurried", "Can be purchased with [Gold] [in all cities]",
+							
+							"Limited to [1] per Civilization <hidden from users>",
+							"Destroyed when the city is captured <hidden from users>", 
+							"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>",
+							]
+			},
+			{
+				"name": "Heated Ray",
+				"uniqueTo": "Aureignis Dominium",
+				"cost": 400,
+				"maintenance": 2,
+				"requiredTech": "Combustion",
+				"uniques": ["Comment [Destroys tile improvements when attacking and applies [Burning] for 2 turns]",
+							"Only available <in cities with a [Eternal Glory Project]>",
+							"Only available <if [Focusing Crystal II] is constructed> <if [Obelisk Height II] is constructed>",
+							"Cannot be hurried", "Can be purchased with [Gold] [in all cities]",
+							
+							"Limited to [1] per Civilization <hidden from users>",
+							"Destroyed when the city is captured <hidden from users>", 
+							"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>",
+							]
+			},
+			{
+				"name": "Arcane Eye",
+				"uniqueTo": "Aureignis Dominium",
+				"cost": 400,
+				"maintenance": 2,
+				"requiredTech": "Computers",
+				"uniques": ["Comment [Gain unobstructed vision equal to half of its range]",
+							"Only available <in cities with a [Eternal Glory Project]>",
+							"Only available <if [Focusing Crystal II] is constructed> <if [Obelisk Height II] is constructed>",
+							"Cannot be hurried", "Can be purchased with [Gold] [in all cities]",
+							
+							"Limited to [1] per Civilization <hidden from users>",
+							"Destroyed when the city is captured <hidden from users>", 
+							"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>",
+							]
+			},
+			{
+				"name": "Paralyzing Ray",
+				"uniqueTo": "Aureignis Dominium",
+				"cost": 400,
+				"maintenance": 2,
+				"requiredTech": "Lasers",
+				"uniques": ["Comment [Attack applies [Stunned] for 1 turn	 ]",
+							"Only available <in cities with a [Eternal Glory Project]>",
+							"Only available <if [Focusing Crystal II] is constructed> <if [Obelisk Height II] is constructed>",
+							"Cannot be hurried", "Can be purchased with [Gold] [in all cities]",
+							
+							"Limited to [1] per Civilization <hidden from users>",
+							"Destroyed when the city is captured <hidden from users>", 
+							"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>",
+							]
+			},
+	
+	
+	/*
+	//TEST PURPOSE
+	
+		{
+			"name": "Do X",
+			"cost": 1,
+			"hurryCostModifier": -90,
+			"uniques": [
+			
+					"Instantly gain [1] [TR Limit] <hidden from users>",
+					"Provides [10] [Automata Parts] <hidden from users>",
+					
+					]
+		},
+	
+	*/
+]

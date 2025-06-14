@@ -1,0 +1,243 @@
+[
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~OVERWRITES PURPOSE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	
+	//Basalt Remainers
+	{
+		"name": "City ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable"
+					"Tile provides yield without assigned population <for [Basalt Remainers] Civilizations>"],
+        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
+	},
+	
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~OVERWRITES PURPOSE ENDS HERE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	
+	//Orc Horde
+	{
+		"name": "Improved Barricade",
+		"uniqueTo": "Orc Horde",
+		"turnsToBuild": 6,
+		"techRequired": "Engineering",
+		"production": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [15]%", "Adjacent enemy units ending their turn take [10] damage", //"Comment [Nullify ALL yields in Enemy Land]",
+					"[-10 Food, -10 Culture, -10 Science, -10 Gold, -10 Faith, -10 Production] <in [non-[Orc Horde]] tiles>",
+					"[+1 Culture] <with [1] to [6] neighboring [Improved Barricade] tiles>",  "[+1 Production] <with [1] to [6] neighboring [Mine] tiles>"],
+		"civilopediaText": [
+			{"text": "A crude barricade made from what's available on the battlefield."},
+        ]
+	},
+	
+	//Merfolk Council
+	{
+		"name": "Floating City",
+		"uniqueTo": "Merfolk Council",
+		"production": 1,
+		"gold": 1,
+		"techRequired": "Sailing",
+		"terrainsCanBeBuiltOn": ["Ocean", "Coast"],
+		"uniques": ["Improvement <hidden from users>", 
+					"Comment [Unlocked at [Sailing]]",
+					"Comment [Must not be adjacent to another [Floating City]]", 
+					"Unbuildable <in tiles adjacent to [Floating City] tiles> <hidden from users>", "[+1 Culture] <during a Golden Age>",
+					"[+1 Production] <after discovering [Electricity]>", "[+1 Culture] <with [1] to [6] neighboring [Water resource] tiles>"],
+		"civilopediaText": [
+			{"text": "THe Merfolk often has cities on the sea surface."},
+        ]
+	},
+	
+	//Argonautian States
+	{
+		"name": "Orion's Monument",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 2,
+		"faith": 2,
+		"gold": 2,
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Basilikoi Paides",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 3,
+		"production": 3,
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	
+	//Clockwerk Church
+	{
+		"name": "Clockwerk Temple",
+		"uniqueTo": "Clockwerk Church",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"faith": 3,
+		"science": 2,
+		"production": 2,
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold, +20 Science, +10 Faith]",
+					"Comment [+2 [Faith], +3 [Science] after completing [Piety] or [Rationalism]]",
+					"[+2 Faith, +3 Science] <after adopting [Piety Complete]> <hidden from users>","[+2 Faith, +3 Science] <after adopting [Rationalism Complete]> <hidden from users>"]
+	},
+	
+	//Harpies Tribe
+	{
+		"name": "Mountain Settlement",
+		"uniqueTo": "Harpies Tribe",
+		"turnsToBuild": 1,
+		"techRequired": "Civil Service",
+		"terrainsCanBeBuiltOn": ["Mountain"],
+		"replacementTextForUniques": "+1 Culture for each adjacent different-type of Improvement",
+		"uniques": [ "[+1 Culture] for each adjacent [Improvement]",
+					]
+	},
+	
+	
+	//Gaia Preserver
+	{
+		"name": "Gaia's Farm",
+		"uniqueTo": "Gaia Preserver",
+		"terrainsCanBeBuiltOn": ["Forest", "Jungle"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"uniques": ["Cannot be built on [{non-[Fresh Water]} {Hill}] tiles",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>", "Will not be displayed in Civilopedia",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+            "Pillaging this improvement yields approximately [+18 Gold]"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Gaia's Mine",
+		"uniqueTo": "Gaia Preserver",
+		"terrainsCanBeBuiltOn": ["Jungle", "Forest"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Mining",
+		"uniques": ["[+1 Production] <after discovering [Chemistry]>",  
+					"Pillaging this improvement yields approximately [+20 Gold]",
+					"Will not be displayed in Civilopedia", 
+					"Cannot be built on [{non-[Resource]} {non-[Hill]}] tiles",
+					],
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Gaia's Oil well",
+		"uniqueTo": "Gaia Preserver",
+		"turnsToBuild": 9,
+		"techRequired": "Biology",
+		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]","Will not be displayed in Civilopedia","Does not need removal of [Forest]","Does not need removal of [Jungle]"],
+		"shortcutKey": "W"
+	},
+	{
+		"name": "Gaia's Plantation",
+		"uniqueTo": "Gaia Preserver",
+		"turnsToBuild": 6,
+		"gold": 1,
+		"techRequired": "Calendar",
+		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource",  
+					"Pillaging this improvement yields approximately [+10 Gold]","Will not be displayed in Civilopedia",
+					"Does not need removal of [Forest]","Does not need removal of [Jungle]"],
+		"shortcutKey": "P"
+	},
+	
+	
+	//The Kobolds
+	{
+		"name": "Lodepit",
+		"uniqueTo": "The Kobolds",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"culture": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Mining",
+		"uniques": ["[+1 Production] <after discovering [Chemistry]>",  "Pillaging this improvement yields approximately [+20 Gold]",
+					"Comment [+1 [Culture] if adjacent to [Mountain] tile]",
+					"Comment [+1 [Culture] if adjacent to [Lodepit] tile]",
+					"[+1 Culture] <with [1] to [6] neighboring [Mountain] tiles> <hidden from users>","[+1 Culture] <with [1] to [6] neighboring [Lodepit] tiles> <hidden from users>",],
+		"shortcutKey": "M"
+	},
+	
+	//Undines
+	{
+		"name": "Manawell",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Undines",
+		"uniques": ["Great Improvement",
+					"Does not need removal of [Forest]", "Does not need removal of [Jungle]",
+					"Tile provides yield without assigned population",
+					"Improves [Luxury] resource in this tile",
+					"[+1 Science] <within [1] tiles of a [Manawell]>",
+					"[+1 Culture] <starting from the [Classical era]>",
+					"[+1 Culture] <starting from the [Renaissance era]>",
+					"[+1 Culture] <starting from the [Modern era]>",
+					"[+1 Culture] <starting from the [Information era]>"],
+		"civilopediaText": [
+			{"text": "Manawell is a magical and spiritual energy pathway that runs through the earth. If we can find them, we can harness their energy for our cause."},
+        ]
+	},
+	
+	//Kemetian Dynasty
+	{
+		"name": "Sphinx",
+		"uniqueTo": "Kemetian Dynasty",
+		"turnsToBuild": 7,
+		"techRequired": "Masonry",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 1,
+		"uniques": ["Comment [Unlocked at [Masonry]\n]",
+					"Comment [+1 [Culture] if on [Desert] or [River]]",
+					"Comment [+1 [Faith] for every 2 adjacent [Improvement]]",
+					"Comment [+1 [Great Artist] Point if in your first 4 cities]",
+					"Comment [Must be adjacent to [City center]]",
+					"Comment [Can't be adjacent to another [Sphinx]]",
+					"Pillaging this improvement yields approximately [+40 Gold, +15 Culture]",
+					
+					"[+1 Culture] <in [{non-[River]} {Desert}] tiles> <with [0] to [0] neighboring [Sphinx] tiles> <hidden from users>",
+					"[+1 Culture] <in [{non-[Desert]} {River}] tiles> <with [0] to [0] neighboring [Sphinx] tiles> <hidden from users>",
+					"[+1 Culture] <in [{Desert} {River}] tiles> <with [0] to [0] neighboring [Sphinx] tiles> <hidden from users>",
+					"[+1 Faith] <with [2] to [3] neighboring [Improvement] tiles> <with [0] to [0] neighboring [Sphinx] tiles> <hidden from users>",
+					"[+2 Faith] <with [4] to [5] neighboring [Improvement] tiles> <with [0] to [0] neighboring [Sphinx] tiles> <hidden from users>",
+					"[+3 Faith] <with [6] to [6] neighboring [Improvement] tiles> <with [0] to [0] neighboring [Sphinx] tiles> <hidden from users>",
+					
+					//Don't be adjacent to one another pls
+					"[-1 Culture] <with [1] to [6] neighboring [Sphinx] tiles> <hidden from users>",
+					
+					"Instantly gain [1] [Kemetian First Sphinx] <when below [2] [Kemetian First Sphinx]> <hidden from users>",
+					"Unbuildable <in tiles not adjacent to [City center] tiles> <hidden from users>",
+					"Cannot be built on [All] tiles <in tiles adjacent to [Sphinx] tiles> <hidden from users>",
+		],
+		"civilopediaText": [
+			{"text": "The marvels of [Kemetian Dynasty]'s engineering. These statues built upon the likeness of the mythical creature called Sphinx. A hybrid creature of man, lion, and eagle."},
+        ]
+	},
+	
+	//Night Elven Enclave
+	{
+		"name": "Enchanted Forest",
+		"uniqueTo": "Night Elven Enclave",
+		"terrainsCanBeBuiltOn": ["Forest", "Jungle"],
+		"faith": 1,
+		"uniques": ["Comment [Improves Luxury and Strategic resources in this tile]", 
+					"Comment [Apply [Rooted] for 2 turns to any non-[Night Elven Enclave] units entering this tile. Each unit can only receive [Rooted] once every 6 turns.]",
+					"Will not be replaced by automated units <hidden from users>",
+					"Improves [Luxury] resource in this tile",
+					"Unbuildable <in [non-[Forest]] tiles> <in [non-[Jungle]] tiles> <hidden from users>",
+					"[+1 Culture] <for every [Owned [Natural Wonder] Tiles]>",
+					"Pillaging this improvement yields approximately [+10 Culture, +10 Faith] <hidden from users>",
+					],
+		"civilopediaText": [
+			{"text":"The Wisps are guarding and harvesting this Forest, channeling Elune's divine power unto those wished harm to the Forest."}
+		]
+	},
+	
+	//Vigilo Order
+	{
+		"name": "Alchemical Lab",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 5,
+		"gold": 3,
+		"uniques": ["Provides [1] [Alchemical Lab Production] <hidden from users>",
+			"Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>",
+            "[+2 Science] <after discovering [Atomic Theory]>", "Removes removable features when built",
+            "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+25 Gold]"
+			]
+	},
+	
+]

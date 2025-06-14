@@ -1,0 +1,56 @@
+{
+    "name": "Global uniques",
+    "uniques": [
+		
+		//Epic of Fantasy Stuff
+		
+		//Universal
+		"[-100]% to Flank Attack bonuses <vs [Flank Immune] units>",
+		"[-50]% to Flank Attack bonuses <vs [Flank Resist] units>",
+		"[+50]% to Flank Attack bonuses <vs [Blinded] units>",
+		
+		//The Chroniclers
+		"[-10]% Strength <vs [The Chroniclers] units> <during a Golden Age>",
+		//The Kaleeki
+		"Provides [1] [CD Limit] <if [Increase Chrono Disruption Limit] is constructed by anybody> <hidden from users>",
+		"Provides [1] [CD Limit] <if [Increase Chrono Disruption Limit I] is constructed by anybody> <hidden from users>",
+		"Provides [1] [CD Limit] <if [Increase Chrono Disruption Limit II] is constructed by anybody> <hidden from users>",
+
+        // Filtering uniques must be listed here to tell RulesetValidator they're OK despite untyped
+        "Aircraft"
+		
+    ],
+	"unitUniques": [
+					
+		//Blighted
+		"[This Unit] gains the [Infected] status for [2] turn(s) <upon turn start> <when adjacent to a [Infected Aura] unit> <for units without [Infected]>",
+		//Celestials
+		"[This Unit] takes [40] damage <upon defeating a [Volatile] unit> <for [Melee] units>", 
+		"[This Unit] takes [20] damage <upon defeating a [Volatile] unit> <for [Ranged] units>", 
+		//Drow
+		"[This Unit] gains the [Revenge Target] promotion <upon defeating a [Avenged] unit> <for [non-[Air]] units>",
+		//Healer
+		"[This Unit] heals [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit> <for [non-[Air]] units>",
+		"[This Unit] heals [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit> <for [non-[Air]] units>",
+		//Kaleeki
+		"[This Unit] gains the [Dimensional Prison] status for [2] turn(s) <upon damaging a [Chrono Disruption] unit> <when number of [[Dimensional Prison] Units] is different than [CD Limit]>",
+		"[This Unit] gains the [Explosive Charge] status for [1] turn(s) <upon turn start> <when adjacent to a [Explosive Charge] unit>",
+		//Night Elven
+		"[This Unit] gains the [Elune's Rooted] status for [2] turn(s) <upon entering a [Enchanted Forest] tile> <in [Enemy Land] tiles> <for units without [Elune's Protection]> <if [Elune's Shrine] is constructed by anybody>",
+		//Phrygian Kingdom
+		"[This Unit] gains the [Binded] status for [3] turn(s) <upon damaging a [Gordian Knot] unit>",
+		//Troglodyte
+		"[This Unit] takes [10] damage <upon damaging a [Retribution] unit> <for [Melee] units> <for [non-[Air]] units>", 
+		"[This Unit] takes [5] damage <upon damaging a [Retribution] unit> <for [Ranged] units> <for [non-[Air]] units>",
+		//Wizard
+		"[Target Unit] gains the [Mana Shield Cooldown] status for [4] turn(s) <upon damaging a [{non-[Mana Shield CD]} {Mana Shield}] unit> <for [Ranged] units>",
+			
+		//Mixed
+		"Cannot attack <vs [IsSanctuary] units>",	//Sanctuary
+		"Cannot attack <vs [IsPacified] units>",	//Pacified
+		"Cannot attack <vs [IsInStasis] units>",	//Temporal Reset
+		"Cannot attack <vs [Flying] units> <for [{non-[Anti-Air]} {Melee}] units>",		//Flying stuffs
+		"Withdraws before melee combat <with [50]% chance> <vs [Disoriented] units>",	//Disoriented
+					
+	],
+}

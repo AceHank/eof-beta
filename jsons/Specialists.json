@@ -1,0 +1,62 @@
+[
+	//Vigilo Order
+	{
+		"name":"Alchemist",
+		"science":3,
+		"greatPersonPoints": {"Great Scientist":5},
+		"color": [0,0,255]
+	},
+	
+	//Scazari Hive
+	{
+		"name":"Spawner Drone",
+		"food": 2,
+		"culture": 2,
+		"color": [0,255,34]
+	},
+	
+	//Chronicler
+	{
+		"name":"Archiver",
+		"science": 3,
+		"culture": 3,
+		"greatPersonPoints": {"Great Scientist":4},
+		"color": [5,125,145]
+	},
+	
+	//Shinso
+	{
+		"name":"Zen Overseer",
+		"science": 2,
+		"culture": 2,
+		"faith": 2,
+		"food": 2,
+		"gold": 2,
+		"color": [255,20,147]
+	},
+	
+	//Holy Lunar Theocracy
+	{
+		"name":"Lunar Disciple",
+		"faith":3,
+		"greatPersonPoints": {"Lunarian Missionary": 3},
+		"color": [113,12,201]
+	},
+	
+	//Wizard Council
+	{
+		"name":"Spellweaver",
+		"science":3,
+		"greatPersonPoints": {"Peacemaker Spell": 5},
+		"color": [245,206,206]
+	},
+	
+	//Aellenari Empire
+	{
+		"name":"Aellenarian Scholar",
+		"science":5,
+		"greatPersonPoints": {"Great Scientist":3},
+		"color": [0,0,255]
+	},
+	
+]

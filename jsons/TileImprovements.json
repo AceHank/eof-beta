@@ -230,10 +230,13 @@
 	//Vigilo Order
 	{
 		"name": "Alchemical Lab",
+		"uniqueTo": "Vigilo Order",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 5,
 		"gold": 3,
 		"uniques": ["Provides [1] [Alchemical Lab Production] <hidden from users>",
+		//	"Comment [+15% [Production] in cities with at least 1 [Alchemical Lab]]",
+		//	"Comment [+15% [Production] in this city (doesn't stack)]",
 			"Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>",
             "[+2 Science] <after discovering [Atomic Theory]>", "Removes removable features when built",
             "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+25 Gold]"

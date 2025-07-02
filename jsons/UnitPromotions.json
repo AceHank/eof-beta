@@ -66,9 +66,14 @@
 	//Beastmen Empire~~~~~~~
 	{
 		"name": "Intimidation",
-		"uniques": ["[-15]% Strength for enemy [All] units in adjacent [All] tiles"]
+		"uniques": ["[-10]% Strength for enemy [All] units in adjacent [All] tiles"]
 	},
 	
+	{
+		"name": "Rallying Cry",
+		"uniques": ["Comment [+1 additional attack for stacked unit]",
+		]
+	},
 	//Centaur Tribes~~~~~~~
 	{
 		"name": "Centaurian",
@@ -262,9 +267,9 @@
 		"uniques": ["Volatile <hidden from users>", "Comment [When defeated, deals 40 damage to Melee attacker, halved for Ranged unit]"]
 	},
 	{
-		"name": "Spire Heals",
+		"name": "Spire Damage Block",
 		"uniques": ["Comment [Reduces damage taken by 10 when adjacent to a [City center] with [Curative Spire]]",
-					"[This Unit] gains the [Superior Defense] status for [1] turn(s) <upon turn end> <for [non-[Air]] units> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+					"[This Unit] gains the [Superior Defense] status for [10] turn(s) <upon turn end> <for [non-[Air]] units> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
 		]
 	},
 	
@@ -535,7 +540,7 @@
 	//Vigilo Order
 	{
 		"name": "Potionist",
-		"uniques": ["Comment [Adjacent units are immune to bodily harming negative statuses]",
+		"uniques": ["Comment [Unit stacked with this unit has [Debuff Immune] on enemy's turn]",
 		]
 	},
 	
@@ -585,7 +590,7 @@
 	{
 		"name": "Healer II",
 		"prerequisites":["Healer I"],
-		"uniques": ["Healer 2 <hidden from users>", "Comment [All adjacent Land units heal [5] HP at turn end]"]
+		"uniques": ["Healer 2 <hidden from users>", "Comment [All Land units within 1-tile heal [5] HP at turn end]"]
 	},
 	{
 		"name": "Divine Watch",
@@ -748,7 +753,7 @@
 	
 	{
 		"name": "Fly",	//Fly
-		"uniques": ["Comment [[Fly]: Activate to gain Flying for 2 turns. Cooldown: 10 turns.]",
+		"uniques": ["Comment [Activate to gain Flying for 2 turns. Cooldown: 10 turns.]",
 					"[This Unit] gains the [Fly Active] status for [2] turn(s) <for [0] movement> <for units without [Fly Cooldown]> <hidden from users>",	
 					],
 	},
@@ -1311,7 +1316,9 @@
 	{
 		"name": "Horns of Humility",
 		"uniques": ["Comment [This unit gain access to unique promotions to study the spells of the Divine Deers. May only cast one Active spell every turn.]",
+					"Only available <for [Deer-Horned Legionary] units>",
 		],
+		"unitTypes": ["Gunpowder", "Sword"],
         "column": 29,
         "row": 1
 	},	
@@ -1560,7 +1567,7 @@
 	},
 	{
 		"name": "Dimensional Prison",
-		"uniques": ["Comment [This unit is in [Dimensional Prison]. It can't be interacted in any way (except Nukes) until duration ends and take 15 damage.]",
+		"uniques": ["Comment [This unit is in [Dimensional Prison]. It can't be interacted in any way (except Nukes) until duration ends and take 15 damage upon turn start.]",
 		
 					"IsInStasis <hidden from users>",
 					"[-1]% Strength",
@@ -1629,14 +1636,23 @@
 		"uniques": ["Comment [Land units has a 15% chance to gain [Bleeding] for 2 turns and [Crippled] for 1 turn upon taking damage.]",
 					"Comment [Land units attack has a 30% chance to apply [Bleeding] for 2 turns and [Crippled] for 1 turn.]",
 					
-					"[This Unit] gains the [Bleeding] status for [2] turn(s) <upon losing at least [1] HP in a single attack> <with [15]% chance> <hidden from users>",
-					"[This Unit] gains the [Crippled] status for [1] turn(s) <upon losing at least [1] HP in a single attack> <with [15]% chance> <hidden from users>",
+					"[This Unit] gains the [Mana Tainted Activator] status for [1] turn(s) <upon losing at least [1] HP in a single attack> <with [15]% chance> <hidden from users>",
 					
-					"[Target Unit] gains the [Bleeding] status for [2] turn(s) <upon damaging a [All] unit> <with [30]% chance> <hidden from users>",
-					"[Target Unit] gains the [Crippled] status for [1] turn(s) <upon damaging a [All] unit> <with [30]% chance> <hidden from users>",
+					"[Target Unit] gains the [Mana Tainted Activator] status for [1] turn(s) <upon damaging a [All] unit> <with [30]% chance> <hidden from users>",
 					
 					"Can transform to [Blight Spores] <when adjacent to a [Blightsayer] unit> <without [Counter Something]> <for [{non-[Scout]} {Military}] units> <hidden from users>",
 		],
+	},
+	{
+		"name": "Mana Tainted Activator",		
+		"uniques": ["Comment [Land units has a 15% chance to gain [Bleeding] for 2 turns and [Crippled] for 1 turn upon taking damage.]",
+					"Comment [Land units attack has a 30% chance to apply [Bleeding] for 2 turns and [Crippled] for 1 turn.]",
+					
+					"Will not be displayed in Civilopedia", "Not shown on world screen",
+					
+					"[This Unit] gains the [Bleeding] status for [2] turn(s) <upon gaining the [Mana Tainted Activator] status> <hidden from users>",
+					"[This Unit] gains the [Crippled] status for [2] turn(s) <upon gaining the [Mana Tainted Activator] status> <hidden from users>",
+		]
 	},
 	{
 		"name": "Pandemy",		
@@ -1694,7 +1710,7 @@
 	},
 	{
 		"name": "Polymorphic",		
-		"uniques": ["Comment [This unit can morph parts of its body into the Aspects of other creatures for 2 turns. Cooldown: 5 turns.]",
+		"uniques": ["Comment [Activate to morph parts of its body into the Aspects of other creatures for 2 turns, gaining different effect depending on the chosen Aspect. Cooldown: 5 turns.]",
 		
 					"[This Unit] gains the [Aspect of Tiger] status for [2] turn(s) <for [0] movement> <for units without [Polymorphic Cooldown]> <hidden from users>",
 					"[This Unit] gains the [Aspect of Spider] status for [2] turn(s) <for [0] movement> <for units without [Polymorphic Cooldown]> <hidden from users>",
@@ -1824,7 +1840,6 @@
 		"uniques": ["[This Unit] takes [5] damage <upon losing at least [1] HP in a single attack>",
 					"[Target Unit] heals [5] HP <upon damaging a [All] unit>"
 					"[-1]% Strength <hidden from users>",
-					"[This Unit] loses the [Baned] status <upon turn end> <when adjacent to a [Potionist] unit>",
 					],
 	},
 	{
@@ -1833,14 +1848,12 @@
 					"[This Unit] loses the [Burning] status <upon ending a turn in a [Water] tile>",
 					"[This Unit] loses the [Burning] status <upon ending a turn in a [River] tile>",
 					"[-1]% Strength <hidden from users>",
-					"[This Unit] loses the [Burning] status <upon turn end> <when adjacent to a [Potionist] unit>",
 					],
 	},
 	{
 		"name": "Binded",
 		"uniques": ["[-99] Movement"
 					"[-1]% Strength <hidden from users>",
-					"[This Unit] loses the [Binded] status <upon turn end> <when adjacent to a [Potionist] unit>",
 					],
 	},
 	{
@@ -1855,7 +1868,6 @@
 					"[This Unit] loses the [Bleeding] status <upon turn end> <when adjacent to a [Medic II] unit> <hidden from users>",
 					
 					"[-1]% Strength <hidden from users>",
-					"[This Unit] loses the [Bleeding] status <upon turn end> <when adjacent to a [Potionist] unit>",
 					]
 	},
 	{
@@ -1865,7 +1877,6 @@
 					"No Sight",  
 					"[-1] Range <for [Ranged] units>",
 					"[-1]% Strength <hidden from users>",
-					"[This Unit] loses the [Blinded] status <upon turn end> <when adjacent to a [Potionist] unit>",
 					],
 	},
 	{
@@ -1879,20 +1890,17 @@
 		"uniques": ["[-10]% Strength", 
 					"[This Unit] gains the [Frozen] status for [2] turn(s) <upon turn start> <with [15]% chance>",
 					"[-1]% Strength <hidden from users>",
-					"[This Unit] loses the [Chilled] status <upon turn end> <when adjacent to a [Potionist] unit>",
 					],
 	},
 	{
 		"name": "Crippled",
 		"uniques": ["[-2] Movement",
 					"[-1]% Strength <hidden from users>",
-					"[This Unit] loses the [Crippled] status <upon turn end> <when adjacent to a [Potionist] unit>",
 					],
 	},
 	{
 		"name": "Crushed",
 		"uniques": ["[-15]% Strength",
-					"[This Unit] loses the [Crushed] status <upon turn end> <when adjacent to a [Potionist] unit>",
 		],
 	},
 	{
@@ -1907,7 +1915,6 @@
 					"Ailment",
 					"[-1] Range",
 					"[-1]% Strength <hidden from users>",
-					"[This Unit] loses the [Disoriented] status <upon turn end> <when adjacent to a [Potionist] unit>",
 					]
 	},
 	{
@@ -1922,7 +1929,6 @@
 		"uniques": ["[-10] HP when healing", "[This Unit] takes [5] damage <upon entering a [All] tile>",
 					"[This Unit] gains the [Disarmed] status for [1] turn(s) <upon entering a [All] tile>",
 					"[-1]% Strength <hidden from users>",
-					"[This Unit] loses the [Fatigued] status <upon turn end> <when adjacent to a [Potionist] unit>",
 					],
 	},
 	{
@@ -1930,7 +1936,6 @@
 		"uniques": ["[This Unit] takes [10] damage <upon turn start>", 
 					"[-1] Movement",
 					"[-1]% Strength <hidden from users>",
-					"[This Unit] loses the [Frostbitten] status <upon turn end> <when adjacent to a [Potionist] unit>",
 					],
 	},
 	{
@@ -1952,7 +1957,6 @@
 					
 					"[This Unit] takes [10] damage <upon turn start> <hidden from users>",
 					"[This Unit] takes [10] damage <upon gaining the [Infected] status> <when adjacent to a [Infected Aura] unit> <hidden from users>",
-					"[This Unit] loses the [Infected] status <upon turn end> <when adjacent to a [Potionist] unit>",
 		]
 	},
 	{
@@ -1991,7 +1995,6 @@
 		"uniques": ["[This Unit] loses [99] movement <upon damaging a [All] unit>",
 					"[This Unit] takes [10] damage <upon damaging a [All] unit>", 
 					"[-1]% Strength <hidden from users>",
-					"[This Unit] loses the [Shocked] status <upon turn end> <when adjacent to a [Potionist] unit>",
 					],
 	},
 	{
@@ -2010,7 +2013,6 @@
 					"Unable to pillage tiles", 
 					
 					"[-1]% Strength <hidden from users>",
-					"[This Unit] loses the [Withered] status <upon turn end> <when adjacent to a [Potionist] unit>",
 					],
 	},
 	

@@ -1,38 +1,44 @@
 [	
-	
+	/*
 	//Test Purpose
 		{
 			"name": "Meo",
 			"unitType": "Sword",
-			"replaces": "Warrior",
-			"uniqueTo": "Celestial Beings",
-			"movement": 5,
-			"strength": 10,
-			"cost": 1,
-			"hurryCostModifier": -90,
-			"promotions": ["Outmaneuver", "Relentless"],
-			"uniques": ["Ignores terrain cost", "[This Unit] gains [100] XP <upon turn end>",
-						"[+5] Sight", "Can move immediately once bought", "Cannot attack <vs cities>",
-			],
-			"attackSound": "nonmetalhit"
-		},
-		{
-			"name": "Meo 2",
-			"unitType": "Armored",
 			"replaces": "Warrior",
 			"uniqueTo": "Drow Village",
 			"movement": 5,
 			"strength": 10,
 			"cost": 1,
 			"hurryCostModifier": -90,
+			"promotions": ["Outmaneuver", "Relentless"],
+			"uniques": ["Ignores terrain cost", "[This Unit] gains [100] XP <upon turn end>", "May travel on Water tiles without embarking",
+						"[+5] Sight", "Can move immediately once bought", "Cannot attack <vs cities>",
+						"Gain [1000] [Gold] <upon turn end> <in [City center] tiles>",
+			],
+			"attackSound": "nonmetalhit"
+		},
+		{
+			"name": "Meo 2",
+			"unitType": "Armored",
+			"replaces": "Scout",
+			"uniqueTo": "Celestial Beings",
+			"movement": 5,
+			"strength": 10,
+			"cost": 1,
+			"hurryCostModifier": -90,
 			"promotions": ["Temporal Reset"],
 			"uniques": ["Ignores terrain cost","[This Unit] gains [100] XP <upon turn end>",
-			
+						"May found a religion <for [0] movement>",
+						"May enhance a religion <for [0] movement>",
+						"Gain a free [Enhancer] belief <for [0] movement>",
+						"Can Spread Religion <for [0] movement>", "Removes other religions when spreading religion","Religious Unit", 
+						"May enter foreign tiles without open borders",
 						"Empire enters golden age <for [2] movement>",
-						
+						"Can instantly construct a [Farm] improvement <for [2] movement>",
 						"[+5] Sight", "Can move immediately once bought",
 			],
 			"attackSound": "nonmetalhit"
+		"religiousStrength": 1000
 		},
 	{
 		"name": "Meo Missile",
@@ -47,6 +53,7 @@
 		],
 		"attackSound": "missile"
 	},
+	*/
 		
 	//OVERWRITES STUFF
 	{
@@ -190,7 +197,7 @@
 			"Can be earned through combat",
             "Is part of Great Person group [General]",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
-		"promotions": ["Intimidation"],
+		"promotions": ["Rallying Cry"],
 		"movement": 4,
 		"civilopediaText": [
 			{"text": "The sound from a Wardrummer will intimidate its foe, while improving the morale of the Beastmen. The sounds of destruction and untold battlefield gore."},
@@ -1985,7 +1992,7 @@
 		"movement": 5,
 		"strength": 30,
 		"rangedStrength": 30,
-		"cost": 260,
+		"cost": 250,
 		"requiredResource": "Iron",
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Electronics",
@@ -2365,12 +2372,13 @@
 					"[Target Unit] gains the [Stunned] status for [1] turn(s) <upon damaging a [All] unit> <if [Paralyzing Ray] is constructed> <hidden from users>",	//Paralyzing Ray
 					
 					//Stuffs
+					"Only available <in cities with a [Eternal Glory Project]>",
 					"Ranged attacks may be performed over obstacles",
-					"No damage penalty for wounded units",
-					"Limited to [1] per Civilization",
 					"Cannot move",
-					"Can be purchased with [Gold] [in capital]",
-					"Unbuildable",
+					"Can be purchased with [Gold] [in capital] <hidden from users>",
+					"No damage penalty for wounded units <hidden from users>",
+					"Limited to [1] per Civilization <hidden from users>",
+					"Unbuildable <hidden from users>",
 					"[This Unit] gains [-60] XP <hidden from users>",
 					"[-100]% XP gained from combat <hidden from users>",
 					"Will not be displayed in Civilopedia <hidden from users>",

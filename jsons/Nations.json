@@ -395,8 +395,10 @@
 		"uniqueName": "Lavrence's Opus",
 		"uniques": ["Free [Great Alchemist] appears <upon discovering [Chemistry] technology>",
 					"Comment [National Wonder provides +2 [Great Alchemist] points]",
+					"Comment [+10% [Production] and +10% [Science] in cities with at least 1 [Alchemical Lab]]",
 					
-					"[+15]% [Production] [in all cities] <with [Alchemical Lab Production]> <hidden from users>",
+					"[+10]% [Production] [in all cities] <with [Alchemical Lab Production]> <hidden from users>",
+					"[+10]% [Science] [in all cities] <with [Alchemical Lab Production]> <hidden from users>",
 					
 					], 
 		"cities": ["Acathenor","Malach","Pyr","Rhodochros","Arcanum","Sapphirus","Acathes","Lunarius","Estest","Solus","Mercury","Mellago",
@@ -1705,7 +1707,7 @@
 					"Comment [When spreading religion to a city, gain 10 times the amount of followers of other religions as [Culture]]",
 					"Comment [+1% Strength when defending for every [Curative Spire] built]",
 					
-					"[non-[Air]] units gain the [Spire Heals] promotion <hidden from users>",
+					"[non-[Air]] units gain the [Spire Damage Block] promotion <hidden from users>",
 					"When spreading religion to a city, gain [10] times the amount of followers of other religions as [Culture] <hidden from users>",
 					"[+1]% Strength <when defending> <for every [[Curative Spire] Buildings]> <hidden from users>", 
 					"[+1 Faith] from every [Curative Spire] <hidden from users>",

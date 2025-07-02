@@ -1572,7 +1572,7 @@
 				"requiredTech": "Architecture",
 				"uniques": ["Comment [+4 Range]",
 							"Only available <in cities with a [Eternal Glory Project]>",
-							"Cannot be hurried", "Can be purchased with [Gold] [in all cities]",
+							"Can be purchased with [Gold] [in all cities]",
 							
 							"Limited to [1] per Civilization <hidden from users>",
 							"Destroyed when the city is captured <hidden from users>", 
@@ -1587,7 +1587,7 @@
 				"requiredTech": "Electricity",
 				"uniques": ["Comment [+4 Range]",
 							"Only available <in cities with a [Obelisk Height I]>",
-							"Cannot be hurried", "Can be purchased with [Gold] [in all cities]",
+							"Can be purchased with [Gold] [in all cities]",
 							
 							"Limited to [1] per Civilization <hidden from users>",							
 							"Destroyed when the city is captured <hidden from users>", 
@@ -1602,7 +1602,7 @@
 				"requiredTech": "Nuclear Fission",
 				"uniques": ["Comment [+4 Range]",
 							"Only available <in cities with a [Obelisk Height II]>",
-							"Cannot be hurried", "Can be purchased with [Gold] [in all cities]",
+							"Can be purchased with [Gold] [in all cities]",
 							
 							"Limited to [1] per Civilization <hidden from users>",
 							"Destroyed when the city is captured <hidden from users>", 
@@ -1618,7 +1618,7 @@
 				"requiredTech": "Military Science",
 				"uniques": ["Comment [Attack deals 5 extra damage]",
 							"Only available <in cities with a [Eternal Glory Project]>",
-							"Cannot be hurried", "Can be purchased with [Gold] [in all cities]",
+							"Can be purchased with [Gold] [in all cities]",
 							
 							"Limited to [1] per Civilization <hidden from users>",
 							"Destroyed when the city is captured <hidden from users>", 
@@ -1633,7 +1633,7 @@
 				"requiredTech": "Railroads",
 				"uniques": ["Comment [Attack deals 5 extra damage]",
 							"Only available <in cities with a [Focusing Crystal I]>",
-							"Cannot be hurried", "Can be purchased with [Gold] [in all cities]",
+							"Can be purchased with [Gold] [in all cities]",
 							
 							"Limited to [1] per Civilization <hidden from users>",
 							"Destroyed when the city is captured <hidden from users>", 
@@ -1648,7 +1648,7 @@
 				"requiredTech": "Rocketry",
 				"uniques": ["Comment [Attack deals 5 extra damage]",
 							"Only available <in cities with a [Focusing Crystal II]>",
-							"Cannot be hurried", "Can be purchased with [Gold] [in all cities]",
+							"Can be purchased with [Gold] [in all cities]",
 							
 							"Limited to [1] per Civilization <hidden from users>",
 							"Destroyed when the city is captured <hidden from users>", 
@@ -1665,7 +1665,7 @@
 				"uniques": ["Comment [1 additional attack]",
 							"Only available <in cities with a [Eternal Glory Project]>",
 							"Only available <if [Focusing Crystal II] is constructed> <if [Obelisk Height II] is constructed>",
-							"Cannot be hurried", "Can be purchased with [Gold] [in all cities]",
+							"Can be purchased with [Gold] [in all cities]",
 							
 							"Limited to [1] per Civilization <hidden from users>",
 							"Destroyed when the city is captured <hidden from users>", 
@@ -1681,7 +1681,7 @@
 				"uniques": ["Comment [May intercept air attacks]",
 							"Only available <in cities with a [Eternal Glory Project]>",
 							"Only available <if [Focusing Crystal II] is constructed> <if [Obelisk Height II] is constructed>",
-							"Cannot be hurried", "Can be purchased with [Gold] [in all cities]",
+							"Can be purchased with [Gold] [in all cities]",
 							
 							"Limited to [1] per Civilization <hidden from users>",
 							"Destroyed when the city is captured <hidden from users>", 
@@ -1697,7 +1697,7 @@
 				"uniques": ["Comment [Attack applies [Disoriented] for 1 turn	 ]",
 							"Only available <in cities with a [Eternal Glory Project]>",
 							"Only available <if [Focusing Crystal II] is constructed> <if [Obelisk Height II] is constructed>",
-							"Cannot be hurried", "Can be purchased with [Gold] [in all cities]",
+							"Can be purchased with [Gold] [in all cities]",
 							
 							"Limited to [1] per Civilization <hidden from users>",
 							"Destroyed when the city is captured <hidden from users>", 
@@ -1713,7 +1713,7 @@
 				"uniques": ["Comment [Destroys tile improvements when attacking and applies [Burning] for 2 turns]",
 							"Only available <in cities with a [Eternal Glory Project]>",
 							"Only available <if [Focusing Crystal II] is constructed> <if [Obelisk Height II] is constructed>",
-							"Cannot be hurried", "Can be purchased with [Gold] [in all cities]",
+							"Can be purchased with [Gold] [in all cities]",
 							
 							"Limited to [1] per Civilization <hidden from users>",
 							"Destroyed when the city is captured <hidden from users>", 
@@ -1729,7 +1729,7 @@
 				"uniques": ["Comment [Gain unobstructed vision equal to half of its range]",
 							"Only available <in cities with a [Eternal Glory Project]>",
 							"Only available <if [Focusing Crystal II] is constructed> <if [Obelisk Height II] is constructed>",
-							"Cannot be hurried", "Can be purchased with [Gold] [in all cities]",
+							"Can be purchased with [Gold] [in all cities]",
 							
 							"Limited to [1] per Civilization <hidden from users>",
 							"Destroyed when the city is captured <hidden from users>", 
@@ -1745,7 +1745,7 @@
 				"uniques": ["Comment [Attack applies [Stunned] for 1 turn	 ]",
 							"Only available <in cities with a [Eternal Glory Project]>",
 							"Only available <if [Focusing Crystal II] is constructed> <if [Obelisk Height II] is constructed>",
-							"Cannot be hurried", "Can be purchased with [Gold] [in all cities]",
+							"Can be purchased with [Gold] [in all cities]",
 							
 							"Limited to [1] per Civilization <hidden from users>",
 							"Destroyed when the city is captured <hidden from users>", 
@@ -1754,6 +1754,18 @@
 			},
 	
 	
+	/*
+		{
+			"name": "Do X",
+			"cost": 1,
+			"hurryCostModifier": -90,
+			"uniques": [
+			
+					
+					]
+		},
+		
+	*/
 	/*
 	//TEST PURPOSE
 	

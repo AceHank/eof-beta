@@ -145,8 +145,7 @@
 		"production": 2,
 		"specialistSlots": {"Alchemist": 1},
 		"hurryCostModifier": 25,
-		"percentStatBonus": {"production": 10},
-		"percentStatBonus": {"science": 10},
+		"percentStatBonus": {"production": 10, "science": 10},
 		"uniques": ["Comment [+1 Alchemist slot (+3 [Science], +6 [Great Alchemist] points)]"],
 		"requiredTech": "Metal Casting"
 	},

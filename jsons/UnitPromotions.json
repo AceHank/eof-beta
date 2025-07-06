@@ -1568,7 +1568,7 @@
 	{
 		"name": "Dimensional Prison",
 		"uniques": ["Comment [This unit is in [Dimensional Prison]. It can't be interacted in any way (except Nukes) until duration ends and take 15 damage upon turn start.]",
-		
+					
 					"IsInStasis <hidden from users>",
 					"[-1]% Strength",
 					

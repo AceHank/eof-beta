@@ -2066,8 +2066,8 @@
 					"[+70]% Strength <after discovering [Plastics]> <hidden from users>",								//60an
 					"[+70]% Strength <after discovering [Mobile Tactics]> <hidden from users>",							//78
 					
-					"[+140]% Strength <vs [City]> <hidden from users>",													//60
-					"[+480]% Strength <vs [City]> <after discovering [Rocketry]> <hidden from users>",					//180
+					"[+100]% Strength <vs [City]> <hidden from users>",													
+					"[+250]% Strength <vs [City]> <after discovering [Rocketry]> <hidden from users>",					
 					
 					"Can transform to [Clockwerk Automata (Aegis)] <for [1] movement> <hidden from users>",
 					"Can transform to [Clockwerk Automata (Hunter)] <for [1] movement> <hidden from users>",
@@ -2327,7 +2327,7 @@
 	{
 		"name": "Aurelionite Obelisk",
 		"unitType": "Archery",
-		"uniqueTo": "Aureignis Dominium",
+	//	"uniqueTo": "Aureignis Dominium",
 		"movement": 2,
 		"strength": 20,
 		"rangedStrength": 20,
@@ -2364,29 +2364,43 @@
 					"Destroys tile improvements when attacking <if [Heated Ray] is constructed> <hidden from users>",
 					
 					"Can see over obstacles <if [Arcane Eye] is constructed> <hidden from users>",	//Arcane Eye
-					"[+4] Sight <if [Arcane Eye] is constructed> <hidden from users>",
-					"[+2] Sight <if [Obelisk Height I] is constructed> <if [Arcane Eye] is constructed> <hidden from users>",
-					"[+2] Sight <if [Obelisk Height II] is constructed> <if [Arcane Eye] is constructed> <hidden from users>",
-					"[+2] Sight <if [Obelisk Height III] is constructed> <if [Arcane Eye] is constructed> <hidden from users>",
+					"[+8] Sight <if [Arcane Eye] is constructed> <hidden from users>",
+					"[+4] Sight <if [Obelisk Height I] is constructed> <if [Arcane Eye] is constructed> <hidden from users>",
+					"[+4] Sight <if [Obelisk Height II] is constructed> <if [Arcane Eye] is constructed> <hidden from users>",
+					"[+4] Sight <if [Obelisk Height III] is constructed> <if [Arcane Eye] is constructed> <hidden from users>",
 					
 					"[Target Unit] gains the [Stunned] status for [1] turn(s) <upon damaging a [All] unit> <if [Paralyzing Ray] is constructed> <hidden from users>",	//Paralyzing Ray
 					
 					//Stuffs
-					"Only available <in cities with a [Eternal Glory Project]>",
+					"Only available <in cities with a [Eternal Glory Project]> <for [Aureignis Dominium] Civilizations>",
 					"Ranged attacks may be performed over obstacles",
 					"Cannot move",
-					"Can be purchased with [Gold] [in capital] <hidden from users>",
-					"No damage penalty for wounded units <hidden from users>",
+					"Can be purchased with [Gold] [in capital]",
+					"No damage penalty for wounded units",
+					"[This Unit] gains [-60] XP",
+					"[-100]% XP gained from combat",
 					"Limited to [1] per Civilization <hidden from users>",
 					"Unbuildable <hidden from users>",
-					"[This Unit] gains [-60] XP <hidden from users>",
-					"[-100]% XP gained from combat <hidden from users>",
-					"Will not be displayed in Civilopedia <hidden from users>",
 		],
 		"promotions": ["Debuff Immune", "March"],
-		"attackSound": "crossbow",
+		"attackSound": "choir",
         "civilopediaText": [
-			{"text": ""}
+			{"text": "The ambitious project of Aureignis Dominium, an obelisk so tall that it reaches the sky above. At the peak of it, is firmly placed a charged Aurelionite crystal that may conjure ray to strike enemies."}
+			{"text": "This unit may be upgraded via buildings in Capital during a Golden Age. Those buildings will each give [Aurelionite Obelisk] different upgrades. Upgrades has prerequisite and requirements and also varying cost. You may also purchase the buildings using [Gold] to fasten it."}
+			{"text": "\nUpgrades lists and requirements:"}
+			{"text": "[Obelisk Height I]: Tech [Architecture]. +4 Range"}
+			{"text": "[Obelisk Height II]: Tech [Electricity]. Prerequisite [Obelisk Height I]. +4 Range"}
+			{"text": "[Obelisk Height III]: Tech [Nuclear Fission]. Prerequisite [Obelisk Height II]. +4 Range"}
+			{"text": "[Focusing Crystal I]: Tech [Military Science]. Attack deals 5 extra damage"}
+			{"text": "[Focusing Crystal II]: Tech [Railroads]. Prerequisite [Focusing Crystal I]. Attack deals 5 extra damage"}
+			{"text": "[Focusing Crystal III]: Tech [Rocketry]. Prerequisite [Focusing Crystal II]. Attack deals 5 extra damage\n"}
+			{"text": "All of the upgrades below require at least Tier II of both [Obelisk Height] and [Focusing Crystal]"}
+			{"text": "[Cryonite Radiator]: Tech [Refrigeration]. 1 additional attack"}
+			{"text": "[Homing Beam]: Tech [Radar]. May intercept air attacks"}
+			{"text": "[Paralyzing Ray]: Tech [Lasers]. Attack applies [Stunned] for 1 turn"}
+			{"text": "[Mindwarping Ray]: Tech [Atomic Theory]. Attack applies [Disoriented] for 1 turn"}
+			{"text": "[Heated Ray]: Tech [Combustion]. Destroys tile improvements when attacking and applies [Burning] for 2 turns"}
+			{"text": "[Arcane Eye]: Tech [Computers]. Gain unobstructed vision equal to the Obelisk's range"}
 		]
 	},
 	

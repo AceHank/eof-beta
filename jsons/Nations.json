@@ -2527,7 +2527,7 @@
 		"uniques": ["Comment [Golden Age [Production] and [Culture] bonuses are increased by 50%]",
 					"Comment [[Asha]: +10% Great Person generation in all cities, is earned upon declaring friendship for the first time]",
 					"Comment [[Mihir]: +15% Strength for all units, is earned upon declaring a defensive pact for the first time]",
-					"Comment [[Asha] and [Mihir] will be reset if this Civilization declares war with a major Civilization]",
+					"Comment [Reset [Asha] and [Mihir] if this Civilization declares war with a major Civilization]",
 					
 					"[+10]% [Culture] <during a Golden Age> <hidden from users>",
 					"[+10]% [Production] <during a Golden Age> <hidden from users>",
@@ -2754,7 +2754,7 @@
 		"innerColor": [160, 40, 40],
 		
 		"uniqueName": "Aeternus Dominus",
-		"uniques": ["Comment [May build [Aurelionite Obelisk] in Capital after discovering [Chemistry]]",
+		"uniques": ["Comment [May build [Aurelionite Obelisk] in Capital after discovering [Chemistry], upon which empire enters a Golden Age]",
 					"Comment [During Golden Age, you may upgrade the Obelisk from Capital with various enhancements]",
 					"Comment [+25% [Science] while researching [Chemistry] and all of its requirements]",
 					

@@ -665,9 +665,9 @@
         ]
 	},
 	
-	//David of Clockwerk Church
+	//David of Clockwerk Theotechnate
 	{
-		"name": "Clockwerk Church",
+		"name": "Clockwerk Theotechnate",
 		"leaderName": "David",
 		"adjective": ["Devouts"],
 		"preferredVictoryType": "Scientific",
@@ -679,7 +679,7 @@
 		"declaringWar": "Praise be the Broken God, we shall offer Thee this tribute!",
 		"attacked": ".",
 		"defeated": ".",
-		"introduction": "I am High Priest David of Clockwerk Church. Messenger of the Broken God, leader of our devouts. You shall bear witness of His maginificence.",
+		"introduction": "I am High Priest David of Clockwerk Theotechnate. Messenger of the Broken God, leader of our devouts. You shall bear witness of His maginificence.",
 		
 		"neutralHello": "Greetings, have you heard of the Broken God?",
 		"hateHello": "Clearly not a time for this.",
@@ -696,8 +696,8 @@
 		"cities": ["Anachron","Trillium","Aerodrift","Cooperwall","Automaguard","Steampoint","Neddingfall","Chronoedge","Pitchpoint","Cantmourne","Blackwatch","Glockthain",
 			"Coverdrift","Steelhollow","Ironburg","Cinderguard","Blagfort"],
 		"civilopediaText": [
-			{"text":"Clockwerk Church is a human machine cultist civilization. They worship their machine god which is now malfunctioning and they are waiting for Its return to this world. They believes in the spirit of clockwerk and gears machinery."},
-			{"text":"Clockwerk Church is a good [Faith] generating civilization with great flexibility thanks to its unique improvement."},
+			{"text":"Clockwerk Theotechnate is a human machine cultist civilization. They worship their machine god which is now malfunctioning and they are waiting for Its return to this world. They believes in the spirit of clockwerk and gears machinery."},
+			{"text":"Clockwerk Theotechnate is a good [Faith] generating civilization with great flexibility thanks to its unique improvement."},
 			{"text":"Church of Gears has a percentage bonus to [Faith] output, making it valuable in high Faith cities. Be careful not to let enemies pillage Clockwerk Temple as they provide more to the pillager."},
         ]
 	},
@@ -2310,7 +2310,7 @@
 		"innerColor": [85, 150, 60],
 
 		"uniqueName": "Sanctuary of Elune",
-		"uniques": ["Comment [Military units have 25% chance to receive [Sanctuary] for 2 turns when damaged in Friendly territory. 100% for [Wisp] and Civilian. Each unit can only receive [Sanctuary] once every 10 turns.]",
+		"uniques": ["Comment [Military units have 30% chance to receive [Sanctuary] for 2 turns when damaged in Friendly territory. 100% for [Wisp] and Civilian. Each unit can only receive [Sanctuary] once every 10 turns.]",
 					"Comment [[Wisp] may enchant a [Forest]/[Jungle]. Enemy moving into [Enchanted Forest] will be [Rooted] for 2 turns once every 6 turns.]",
 					"Comment []",
 					"Comment [[Rooted]: Can't move. Can't Melee attack.]",
@@ -2396,9 +2396,13 @@
 		"cities": ["Merkoth", "Tsabrabek","Yukasim","Lilytye","Afiq","Abytia","Zamata","Atharta","Eshmounbek","Maleka","Baionbek","Tipata",
 			"Qartha","Irqata"],
 		"civilopediaText": [
-			{"text":"."},
-			{"text":"."},
-			{"text":"."},
+			{"text":"It's been millenia since the glorious days of the original Aellenari Empire. Its ruins vanished, its knowledge lost, its name forgotten, but its Queen and those who bounded themselves to Her majesty, remain buried, undisturbed."},
+			{"text":"Until one curious Scholar of history stumbled upon one such remain, then called by the Queen herself. Her voice pierce through the realm of the dead, she shows upon the Scholar a vision of the glorius past of Her empire. And thus it's easy for him to be enthralled, not only by Her power, but the long lost knowledge of such history as well."},
+			{"text":"Guided by the Queen Keish Lightbringer, the Scholar ressurected Her, along with Her loyal servant, bound by magical oath which let them serve, even in death. The newly refound ancient Empire now seeks to restore its glory, helped by modern day cult-like followers, they aim to conquer what they lost with those willingly bound themselves to the Queen."},
+			{"text":"\nAellenari Empire is a good Scientific/Domination civilization, backed by powerful Golden Age generation, taken straight out of Songs of Conquest. Its army is always 1/3 [Undead], which makes them ignores terrain penalty and damage penalty from wounded, making them stronger than normal units. For every 10 military units lost, this civ gain a free [Undead] one, making a lost of unit less punishing."}
+			{"text":"They gain Golden Age points, scaling with the era the technology in, upon researching them. Combined with plenty of cities with its unique building, the civ can gain plenty of free [Undead] units upon entering Golden Age."},
+			{"text":"The unique building, [Aellenari Sanctum] has 2 unique specialists slot that don't generate Unhappiness (They're happy to serve!), so make sure to prioritize them over other specialists."}
+			{"text":"The [Oathbound] is a very strong Swordsman replacement with +3 Strength than normal, and its attack applies [Fatigued] which punishes enemy units when they move, good for chasing and maintaining combat."}
         ]
 	},
 	
@@ -2494,8 +2498,13 @@
 			"Chronospire", "Eternis", "Syncropolis", "Tempus Halt", "Mechus", "Chronolight"],
 		"spyNames": [ "Ironveil", "Steamhawk", "Cogwhisper", "Shadowcog", "Gearmist"],
 		"civilopediaText": [
-			{"text":"Desc"},
-			{"text":"Desc"},
+			{"text":"Zamman, the Mad Architect, was once a great Automaton engineer in Kaleeki history, a brilliant mind turned into mere gear of society, lacking of soul and purpose. In the deep ruins below the Kaleeki capital of Aeonspire, there he found an uknown device like no other, a shattered mechanism locked in time."},
+			{"text":"From it, he learned the secret of space and time. Years after years of research, exposing self to the unknowable universe, he went mad. Now he's obsessed with unlocking the secrets of time and space itself. He managed to scrape very little of the secrets this device held."},
+			{"text":"His ambition only grew worse. He made an army of automaton and take the capital of Kaleeki, along with it, he declare himself the sole ruler of Kaleeki, leading Kaleeki into an age of exploration, often with violence. Everything will be done, for his purpose to seek more of similiar device over the world."},
+			{"text":"\nThe Kaleeki is a very good mid-game Scientific/Domination civ. -5% of tech cost might seem insubstantial amount, but that adds up over the course of the game, making Kaleeki having fast research time overall."},
+			{"text":"Anytime one of its unit reaches 25 HP or below, they will heal back to full HP while being immune to enemy attack (except Nuke), guaranteeing a survival of a unit in a surprise war attack amongst other benefits. Sometimes though, it can also be a malus where instead the unit surviving with 10 HP and could run, it got surrounded because of the [Chrono Stasis] state."},
+			{"text":"Its unique unit is an expensive unit that doesn't go obsolete with tech, making sure they survive and stack their XP is of upmost priorities. They may chose between 4 protocols, each having different Strength, ability, and purpose. Make sure to read about them in the Civilopedia or try them out in battle."},
+			{"text":"Both [Temporal Reset] and the Aegis Automaton's ability, [Chrono Disruption] only has a limit of 1 at first, but they can be increased by its unique building at [Iron] and [Gold] maintenance cost."},
         ]
 	},
 	
@@ -2524,7 +2533,7 @@
 		"innerColor": [92, 0, 163],
 
 		"uniqueName": "Farr-e Dutushe",
-		"uniques": ["Comment [Golden Age [Production] and [Culture] bonuses are increased by 50%]",
+		"uniques": ["Comment [Golden Age's [Production] and [Culture] bonuses are increased by 50%]",
 					"Comment [[Asha]: +10% Great Person generation in all cities, is earned upon declaring friendship for the first time]",
 					"Comment [[Mihir]: +15% Strength for all units, is earned upon declaring a defensive pact for the first time]",
 					"Comment [Reset [Asha] and [Mihir] if this Civilization declares war with a major Civilization]",
@@ -2542,6 +2551,7 @@
 					"[+15]% Strength <with [Mihir]> <hidden from users>",
 					
 					"Provides a [Dutushe First Five] in your first [5] cities for free <hidden from users>",
+					"Provides [1] [Marker] <when at war> <hidden from users>",
 					
 					
 					],
@@ -2597,8 +2607,14 @@
 		"spyNames": ["Mirestalk","Ashwhisper","Crimson Veil","The Lurking One","Echo of Rot"],
 
 		"civilopediaText": [
-			{"text":"Desc"},
-			{"text":"Desc"},
+			{"text":"The Blight, it's what the people of its time call this sickness. A sickness of the arcane, it made any creature afflicted with it absorbs the [Mana] in the air at an abnormal rate, often exceeding their body's capabilities. When such thing occurs, the human body that can hold so little of [Mana] cannot handle the amount of [Mana] absorbed, and they die claimed by this enigma of a disease."},
+			{"text":"Some though, has plenty of [Mana] capacity, they can store huge amount of [Mana], so are spared from dying to [Mana] sickness. Their body however, cannot handle the fast rate of [Mana] absorption, begin to mutate. These kind of people are called The Blighted, as they fail to die while hosting and spreading a lethal disease. They are then shunned by the people, forced into an exile and to survive the harsh winter by their own."},
+			{"text":"One day, a great leader with the name of Baldwin led the Blighted into a miasma wasteland. They survived here where other creature rot, thanks to their mutation. This land became a Safe Haven for those struck by the Blight."},
+			{"text":"Word spread, more and more exiles seeking asylum in this country and together with them, more power. All of those here harbors resentment towards their countries, towards their own kin, and towards life itself. Their hatred, bigger, amplified by the unknown disease, is the fuel for their vengeance. They shan't shy away from sacrificing anything for their purpose."},
+			{"text":"\n[The Blighted] is a civilization with a rather unique playstyle. All of its cities have faster [Settler] production at a whopping -15% Growth rate exchange. All of their units' attack may inflict [Bleeding] and [Crippled], but all of their enemies' attack at them would do the same albeit at half the chance."},
+			{"text":"The unique building offers a trade of [Science] per 2 population with -1% Growth rate per 3. A good exchange I'd say."},
+			{"text":"The unique Great General replacement lets any non-[Scout] Military unit to be sacrificed, becoming [Blight Spores]. A suicide unit that spread damaging and Strength reducing debuff at the enemy rank. The debuff only spread at their turn start, so you can't make use of it immediately except the one you targeted the first."},
+			{"text":"This civilization is all about trading X for Y. You get more [Settler] and [Science] in for Growth, debuff-inflicting units in for debuff-inflicted units, and a sucide debuff-spreader for a unit."},
         ]
 	},
 	
@@ -2677,15 +2693,35 @@
 					"[+2 Faith] <with [SP DE]> <hidden from users>",								
 					//Uluru
 					"[+1] Movement <in [Desert] tiles> <with [U DE]> <hidden from users>",
-					"No defensive terrain penalty <with [U DE]> <hidden from users>",		
+					"No defensive terrain penalty <in [Desert] tiles> <with [U DE]> <hidden from users>",		
 					"[+2 Faith] <with [U DE]> <hidden from users>",					
 					
 					],
 		"cities": ["Binukawan", "Lumaylan", "Rajinaga", "Bakulod", "Kalamburao", "Taghalang", "Mayudhan", "Dagonoy", "Sibulanok", "Tindaya", "Gumilaon", "Malatik", "Panagbanwa", "Luyongon", "Aninaw"],
 		"spyNames": ["Silak", "Banug", "Katawa", "Talukbong", "Gahum"],
 		"civilopediaText": [
-			{"text":"Desc"},
-			{"text":"Desc"},
+			{"text":"[Divine Essence]'s lists:"},
+			{"text":"[Great Barrier Reef]: +5% Growth in all cities; +1 [Science] from [Ocean] tiles in all cities`"},
+			{"text":"[Old Faithful]: -25% Unhappiness from Specialists in all cities"},
+			{"text":"[El Dorado]: +1 [Culture] per 6 Population in all cities"},
+			{"text":"[Grand Mesa]: [Great Engineer] is earned +25% faster"},
+			{"text":"[Cerro de Potosi]: Provides 1 [Silver]"},
+			{"text":"[Krakatoa]: +15% [Science] in all cities"},
+			{"text":"[Mount Fuji]: +4 [Happiness]"},
+			{"text":"[Mount Kailash]: Gain a free Pantheon belief"},
+			{"text":"[Mount Sinai]: +25% Natural religion spread in all cities if with religion; +4 [Faith] if without religion"},
+			{"text":"[Sri Pada]: Gain 6 Golden Age points at turn end"},
+			{"text":"[Fountain of Youth]: All units heals 5 HP at turn end"},
+			{"text":"[Barringer Crater]: All units' attack deal 5 extra damage"},
+			{"text":"[Rock of Gibraltar]: All units gain +10% Strength when defending"},
+			{"text":"[Uluru]: All units ignores [Desert] penalty and +1 Movement in [Desert] tiles"},
+			{"text":"\nBakunawa Was once a goddess of the sea, punished by other gods for her greed and arrogance. She became a mere beast ever so trying to swallow the Moon..... or so the tale goes. However, such obvious propaganda doesn't work for her loyal follower. They firmly believe Bakunawa has been unjustly punished by those who's envious of her grace."},
+			{"text":"The follower would soon spread across the land, gaining influence where they able, controlling countries and cities for their cause. In the meantime, searching for her Essences which are spread across the realm by those who have wronged her. Hoping to someday return their deities in her original form and glory."},
+			{"text":"In need of manpower to fight any of those opposing their cause, they resorted to a taboo. Using such magic to control feral magical beast of the land and incorporate them to their army of vengeful loyalist."},
+			{"text":"\nThis civilization is a take from mod creator for another '[Spain]'-like playstyle. Instead of the instant huge sum of Gold and the need to settle near Natural Wonder, this civ only needs to somehow place any of its unit in the tile adjacent to Natural Wonder to gain its benefit."},
+			{"text":"Every Natural Wonder has different effect, making sure each playthrough is somewhat different than before, and such, this civ can be quite flexible in its wincon. The instant Natural Wonder reveal is also very helpful for early point of exploration."},
+			{"text":"Its unique unit [Naga] is a Pikeman replacement that doesn't need to embark on Water tile, and can fight with Water unit without the usual malus of [Water Creature] thanks to [Boarding Party I]. Its attack also applies [Disoriented], a debuff that makes Ranged unit lose 1 range and melee units to miss 50% of its attack."},
+			{"text":"[Aswang], is the Musketman replacement. This unit can heal and deal 10 extra HP/damage every 5 turns, which is quite strong albeit more expensive than generic Musketman."}
         ]
 	},
 	
@@ -2724,8 +2760,8 @@
 		"cities": ["Kasradan", "Azhraq", "Dhamr", "Qassina", "Tanmur", "Halimun", "Sufaya", "Zanqir", "Bahraja", "Jundari", "Tahrun", "Lamayah", "Mirzala", "Qudrah", "Nasaraq"],
 		"spyNames": ["Samir", "Khalid", "Zahra", "Nawfal", "Rami"]
 		"civilopediaText": [
-			{"text":"Desc"},
-			{"text":"Desc"},
+			{"text":"."},
+			{"text":"."},
         ]
 	},
 	

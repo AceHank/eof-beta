@@ -63,10 +63,10 @@
 		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	
-	//Clockwerk Church
+	//Clockwerk Theotechnate
 	{
 		"name": "Clockwerk Temple",
-		"uniqueTo": "Clockwerk Church",
+		"uniqueTo": "Clockwerk Theotechnate",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 3,
 		"science": 2,

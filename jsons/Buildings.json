@@ -143,9 +143,10 @@
 		"replaces": "Workshop",
 		"maintenance": 2,
 		"production": 2,
+		"science": 2,
 		"specialistSlots": {"Alchemist": 1},
 		"hurryCostModifier": 25,
-		"percentStatBonus": {"production": 10, "science": 10},
+		"percentStatBonus": {"production": 10},
 		"uniques": ["Comment [+1 Alchemist slot (+3 [Science], +6 [Great Alchemist] points)]"],
 		"requiredTech": "Metal Casting"
 	},
@@ -373,11 +374,11 @@
 						"Unsellable", "Will not be displayed in Civilopedia"]
 		},
 	
-	//Clockwerk Church
+	//Clockwerk Theotechnate
 	{
 		"name": "Church of Gears",
 		"replaces": "Temple",
-		"uniqueTo": "Clockwerk Church",
+		"uniqueTo": "Clockwerk Theotechnate",
 		"faith": 2,
 		"production": 1,
 		"percentStatBonus": {"faith": 10},
@@ -711,15 +712,12 @@
 		"name": "Bulwark",
 		"uniqueTo": "Lyrian Kingdom",
 		"replaces": "Walls",
-	//	"cityStrength": 5
-		"cityHealth": 150,
+		"cityStrength": 5
+		"cityHealth": 100,
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
-		"uniques": ["Destroyed when the city is captured", 
-					"[+1 Culture] <starting from the [Classical era]>", 
-					"[+1 Culture] <starting from the [Renaissance era]>", 
-					"[+1 Culture] <starting from the [Modern era]>", 
-					"[+1 Culture] <starting from the [Information era]>"],
+		"uniques": ["Destroyed when the city is captured", "Comment [+1 [Culture] every 2 era]",
+					"[+1 Culture] <for every [[Era number]/2]> <hidden from users>"],
 		"civilopediaText": [
 			{"text": "Walls so tall, so wonderful, decorated with ornaments, a beautiful protective layer for the Lyrian people."},
         ]
@@ -1474,24 +1472,24 @@
 		"uniques": ["[40]% Food is carried over after population increases [in this city]",
 					
 					"[+1 Science] per [2] population [in this city]",
-					"Comment [-1% Growth per 2 Population in this city (up to -15%)]",
+					"Comment [-1% Growth per 3 Population in this city (up to -15%)]",
 					"[+25]% [Production] [in this city] <after discovering [Electricity]>",
 					
-					"[-1]% growth [in this city] <in cities with at least [2] [Population]> <hidden from users>",
-					"[-1]% growth [in this city] <in cities with at least [4] [Population]> <hidden from users>",
+					"[-1]% growth [in this city] <in cities with at least [3] [Population]> <hidden from users>",
 					"[-1]% growth [in this city] <in cities with at least [6] [Population]> <hidden from users>",
-					"[-1]% growth [in this city] <in cities with at least [8] [Population]> <hidden from users>",
-					"[-1]% growth [in this city] <in cities with at least [10] [Population]> <hidden from users>",
+					"[-1]% growth [in this city] <in cities with at least [9] [Population]> <hidden from users>",
 					"[-1]% growth [in this city] <in cities with at least [12] [Population]> <hidden from users>",
-					"[-1]% growth [in this city] <in cities with at least [14] [Population]> <hidden from users>",
-					"[-1]% growth [in this city] <in cities with at least [16] [Population]> <hidden from users>",
+					"[-1]% growth [in this city] <in cities with at least [15] [Population]> <hidden from users>",
 					"[-1]% growth [in this city] <in cities with at least [18] [Population]> <hidden from users>",
-					"[-1]% growth [in this city] <in cities with at least [20] [Population]> <hidden from users>",
-					"[-1]% growth [in this city] <in cities with at least [22] [Population]> <hidden from users>",
+					"[-1]% growth [in this city] <in cities with at least [21] [Population]> <hidden from users>",
 					"[-1]% growth [in this city] <in cities with at least [24] [Population]> <hidden from users>",
-					"[-1]% growth [in this city] <in cities with at least [26] [Population]> <hidden from users>",
-					"[-1]% growth [in this city] <in cities with at least [28] [Population]> <hidden from users>",
+					"[-1]% growth [in this city] <in cities with at least [27] [Population]> <hidden from users>",
 					"[-1]% growth [in this city] <in cities with at least [30] [Population]> <hidden from users>",
+					"[-1]% growth [in this city] <in cities with at least [33] [Population]> <hidden from users>",
+					"[-1]% growth [in this city] <in cities with at least [36] [Population]> <hidden from users>",
+					"[-1]% growth [in this city] <in cities with at least [39] [Population]> <hidden from users>",
+					"[-1]% growth [in this city] <in cities with at least [42] [Population]> <hidden from users>",
+					"[-1]% growth [in this city] <in cities with at least [45] [Population]> <hidden from users>",
 					
 		],
 		"requiredTech": "Engineering"

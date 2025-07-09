@@ -589,6 +589,17 @@
 	
 	//Bakunawa's Chosen
 	{
+		"name": "Divine Essence",	//Icon purpose
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled", 
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
 		"name": "GBR DE",	
 		"resourceType": "Strategic",
 		"uniques": [

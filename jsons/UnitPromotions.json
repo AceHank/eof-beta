@@ -81,7 +81,7 @@
 					"[+25]% Strength <vs [Naresuan's Elephant] units>", "[+25]% Strength <vs [Tercio] units>"]
 	},
 	
-	//Clockwerk Church~~~~~~~
+	//Clockwerk Theotechnate~~~~~~~
 	{
 		"name": "Regenerative Bio-Steel",
 		"uniques": ["Comment [This Unit heals 5 HP at turn end]", "[This Unit] heals [5] HP <upon ending a turn in a [All] tile> <hidden from users>"]
@@ -186,7 +186,7 @@
 	},
 	{
 		"name": "Winds",
-		"uniques": ["Withdraws before melee combat <with [66]% chance>", "Only available <for units with [Strengths]>"],
+		"uniques": ["Withdraws before melee combat <with [50]% chance>", "Only available <for units with [Strengths]>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
         "column": 51,
         "row": 1
@@ -787,7 +787,7 @@
 		"uniques": ["[+25]% Strength", "[1] additional attacks per turn", "Can move after attacking"],
 	},
 	
-	//Clockwerk Church~~~~~~~
+	//Clockwerk Theotechnate~~~~~~~
 	{
 		"name": "Overdrive Protocol",		
 		"uniques": ["Comment [Activate to gain +35% Strength and no wounded damage penalty for 2 turns. Receive 30 damage at turn end during the duration.]", 
@@ -1057,7 +1057,7 @@
 	//High Elf Concordat~~~~~~~
 	{
 		"name": "Second Wind",
-		"uniques": ["Comment [Heals 25 HP upon reaching 25 HP or less. Can only be activated once.]",
+		"uniques": ["Comment [Heals 15 HP and gain immunity from attack until your turn upon reaching 25 HP or less. Can only be activated once.]",
 					"[This Unit] gains the [Second Wind Active] promotion <hidden from users>",
 					"[This Unit] loses the [Second Wind Active] promotion <upon losing at least [1] HP in a single attack> <when below [26] HP> <for units with [Second Wind Active]> <hidden from users>",
 					]		
@@ -1067,7 +1067,8 @@
 		"uniques": [
 					"Comment [Second Wind is available]",
 					"[+1]% Strength <hidden from users>", 
-					"[This Unit] heals [25] HP <upon losing at least [1] HP in a single attack> <when below [26] HP> <hidden from users>",
+					"[This Unit] heals [15] HP <upon losing at least [1] HP in a single attack> <when below [26] HP> <hidden from users>",
+					"[This Unit] gains the [Sanctuary] status for [1] turn(s) <upon losing at least [1] HP in a single attack> <when below [26] HP> <hidden from users>",
 					],
 	},
 	
@@ -1278,10 +1279,10 @@
 	{
 		"name": "Elune's Protection",
 		"uniques": ["Comment [This unit has gained the grace of Elune's protection]",
-					"[This Unit] gains the [Sanctuary] status for [2] turn(s) <upon losing at least [1] HP in a single attack> <with [25]% chance> <for [{non-[Wisp]} {Military}] units> <for units without [Elune's Protection Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Sanctuary] status for [2] turn(s) <upon losing at least [1] HP in a single attack> <with [30]% chance> <for [{non-[Wisp]} {Military}] units> <for units without [Elune's Protection Cooldown]> <hidden from users>",
 					"[This Unit] gains the [Sanctuary] status for [2] turn(s) <upon losing at least [1] HP in a single attack> <for [Civilian] units> <for units without [Elune's Protection Cooldown]> <hidden from users>",
 					"[This Unit] gains the [Sanctuary] status for [2] turn(s) <upon losing at least [1] HP in a single attack> <for [Wisp] units> <for units without [Elune's Protection Cooldown]> <hidden from users>",
-					"[This Unit] gains the [Elune's Protection Cooldown] status for [10] turn(s) <upon gaining the [Sanctuary] status> <hidden from users>",
+					"[This Unit] gains the [Elune's Protection Cooldown] status for [8] turn(s) <upon gaining the [Sanctuary] status> <hidden from users>",
 		]
 	},
 	{
@@ -1567,7 +1568,7 @@
 	},
 	{
 		"name": "Dimensional Prison",
-		"uniques": ["Comment [This unit is in [Dimensional Prison]. It can't be interacted in any way (except Nukes) until duration ends and take 15 damage upon turn start.]",
+		"uniques": ["Comment [This unit is in [Dimensional Prison]. It can't be interacted in any way (except Nukes) until duration ends and take 15 damage.]",
 					
 					"IsInStasis <hidden from users>",
 					"[-1]% Strength",
@@ -1610,24 +1611,16 @@
 	
 	{
 		"name": "Purity",		
-		"uniques": ["Comment [This unit has [Sanctuary] until it attacks. [Sanctuary] is regained after being outside of combat in the last 12 turns.]",
+		"uniques": ["Comment [This unit gain [Sanctuary] for 1 turn when damaged. [Sanctuary] unit cannot be attacked. Cooldown: 12 turns.]",
 					
-					"[This Unit] gains the [Dutushe Sanctuary] promotion <hidden from users>",
-					"[This Unit] gains the [Dutushe Sanctuary] promotion <upon turn end> <for units without [Purity Cooldown]> <for units without [Purity]> <hidden from users>",
+					"[This Unit] gains the [Sanctuary] status for [1] turn(s) <upon losing at least [1] HP in a single attack> <for units without [Purity Cooldown]> <hidden from users>",
 					
-					"[This Unit] gains the [Purity Cooldown] status for [12] turn(s) <upon damaging a [All] unit> <hidden from users>",
-					"[This Unit] gains the [Purity Cooldown] status for [12] turn(s) <upon losing at least [1] HP in a single attack> <hidden from users>",
+					"[This Unit] gains the [Purity Cooldown] status for [12] turn(s) <upon losing at least [1] HP in a single attack> <for units without [Purity Cooldown]> <hidden from users>",
 		]
 	},
 	{
 		"name": "Purity Cooldown",		
 		"uniques": ["Comment [Purity is on cooldown.]"]
-	},
-	{
-		"name": "Dutushe Sanctuary",	
-		"uniques": ["Comment [This unit cannot be attacked. [Sanctuary] is lost upon attacking.]", "IsSanctuary",
-					"[This Unit] loses the [Sanctuary] promotion <upon damaging a [All] unit> <hidden from users>",
-		],
 	},
 	
 	//The Blighted

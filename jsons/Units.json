@@ -586,10 +586,10 @@
         ]
 	},
 	
-	//Clockwerk Church
+	//Clockwerk Theotechnate
 	{
 		"name": "Mechanite",
-		"uniqueTo": "Clockwerk Church",
+		"uniqueTo": "Clockwerk Theotechnate",
 		"replaces": "Musketman",
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -606,7 +606,7 @@
 	},	
 	{
 		"name": "Priest of Cog",
-		"uniqueTo": "Clockwerk Church",
+		"uniqueTo": "Clockwerk Theotechnate",
 		"replaces": "Great Prophet",
 		"unitType": "Civilian",
 		"uniques": ["Can instantly construct a [Clockwerk Temple] improvement <by consuming this unit> <if it hasn't used other actions yet>", "Can Spread Religion <[4] times> <after which this unit is consumed>",
@@ -2018,7 +2018,7 @@
 		"hurryCostModifier": 50,
 		"uniques": ["Comment [Strength scales with the tech required for Gunpowder units.\nMay transform between 4 protocols: Aegis, Havoc, Hunter, and Commander with 4 turns of cooldown.\n\nAegis:]",
 					
-					"Comment [[Chrono Disruption]:\nEnemy attacking this unit enters a [Dimensional Prison] state until the end of their next turn.\nUnit in [Dimensional Prison] cannot be interacted with in any way and take 15 damage upon turn start.\nOnly one unit can be in [Dimensional Prison] state at a time per Civilization, this limit can be increased.\n\nLimited to 10 units of [Clockwerk Automata].]",
+					"Comment [[Chrono Disruption]:\nEnemy attacking this unit enters a [Dimensional Prison] state until the end of their next turn.\nUnit in [Dimensional Prison] cannot be interacted with in any way and take 15 damage.\nOnly one unit can be in [Dimensional Prison] state at a time per Civilization, this limit can be increased.\n\nLimited to 10 units of [Clockwerk Automata].]",
 					
 					"[This Unit] gains the [Chrono Disruption] status for [1] turn(s) <upon turn end> <hidden from users>",
 					
@@ -2310,7 +2310,7 @@
 		"replaces": "Musketman",
 		"unitType": "Gunpowder",
 		"movement": 2,
-		"strength": 24,
+		"strength": 28,
 		"cost": 150,
 		"uniques": [
 					"Comment [Unlocked at [Chemistry] vs [Gunpowder]]"

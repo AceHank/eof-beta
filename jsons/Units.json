@@ -40,6 +40,25 @@
 			"religiousStrength": 1000
 		},*/
 		{
+			"name": "Meo Control",
+			"unitType": "Sword",
+			"replaces": "Warrior",
+			"uniqueTo": "Aureignis Dominium",
+			"movement": 5,
+			"strength": 10,
+			"cost": 1,
+			"hurryCostModifier": -90,
+			"promotions": ["Galestorm Leap Active"],
+			"uniques": ["Ignores terrain cost", "[This Unit] gains [100] XP <upon turn end>", "May travel on Water tiles without embarking",
+						"[+5] Sight", "Can move immediately once bought", "Can see over obstacles",
+						
+						//Put test stuffs below
+						
+			],
+			"attackSound": "nonmetalhit"
+			"religiousStrength": 1000
+		},
+		{
 			"name": "Meo Attack (Ranged)",
 			"unitType": "Sword",
 			"replaces": "Warrior",

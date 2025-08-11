@@ -55,8 +55,8 @@
 						"[+5] Sight", "Can move immediately once bought", "Can see over obstacles",
 						
 						//Put test stuffs below
-						"[Target Unit] gains the [Shock I] status for [10] turn(s) <when attacking> <upon damaging a [All] unit>",
-						"[This Unit] gains the [Drill I] status for [10] turn(s) <when attacking> <upon damaging a [All] unit>",
+						"[Target Unit] gains the [Shock I] status for [10] turn(s) <when attacking> <upon entering combat>",
+						"[This Unit] gains the [Drill I] status for [10] turn(s) <when attacking> <upon entering combat>",
 						
 			],
 			"attackSound": "nonmetalhit"

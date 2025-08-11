@@ -30,7 +30,7 @@
 	//Normal and simple promotions are placed in the section below
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	
-	//Dwarven Kingdom~~~~~~~
+	//Stalwart Dwarven Kingdom~~~~~~~
 	{
 		"name": "Construct",
 		"uniques": ["[+25]% Strength <when defending>"]
@@ -842,16 +842,14 @@
 	//Harpies Tribe~~~~~~~
 	{
 		"name": "Galestorm Leap",		
-		"uniques": ["Comment [Teleport up to 5 tiles from inside friendly territory. Cooldown: 10 turns.]", 
-					"[This Unit] gains the [Galestorm Leap Active] status for [1] turn(s) <for [0] movement> <in [Friendly Land] tiles> <for units without [Galestorm Leap Cooldown]> <hidden from users>",
-					"[This Unit] gains the [Galestorm Leap Cooldown] status for [10] turn(s) <upon gaining the [Galestorm Leap Active] status> <hidden from users>", 
+		"uniques": ["Comment [Teleport up to 5 tiles away. Cooldown: 12 turns.]", 
+					"[This Unit] gains the [Galestorm Leap Active] status for [1] turn(s) <for [0] movement> <for units without [Galestorm Leap Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Galestorm Leap Cooldown] status for [12] turn(s) <upon gaining the [Galestorm Leap Active] status> <hidden from users>", 
 					]
 	},
 	{
 		"name": "Galestorm Leap Active",
-		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory"],
-		"innerColor": [0, 255, 0],
-		"outerColor": [0, 0, 0]
+		"uniques": ["May Paradrop to [Land] tiles up to [5] tiles away"],
 	},
 	{
 		"name": "Galestorm Leap Cooldown",
@@ -972,7 +970,7 @@
 	//The Amazons~~~~~~~
 	{
 		"name": "Disarming Strike",
-		"uniques": ["Comment [Attack applies [Disarmed] to target Land unit for 1 turns. [Disarmed] unit can't attack. Cooldown: 6 turns.]",
+		"uniques": ["Comment [Attack applies [Disarmed] to Land unit for 1 turns. [Disarmed] unit can't attack. Cooldown: 6 turns.]",
 					"[Target Unit] gains the [Disarmed] status for [2] turn(s) <upon damaging a [Land] unit> <for units without [Disarming Strike Cooldown]> <hidden from users>",
 					"[+1]% Strength <for units without [Disarming Strike Cooldown]> <hidden from users>",
 					"[This Unit] gains the [Disarming Strike Cooldown] status for [6] turn(s) <upon damaging a [Land] unit> <for units without [Disarming Strike Cooldown]> <hidden from users>"]
@@ -1017,7 +1015,7 @@
 	//Azaniroth's abilities
 	{
 		"name": "Hellstride",
-		"uniques": ["May Paradrop up to [8] tiles from inside friendly territory", "[1] additional attacks per turn"]
+		"uniques": ["May Paradrop to [All] tiles up to [8] tiles away", "[1] additional attacks per turn"]
 	},
 	{
 		"name": "Hellstride Cooldown",
@@ -1075,21 +1073,21 @@
 	//Pyre Clan~~~~~~~
 	{
 		"name": "Mark of Bane",
-		"uniques": ["Comment [Attack applies [Baned] to target unit for 3 turns. [Baned] unit takes 5 extra damage and deals 5 less damage.]",
+		"uniques": ["Comment [Attack applies [Baned] for 3 turns. [Baned] unit takes 5 extra damage and deals 5 less damage.]",
 					"[Target Unit] gains the [Baned] status for [4] turn(s) <upon damaging a [All] unit> <hidden from users>"]
 	},
 	
 	//Centaurian Tribe~~~~~~~
 	{
 		"name": "Stampede",
-		"uniques": ["Comment [Attack applies [Crushed] to target Land unit for 2 turns. [Crushed] unit has -15% Strength.]", 
+		"uniques": ["Comment [Attack applies [Crushed] to Land unit for 2 turns. [Crushed] unit has -15% Strength.]", 
 					"[Target Unit] gains the [Crushed] status for [3] turn(s) <upon damaging a [Land] unit> <hidden from users>"]
 	},
 	
 	//Salamander Empire~~~~~~~
 	{
 		"name": "Scorching Blow",
-		"uniques": ["Comment [Attack applies [Burning] to target Land unit for 2 turns. [Burning] unit takes 10 damage at turn end.]",
+		"uniques": ["Comment [Attack applies [Burning] to Land unit for 2 turns. [Burning] unit takes 10 damage at turn end.]",
 					"[Target Unit] gains the [Burning] status for [2] turn(s) <upon damaging a [Land] unit> <hidden from users>"]
 	},
 	
@@ -1107,28 +1105,28 @@
 	//Uldra~~~~~~~
 	{
 		"name": "Winter's Grasp",
-		"uniques": ["Comment [Attack applies [Chilled] to target unit for 2 turns. [Chilled] unit has -10% Strength and has 10% chance to be [Frozen] for 1 turn.]",
+		"uniques": ["Comment [Attack applies [Chilled] for 2 turns. [Chilled] unit has -10% Strength and has 10% chance to be [Frozen] for 1 turn.]",
 					"[Target Unit] gains the [Chilled] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>"]
 	},	
 	
 	//Leonin Kingdom~~~~~~~
 	{
 		"name": "Chain Shot",
-		"uniques": ["Comment [Attack applies [Chained] to target unit for 2 turns. [Chained] unit has its movement reduced by 3.]",
+		"uniques": ["Comment [Attack applies [Chained] for 2 turns. [Chained] unit has its movement reduced by 3.]",
 					"[Target Unit] gains the [Chained] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>"]
 	},
 	
 	//Necrontia
 	{
 		"name": "Ice Attack",
-		"uniques": ["Comment [Attack applies [Chilled] to target unit for 2 turns. [Chilled] unit has -10% Strength and has 10% chance to be [Frozen] for 1 turn.]",
+		"uniques": ["Comment [Attack applies [Chilled] for 2 turns. [Chilled] unit has -10% Strength and has 10% chance to be [Frozen] for 1 turn.]",
 					"[Target Unit] gains the [Chilled] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>"]
 	},	
 	
 	//The Walrus People~~~~~~~
 	{
 		"name": "Frostbrand",
-		"uniques": ["Comment [Attack applies [Frostbitten] to target Land unit for 2 turns. [Frostbitten] unit has -1 Movement and takes 10 damage at turn end.]",
+		"uniques": ["Comment [Attack applies [Frostbitten] to Land unit for 2 turns. [Frostbitten] unit has -1 Movement and takes 10 damage at turn end.]",
 					"[Target Unit] gains the [Frostbitten] status for [2] turn(s) <upon damaging a [Land] unit> <hidden from users>"]
 	},	
 	
@@ -1189,7 +1187,7 @@
 	},
 	{
 		"name": "Ride of the Valkyrie",
-		"uniques": ["May Paradrop up to [300] tiles from inside friendly territory", "[1] additional attacks per turn"]
+		"uniques": ["May Paradrop to [All] tiles up to [500] tiles away", "[1] additional attacks per turn"]
 	},
 	{
 		"name": "Ride of the Valkyrie Cooldown",
@@ -1874,6 +1872,23 @@
 					],
 	},
 	{
+		"name": "Brittle",
+		"uniques": [
+			"Comment [This Unit takes 15 damage upon losing at least 15 HP in a single attack, then remove this status]",
+			
+			"[This Unit] takes [15] damage <upon losing at least [15] HP in a single attack> <hidden from users>",
+			"[This Unit] loses the [Brittle] status <upon losing at least [15] HP in a single attack> <hidden from users>",
+			
+			"[-1]% Strength <hidden from users>",
+		]
+	},
+	{
+		"name": "Broken",
+		"uniques": ["No defensive terrain bonus"
+					"[-1]% Strength <hidden from users>",
+					]
+	},
+	{
 		"name": "Chained",
 		"uniques": ["[-3] Movement"
 					"[-1]% Strength <hidden from users>",
@@ -1882,8 +1897,7 @@
 	{
 		"name": "Chilled",
 		"uniques": ["[-10]% Strength", 
-					"[This Unit] gains the [Frozen] status for [2] turn(s) <upon turn start> <with [15]% chance>",
-					"[-1]% Strength <hidden from users>",
+					"[This Unit] gains the [Frozen] status for [2] turn(s) <upon turn end> <with [15]% chance>",
 					],
 	},
 	{
@@ -2025,6 +2039,8 @@
 					"[This Unit] loses the [Binded] status <upon gaining the [Binded] status> <hidden from users>",
 					"[This Unit] loses the [Bleeding] status <upon gaining the [Bleeding] status> <hidden from users>",
 					"[This Unit] loses the [Blinded] status <upon gaining the [Blinded] status> <hidden from users>",
+					"[This Unit] loses the [Brittle] status <upon gaining the [Brittle] status> <hidden from users>",
+					"[This Unit] loses the [Broken] status <upon gaining the [Broken] status> <hidden from users>",
 					"[This Unit] loses the [Chained] status <upon gaining the [Chained] status> <hidden from users>",
 					"[This Unit] loses the [Chilled] status <upon gaining the [Chilled] status> <hidden from users>",
 					"[This Unit] loses the [Crippled] status <upon gaining the [Crippled] status> <hidden from users>",
@@ -2051,6 +2067,8 @@
 					"[This Unit] loses the [Binded] status <upon gaining the [Debuff Immune] status> <hidden from users>",
 					"[This Unit] loses the [Bleeding] status <upon gaining the [Debuff Immune] status> <hidden from users>",
 					"[This Unit] loses the [Blinded] status <upon gaining the [Debuff Immune] status> <hidden from users>",
+					"[This Unit] loses the [Brittle] status <upon gaining the [Debuff Immune] status> <hidden from users>",
+					"[This Unit] loses the [Broken] status <upon gaining the [Debuff Immune] status> <hidden from users>",
 					"[This Unit] loses the [Chained] status <upon gaining the [Debuff Immune] status> <hidden from users>",
 					"[This Unit] loses the [Chilled] status <upon gaining the [Debuff Immune] status> <hidden from users>",
 					"[This Unit] loses the [Crippled] status <upon gaining the [Debuff Immune] status> <hidden from users>",

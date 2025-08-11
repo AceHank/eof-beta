@@ -164,10 +164,9 @@
 					"Tile provides yield without assigned population",
 					"Improves [Luxury] resource in this tile",
 					"[+1 Science] <within [1] tiles of a [Manawell]>",
-					"[+1 Culture] <starting from the [Classical era]>",
-					"[+1 Culture] <starting from the [Renaissance era]>",
-					"[+1 Culture] <starting from the [Modern era]>",
-					"[+1 Culture] <starting from the [Information era]>"],
+					"Comment [+1 [Culture] every 2 eras]",
+					"[+1 Culture] <for every [[Era number]/2]> <hidden from users>"
+					],
 		"civilopediaText": [
 			{"text": "Manawell is a magical and spiritual energy pathway that runs through the earth. If we can find them, we can harness their energy for our cause."},
         ]
@@ -241,6 +240,14 @@
             "[+2 Science] <after discovering [Atomic Theory]>", "Removes removable features when built",
             "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+25 Gold]"
 			]
+	},
+	
+	//Basalt Remainers
+	{
+		"name": "Remove Lava",
+		"turnsToBuild": 1,
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"shortcutKey": "X"
 	},
 	
 ]

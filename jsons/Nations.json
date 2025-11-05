@@ -2902,12 +2902,13 @@
 		"uniqueName": "Gilded Vault of Balgrim",
 		"uniques": [
 					"Comment [-5% Unhappiness from Population in cities with [Wine]]",
-					"Comment [May buy National Wonder with [Gold] for 3 times their normal [Production] cost, bypassing its building requirements]",
+					"Comment [May buy National Wonder with 1000 [Gold] at an increasing price (500), bypassing its building requirements]",
 					"[+3 Culture] from [Customs house] tiles [in all cities]",
+					"[+1000 Gold] [in capital]",
 					
 					//Mechanism
-					"May buy [BuyNatWonder] buildings with [Gold] [in all cities] <hidden from users>",
-					"[Gold] cost of purchasing [BuyNatWonder] buildings [+200]% <hidden from users>",
+					"May buy [BuyNatWonder] buildings for [1000] [Gold] [in all cities] at an increasing price ([500]) <hidden from users>",
+					"May buy [Walls] buildings for [1000] [Gold] [in all cities] at an increasing price ([500]) <hidden from users>",
 					"Dwarven Nation <hidden from users>",
 					
 					],

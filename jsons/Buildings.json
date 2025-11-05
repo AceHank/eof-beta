@@ -1782,10 +1782,10 @@
 		"cost": 125,
 		"uniques": ["Comment [Instantly purchase [Circus Maximus] with [Gold]]",
 					"Gain a free [Circus Maximus] [in this city] <hidden from users>",
-					"Unbuildable", "BuyNatWonder <hidden from users>", 
-					"Will not be displayed in Civilopedia",
+					"Unbuildable", "BuyNatWonder <hidden from users>",
+					"Will not be displayed in Civilopedia", "Unsellable",
 					
-					"Only available <in cities without a [Circus Maximus]>", "Cost increases by [30] per owned city",
+					"Only available <if [Circus Maximus] is not constructed>", "Cost increases by [30] per owned city",
 					
 					],
 		"requiredTech": "Horseback Riding"
@@ -1797,9 +1797,9 @@
 		"uniques": ["Comment [Instantly purchase [National College] with [Gold]]",
 					"Gain a free [National College] [in this city] <hidden from users>",
 					"Unbuildable", "BuyNatWonder <hidden from users>",
-					"Will not be displayed in Civilopedia",
+					"Will not be displayed in Civilopedia", "Unsellable",
 					
-					"Only available <in cities without a [National College]> <hidden from users>", "Cost increases by [30] per owned city",
+					"Only available <if [National College] is not constructed> <hidden from users>", "Cost increases by [30] per owned city",
 					
 					
 		],
@@ -1813,9 +1813,9 @@
 		"uniques": ["Comment [Instantly purchase [National Epic] with [Gold]]",
 					"Gain a free [National Epic] [in this city] <hidden from users>",
 					"Unbuildable", "BuyNatWonder <hidden from users>",
-					"Will not be displayed in Civilopedia",
+					"Will not be displayed in Civilopedia", "Unsellable",
 		
-					"Only available <in cities without a [National Epic]> <hidden from users>",	"Cost increases by [30] per owned city",
+					"Only available <if [National Epic] is not constructed> <hidden from users>",	"Cost increases by [30] per owned city",
 		],
 		"requiredTech": "Drama and Poetry"
 	},
@@ -1827,9 +1827,9 @@
 		"uniques": ["Comment [Instantly purchase [Heroic Epic] with [Gold]]",
 					"Gain a free [Heroic Epic] [in this city] <hidden from users>",
 					"Unbuildable", "BuyNatWonder <hidden from users>",
-					"Will not be displayed in Civilopedia",
+					"Will not be displayed in Civilopedia", "Unsellable",
 		
-					"Only available <in cities without a [Heroic Epic]> <hidden from users>", "Cost increases by [30] per owned city",
+					"Only available <if [Heroic Epic] is not constructed> <hidden from users>", "Cost increases by [30] per owned city",
 		],
 		"requiredTech": "Iron Working"
 	},
@@ -1841,7 +1841,7 @@
 		"uniques": ["Comment [Instantly purchase [Grand Temple] with [Gold]]",
 					"Gain a free [Grand Temple] [in this city] <hidden from users>",
 					"Unbuildable", "BuyNatWonder <hidden from users>",
-					"Will not be displayed in Civilopedia",
+					"Will not be displayed in Civilopedia", "Unsellable",
 		
 					"Only available <in cities without a [Grand Temple]> <hidden from users>", "Cost increases by [30] per owned city",
 		],
@@ -1855,9 +1855,9 @@
 		"uniques": ["Comment [Instantly purchase [National Treasury] with [Gold]]",
 					"Gain a free [National Treasury] [in this city] <hidden from users>",
 					"Unbuildable", "BuyNatWonder <hidden from users>",
-					"Will not be displayed in Civilopedia",
+					"Will not be displayed in Civilopedia", "Unsellable",
 		
-					"Only available <in cities without a [National Treasury]> <hidden from users>", "Cost increases by [30] per owned city",
+					"Only available <if [National Treasury] is not constructed> <hidden from users>", "Cost increases by [30] per owned city",
 		],
 		"requiredTech": "Guilds"
 	},
@@ -1869,9 +1869,9 @@
 		"uniques": ["Comment [Instantly purchase [Oxford University] with [Gold]]",
 					"Gain a free [Oxford University] [in this city] <hidden from users>",
 					"Unbuildable", "BuyNatWonder <hidden from users>",
-					"Will not be displayed in Civilopedia",
+					"Will not be displayed in Civilopedia", "Unsellable",
 		
-					"Only available <in cities without a [Oxford University]> <hidden from users>", "Cost increases by [30] per owned city",
+					"Only available <if [Oxford University] is not constructed> <hidden from users>", "Cost increases by [30] per owned city",
 		],
 		"requiredTech": "Education"
 	},
@@ -1883,9 +1883,9 @@
 		"uniques": ["Comment [Instantly purchase [Ironworks] with [Gold]]",
 					"Gain a free [Ironworks] [in this city] <hidden from users>",
 					"Unbuildable", "BuyNatWonder <hidden from users>",
-					"Will not be displayed in Civilopedia",
+					"Will not be displayed in Civilopedia", "Unsellable",
 		
-					"Only available <in cities without a [Ironworks]> <hidden from users>", "Cost increases by [30] per owned city",
+					"Only available <if [Ironworks] is not constructed> <hidden from users>", "Cost increases by [30] per owned city",
 		],
 		"requiredTech": "Machinery"
 	},
@@ -1897,9 +1897,9 @@
 		"uniques": ["Comment [Instantly purchase [Hermitage] with [Gold]]",
 					"Gain a free [Hermitage] [in this city] <hidden from users>",
 					"Unbuildable", "BuyNatWonder <hidden from users>",
-					"Will not be displayed in Civilopedia",
+					"Will not be displayed in Civilopedia", "Unsellable",
 		
-					"Only available <in cities without a [Hermitage]> <hidden from users>", "Cost increases by [30] per owned city",
+					"Only available <if [Hermitage] is not constructed> <hidden from users>", "Cost increases by [30] per owned city",
 		],
 		"requiredTech": "Architecture"
 	},
@@ -1911,9 +1911,9 @@
 		"uniques": ["Comment [Instantly purchase [National Intelligence Agency] with [Gold]]",
 					"Gain a free [National Intelligence Agency] [in this city] <hidden from users>",
 					"Unbuildable", "BuyNatWonder <hidden from users>",
-					"Will not be displayed in Civilopedia",
+					"Will not be displayed in Civilopedia", "Unsellable",
 		
-					"Only available <in cities without a [National Intelligence Agency]> <hidden from users>", "Cost increases by [30] per owned city",
+					"Only available <if [National Intelligence Agency] is not constructed> <hidden from users>", "Cost increases by [30] per owned city",
 		],
 		"requiredTech": "Radio"
 	},

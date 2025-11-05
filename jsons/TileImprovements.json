@@ -9,6 +9,24 @@
 					"Tile provides yield without assigned population <for [Basalt Remainers] Civilizations>"],
         "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
 	},
+	{
+		"name": "City center",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Ensures a minimum tile yield of [+2 Food, +1 Production]",
+            "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor",
+			
+			//Mechanism
+			//Thanatos Imperium Black Citadel
+            "BlackCitadel <in cities with a [Black Citadel]> <hidden from users>",
+			//Just War fix compa
+            "JW Terrain <in cities with a [JW Belief] religion> <hidden from users>",
+			
+			],
+        "civilopediaText": [
+			{"text":"Marks the center of a city"},
+			{"text":"Appearance changes with the technological era of the owning civilization"}
+		]
+	},
 	
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~OVERWRITES PURPOSE ENDS HERE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	
@@ -113,7 +131,7 @@
 		"uniques": ["[+1 Production] <after discovering [Chemistry]>",  
 					"Pillaging this improvement yields approximately [+20 Gold]",
 					"Will not be displayed in Civilopedia", 
-					"Cannot be built on [{non-[Resource]} {non-[Hill]}] tiles",
+					"Cannot be built on [{non-[resource]} {non-[Hill]}] tiles",
 					],
 		"shortcutKey": "M"
 	},
@@ -250,4 +268,58 @@
 		"shortcutKey": "X"
 	},
 	
+	//Shield Dwarven Kingdom
+	{
+		"name": "Dwarven Mine",
+		"uniqueTo": "Shield Dwarven Kingdom",
+		"replaces": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Mining",
+		"uniques": [
+			"Provides [1] [City-level Counter] <in [Iron] tiles> <hidden from users>", 
+			"Provides [1] [City-level Counter] <in [Coal] tiles> <hidden from users>", 
+			"Provides [1] [City-level Counter] <in [Aluminum] tiles> <hidden from users>", 
+			"Provides [1] [City-level Counter] <in [Uranium] tiles> <hidden from users>", 
+			"Provides [1] [City-level Counter] <in [Gems] tiles> <hidden from users>", 
+			"Provides [1] [City-level Counter] <in [Gold Ore] tiles> <hidden from users>", 
+			"Provides [1] [City-level Counter] <in [Silver] tiles> <hidden from users>", 
+			"Provides [1] [City-level Counter] <in [Copper] tiles> <hidden from users>", 
+			"Provides [1] [City-level Counter] <in [Salt] tiles> <hidden from users>", 
+			
+			"Will not be displayed in Civilopedia",
+			"[+1 Production] <after discovering [Chemistry]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Dwarven Quarry",
+		"uniqueTo": "Shield Dwarven Kingdom",
+		"replaces": "Quarry",
+		"turnsToBuild": 8,
+		"techRequired": "Masonry",
+		"uniques": [
+			"Provides [1] [City-level Counter] <in [Stone] tiles> <hidden from users>", 
+			"Provides [1] [City-level Counter] <in [Marble] tiles> <hidden from users>", 
+			
+			"Will not be displayed in Civilopedia",
+			"[+1 Production] <after discovering [Chemistry]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "Q"
+	},
+	
+	//Test
+	/*
+	{
+		"name": "Test UI",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 1,
+		"uniques": [
+					"Provides [1] [Counter Something]",
+					"Turn this tile into a [Snow] tile <upon turn end> <when above [2] [Counter Something]>",
+					"Instantly gain [-3] [Counter Something] <upon turn end> <when above [2] [Counter Something]>",
+					"Remove [Test UI] improvements from this tile <upon turn start> <in [Snow] tiles>",
+		],
+		"shortcutKey": "M"
+	},
+	*/
 ]

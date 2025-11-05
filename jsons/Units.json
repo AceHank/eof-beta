@@ -1,16 +1,16 @@
 [	
 	
 	//Test Purpose
-		/*{
+		{
 			"name": "Meo",
 			"unitType": "Sword",
 			"replaces": "Warrior",
 			"uniqueTo": "Celestial Beings",
-			"movement": 1,
+			"movement": 5,
 			"strength": 10,
 			"cost": 1,
 			"hurryCostModifier": -90,
-			"promotions": ["Galestorm Leap Active"],
+			"promotions": ["Sturdy"],
 			"uniques": ["Ignores terrain cost", "[This Unit] gains [100] XP <upon turn end>", "May travel on Water tiles without embarking",
 						"[+5] Sight", "Can move immediately once bought", "Can see over obstacles",
 						
@@ -29,101 +29,24 @@
 			"strength": 10,
 			"cost": 1,
 			"hurryCostModifier": -90,
-			"promotions": ["Sturdy"],
+			"promotions": ["Disturbing Presence"],
 			"uniques": ["Ignores terrain cost", "[This Unit] gains [100] XP <upon turn end>", "May travel on Water tiles without embarking",
 						"[+5] Sight", "Can move immediately once bought", "Can see over obstacles",
 						
 						//Put test stuffs below
-						
-			],
-			"attackSound": "nonmetalhit"
-			"religiousStrength": 1000
-		},*/
-		{
-			"name": "Meo Control",
-			"unitType": "Sword",
-			"replaces": "Warrior",
-			"uniqueTo": "Aureignis Dominium",
-			"movement": 5,
-			"strength": 10,
-			"cost": 1,
-			"hurryCostModifier": -90,
-			"promotions": ["Galestorm Leap Active"],
-			"uniques": ["Ignores terrain cost", "[This Unit] gains [100] XP <upon turn end>", "May travel on Water tiles without embarking",
-						"[+5] Sight", "Can move immediately once bought", "Can see over obstacles",
-						
-						//Put test stuffs below
+					
+					"[+100]% Strength <during the [Classical era]> <hidden from users>",						//10
+					"[+200]% Strength <during the [Medieval era]> <hidden from users>",							//15
+					"[+300]% Strength <during the [Renaissance era]> <hidden from users>",						//20
+					"[+400]% Strength <during the [Industrial era]> <hidden from users>",						//25
+					"[+600]% Strength <during the [Modern era]> <hidden from users>",							//35
+					"[+900]% Strength <during the [Atomic era]> <hidden from users>",							//50
+					"[+1400]% Strength <starting from the [Information era]> <hidden from users>",				//70
 						
 			],
 			"attackSound": "nonmetalhit"
 			"religiousStrength": 1000
 		},
-		{
-			"name": "Meo Attack (Ranged)",
-			"unitType": "Sword",
-			"replaces": "Warrior",
-			"uniqueTo": "Celestial Beings",
-			"movement": 5,
-			"strength": 10,
-			"rangedStrength": 10,
-			"range": 2,
-			"cost": 1,
-			"hurryCostModifier": -90,
-			"promotions": ["Galestorm Leap Active"],
-			"uniques": ["Ignores terrain cost", "[This Unit] gains [100] XP <upon turn end>", "May travel on Water tiles without embarking",
-						"[+5] Sight", "Can move immediately once bought", "Can see over obstacles",
-						
-						//Put test stuffs below
-						"[Target Unit] gains the [Shock I] status for [10] turn(s) <when attacking> <upon entering combat>",
-						"[This Unit] gains the [Drill I] status for [10] turn(s) <when attacking> <upon entering combat>",
-						
-			],
-			"attackSound": "nonmetalhit"
-			"religiousStrength": 1000
-		},
-		{
-			"name": "Meo Defend (Melee)",
-			"unitType": "Sword",
-			"replaces": "Warrior",
-			"uniqueTo": "Drow Village",
-			"movement": 5,
-			"strength": 10,
-			"cost": 1,
-			"hurryCostModifier": -90,
-			"promotions": ["Sturdy"],
-			"uniques": ["Ignores terrain cost", "[This Unit] gains [100] XP <upon turn end>", "May travel on Water tiles without embarking",
-						"[+5] Sight", "Can move immediately once bought", "Can see over obstacles",
-						
-						//Put test stuffs below
-						"[Target Unit] gains the [Shock I] status for [10] turn(s) <when defending> <upon entering combat>",
-						"[This Unit] gains the [Drill I] status for [10] turn(s) <when defending> <upon entering combat>",
-						
-			],
-			"attackSound": "nonmetalhit"
-			"religiousStrength": 1000
-		},
-		{
-			"name": "Meo Versus",
-			"unitType": "Sword",
-			"replaces": "Warrior",
-			"uniqueTo": "Basalt Remainers",
-			"movement": 5,
-			"strength": 10,
-			"cost": 1,
-			"hurryCostModifier": -90,
-			"promotions": ["Sturdy"],
-			"uniques": ["Ignores terrain cost", "[This Unit] gains [100] XP <upon turn end>", "May travel on Water tiles without embarking",
-						"[+5] Sight", "Can move immediately once bought", "Can see over obstacles",
-						
-						//Put test stuffs below
-						"[Target Unit] gains the [Shock I] status for [10] turn(s) <upon entering combat> <vs [Melee] units>",
-						"[This Unit] gains the [Drill I] status for [10] turn(s) <upon entering combat> <vs [Melee] units>",
-						
-			],
-			"attackSound": "nonmetalhit"
-			"religiousStrength": 1000
-		},
-	
 		
 	//OVERWRITES STUFF
 	{
@@ -1371,7 +1294,7 @@
 					"Comment [Gain 1 [Mana] at turn end and upon defeating a non-Barbarian unit (up to 100 [Mana])\n]",
 					
 					//Abilities	
-					"Comment [[Hellstride]: Teleport up to 8 tiles away. Cost: 10 [Mana]. Cooldown: 8 turns.]", 
+					"Comment [[Hellstride]: Teleport up to 8 tiles away. Only useable as first action. Cost: 10 [Mana]. Cooldown: 8 turns.]", 
 					"Comment [[Infernal Regeneration]: Instantly heals 50 HP. Cost: 15 [Mana]. Cooldown: 10 turns.]",
 					"Comment [[Negative Energy Touch]: Until the start of your next turn, attack deals extra 30 damage for this turn and applies [Withered] for 1 turns. Cost: 15 [Mana]. Cooldown: 5 turns.]",
 					"Comment [[True Demon Form]: Heals 15 HP at turn end. All damage is increased by 15. +1 Movement and gain Flying. All other abilities cost 0 [Mana]. Duration: 3 turns. Cost: 99 [Mana].]",	
@@ -1682,7 +1605,7 @@
 					"Comment [[Indomitable]: Gain Immunity from all negative statuses. Cost: 100 [Faith]]", 
 					"Comment [[Aura of Valour]: +15% Strength for adjacent units, stacks with Great General. Cost: 150 [Faith]]",
 					"Comment [[Call of Valhalla]: Summon 2 extra [Valkyrie]s for 3 turns. Cost: 300 [Faith]]",
-					"Comment [[Ride of the Valkyrie]: Teleport anywhere on the map. Cost: 50 [Faith]. Cooldown: 5 turns.]",	
+					"Comment [[Ride of the Valkyrie]: Teleport anywhere on the map. Only useable as first action. Cost: 50 [Faith]. Cooldown: 5 turns.]",	
 					
 					//Abilities
 					//Indomitable
@@ -1855,6 +1778,15 @@
 					"[+600]% Strength <during the [Modern era]> <hidden from users>",							//35
 					"[+900]% Strength <during the [Atomic era]> <hidden from users>",							//50
 					"[+1400]% Strength <starting from the [Information era]> <hidden from users>",				//70
+					
+					//Balancer
+					"[-100]% Strength <before discovering [Agriculture]> <hidden from users>",					
+					"[-200]% Strength <before discovering [Agriculture]> <hidden from users>",					
+					"[-300]% Strength <before discovering [Agriculture]> <hidden from users>",					
+					"[-400]% Strength <before discovering [Agriculture]> <hidden from users>",					
+					"[-600]% Strength <before discovering [Agriculture]> <hidden from users>",					
+					"[-900]% Strength <before discovering [Agriculture]> <hidden from users>",					
+					"[-1400]% Strength <before discovering [Agriculture]> <hidden from users>",				
 					
 					"[This Unit] gains the [Cooldown] status for [3] turn(s) <hidden from users>",
 					"[Target Unit] takes [30] damage <upon damaging a [All] unit> <for units without [Cooldown]> <hidden from users>",
@@ -2472,6 +2404,100 @@
 			{"text": "[Heated Ray]: Tech [Combustion]. Destroys tile improvements when attacking and applies [Burning] for 2 turns"}
 			{"text": "[Arcane Eye]: Tech [Computers]. Gain unobstructed vision equal to the Obelisk's range"}
 		]
+	},
+	
+	//Shield Dwarven Kingdom
+	{
+		"name": "Hammerguard",
+		"uniqueTo": "Shield Dwarven Kingdom",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 85,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"promotions": ["Bonebreaker", "Heavily Armored"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Bear Cavalier",
+		"uniqueTo": "Shield Dwarven Kingdom",
+		"replaces": "Cavalry",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 37,
+		"cost": 245,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Horses",
+		"upgradesTo": "Landship",
+		"promotions": ["Sturdy", "Charger"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
+	
+	//Gold Dwarven Collective
+	{
+		"name": "Custodian",
+		"uniqueTo": "Gold Dwarven Collective",
+		"replaces": "Lancer",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 28,
+		"cost": 200,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
+		"promotions": ["Formation I", "Caravan Escort"],
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"attackSound": "horse"
+	},
+	{
+		"name": "Gilded Envoy",
+		"uniqueTo": "Gold Dwarven Collective",
+		"replaces": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": [
+			"Comment [Can undertake a trade mission with City-State, giving a large sum of gold and [25] Influence. Increasing by 5 Influence per era.]",
+			"Comment [Gaining [Gilded Envoy] doesn't increase the cost of other Great Person]",
+			
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence <during the [Ancient era]> <hidden from users>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [35] Influence <during the [Classical era]> <hidden from users>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [40] Influence <during the [Medieval era]> <hidden from users>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [45] Influence <during the [Renaissance era]> <hidden from users>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [50] Influence <during the [Industrial era]> <hidden from users>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [55] Influence <during the [Modern era]> <hidden from users>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence <during the [Atomic era]> <hidden from users>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [65] Influence <during the [Information era]> <hidden from users>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [70] Influence <during the [Future era]> <hidden from users>",
+			
+            "Can instantly construct a [Customs house] improvement <by consuming this unit>",
+            "Is part of Great Person group [Dwarven Merchant] <hidden from users>",
+			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	
+	//Thanatos Imperium
+	{
+		"name": "Dreadguard",
+		"uniqueTo": "Thanatos Imperium",
+		"replaces": "Knight",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 21,
+		"cost": 140,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"promotions": ["Disturbing Presence"]
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
 	},
 	
 ]

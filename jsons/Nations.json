@@ -25,13 +25,13 @@
 		"outerColor": [35, 50, 116]
 		"innerColor": [194, 194, 194],
 		"uniqueName": "Higba's Ingenuity",
-		"uniques": ["Comment [+1 [Production] every 2 eras for cities settled on [Hill]]",
-					"Comment [+1 [Science] and +1 [Production] in all cities for every Golden Ages achieved]",
+		"uniques": [
 					"Comment [-5% Unhappiness from Population in cities with [Wine]]",
+					"Comment [+1 [Production] every 2 eras for cities settled on [Hill]]",
+					"Comment [+5% [Science] in all cities for every Golden Ages achieved]",
 					
 					"Instantly provides [1] [GA Counter] <upon entering a Golden Age> <hidden from users>",
-					"[+1 Science] [in all cities] <for every [GA Counter]> <hidden from users>",
-					"[+1 Production] [in all cities] <for every [GA Counter]> <hidden from users>",
+					"[+5]% [Science] [in all cities] <for every [GA Counter]> <hidden from users>",
 					"[+1 Production] in cities on [Hill] tiles <starting from the [Classical era]> <hidden from users>",
 					"[+1 Production] in cities on [Hill] tiles <starting from the [Renaissance era]> <hidden from users>",
 					"[+1 Production] in cities on [Hill] tiles <starting from the [Modern era]> <hidden from users>",
@@ -114,7 +114,9 @@
 		"outerColor": [24,114,40],
 		"uniqueName": "Endless Horde",
 		"uniques": ["[+15]% Production when constructing [{Military} {Land}] units [in all cities] <in cities with a [Barracks]>",
-					"[+25]% to Flank Attack bonuses"], 
+					"[+25]% to Flank Attack bonuses",
+					"Comment [All units heal 3 HP upon turn end]",
+					], 
 		"cities": ["Gholug","Xruul","Tagdud","Mazoga","Uloth","Shelur","Lambug","Gashnakh","Borgakh","Rogmesh","Bugdurash","Shagar",
 			"Nargol","Yotul","Homraz","Gonk","Mor"],
 		"civilopediaText": [
@@ -1796,15 +1798,15 @@
 		"uniques": [
 					"Comment [Empire enters a 4-turn Golden Age and receive a free strongest available Melee unit upon declaring war with a major Civilization]",
 		
-					"Empire enters a [4]-turn Golden Age <upon declaring war with a major Civilization> <hidden from users>",
-					"Free [Warrior] appears <before discovering [Iron Working]> <upon declaring war with a major Civilization> <hidden from users>", 
-					"Free [Swordsman] appears <after discovering [Iron Working]> <before discovering [Steel]> <upon declaring war with a major Civilization> <hidden from users>",
-					"Free [Longswordsman] appears <after discovering [Steel]> <before discovering [Gunpowder]> <upon declaring war with a major Civilization> <hidden from users>",
-					"Free [Musketman] appears <after discovering [Gunpowder]> <before discovering [Rifling]> <upon declaring war with a major Civilization> <hidden from users>",
-					"Free [Rifleman] appears <after discovering [Rifling]> <before discovering [Replaceable Parts]> <upon declaring war with a major Civilization> <hidden from users>",
-					"Free [Great War Infantry] appears <after discovering [Replaceable Parts]> <before discovering [Plastics]> <upon declaring war with a major Civilization> <hidden from users>",
-					"Free [Infantry] appears <after discovering [Plastics]> <before discovering [Mobile Tactics]> <upon declaring war with a major Civilization> <hidden from users>",
-					"Free [Mechanized Infantry] appears <after discovering [Mobile Tactics]> <upon declaring war with a major Civilization> <hidden from users>",
+					"Empire enters a [4]-turn Golden Age <upon declaring war on [Major] Civilizations> <hidden from users>",
+					"Free [Warrior] appears <before discovering [Iron Working]> <upon declaring war on [Major] Civilizations> <hidden from users>", 
+					"Free [Swordsman] appears <after discovering [Iron Working]> <before discovering [Steel]> <upon declaring war on [Major] Civilizations> <hidden from users>",
+					"Free [Longswordsman] appears <after discovering [Steel]> <before discovering [Gunpowder]> <upon declaring war on [Major] Civilizations> <hidden from users>",
+					"Free [Musketman] appears <after discovering [Gunpowder]> <before discovering [Rifling]> <upon declaring war on [Major] Civilizations> <hidden from users>",
+					"Free [Rifleman] appears <after discovering [Rifling]> <before discovering [Replaceable Parts]> <upon declaring war on [Major] Civilizations> <hidden from users>",
+					"Free [Great War Infantry] appears <after discovering [Replaceable Parts]> <before discovering [Plastics]> <upon declaring war on [Major] Civilizations> <hidden from users>",
+					"Free [Infantry] appears <after discovering [Plastics]> <before discovering [Mobile Tactics]> <upon declaring war on [Major] Civilizations> <hidden from users>",
+					"Free [Mechanized Infantry] appears <after discovering [Mobile Tactics]> <upon declaring war on [Major] Civilizations> <hidden from users>",
 					],
 		"cities": ["Krohir","Thrurr","Miarguargg","Kur","Boznorr","Rixyr","Krigreh","Gohrua","Thraht","Szorr","Tagler",
 			"Kyngrath","Aagurr"],
@@ -2550,8 +2552,8 @@
 					"Instantly gain [1] [Asha] <upon declaring friendship> <without [Asha]> <hidden from users>",
 					"Instantly gain [1] [Mihir] <upon declaring a defensive pact> <without [Mihir]> <hidden from users>",
 					
-					"Instantly gain [-1] [Asha] <upon declaring war with a major Civilization> <with [Asha]> <hidden from users>",
-					"Instantly gain [-1] [Mihir] <upon declaring war with a major Civilization> <with [Mihir]> <hidden from users>",
+					"Instantly gain [-1] [Asha] <upon declaring war on [Major] Civilizations> <with [Asha]> <hidden from users>",
+					"Instantly gain [-1] [Mihir] <upon declaring war on [Major] Civilizations> <with [Mihir]> <hidden from users>",
 					
 					"[+10]% Great Person generation [in all cities] <with [Asha]> <hidden from users>",
 					"[+15]% Strength <with [Mihir]> <hidden from users>",
@@ -2825,6 +2827,138 @@
         ]
 	},
 	
+	//Birundar IV of Shield Dwarven Kingdom
+	{
+		"name": "Shield Dwarven Kingdom",
+		"leaderName": "Birundar IV",
+		"adjective": ["Shield Dwarven"],
+		"startBias": ["Mountain"],
+	//	"preferredVictoryType": "Domination",
+	//	"personality": "",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [60, 70, 80],
+		"innerColor": [180, 180, 190],
+
+		"uniqueName": "Of Anvil and Hammer",
+		"uniques": [
+					"Comment [-5% Unhappiness from Population in cities with [Wine]]",
+					"[+1 Production] from all [Forge] buildings",
+					"Comment [Gain a free secondary [Forge] in cities with at least 3 resources improved with [Mine] and/or [Quarry]]",
+					"Comment [Units trained in cities with two [Forge] gain the [Runic Armament] promotion]",
+					"Comment [\n[Runic Armament]: \nDoubles the combat bonus from [Great General]]",
+					
+					//Mechanism
+					"[All] units gain the [Runic Armament] promotion <in cities with a [Forge]> <in cities with a [Dwarven Forge]> <hidden from users>",
+					"[Great General] units gain the [Runic Armament] promotion <hidden from users>",
+					"[+1 Science] from all [Dwarven Forge] buildings <hidden from users>",
+					
+					"Dwarven Nation <hidden from users>",
+					
+					],
+		"cities": ["Hammerfast", "Khazdrum", "Stonegate", "Boulderhall", "Grimforge", "Anvildeep", "Durakhelm", "Ironvein", "Thaldur’s Hold", "Orecrest", "Deephearth", "Mithrak Hall", "Bastionhold", "Granitehome", "Karn Dûm"],
+		"spyNames": ["Grimni", "Brokir", "Durin", "Thrain", "Modri"],
+		"civilopediaText": [
+			{"text":"Desc"},
+			{"text":"Desc"},
+        ]
+	},
+	
+	//Thaldor Goldvein of Gold Dwarven Collective
+	{
+		"name": "Gold Dwarven Collective",
+		"leaderName": "Thaldor Goldvein",
+		"adjective": ["Gold Dwarven"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Diplomatic",
+	//	"personality": "",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",	
+		
+		"outerColor": [120, 100, 40],
+		"innerColor": [230, 200, 80],
+
+		"uniqueName": "Gilded Vault of Balgrim",
+		"uniques": [
+					"Comment [-5% Unhappiness from Population in cities with [Wine]]",
+					"Comment [May buy National Wonder with [Gold] for 3 times their normal [Production] cost, bypassing its building requirements]",
+					"[+3 Culture] from [Customs house] tiles [in all cities]",
+					
+					//Mechanism
+					"May buy [BuyNatWonder] buildings with [Gold] [in all cities] <hidden from users>",
+					"[Gold] cost of purchasing [BuyNatWonder] buildings [+200]% <hidden from users>",
+					"Dwarven Nation <hidden from users>",
+					
+					],
+		"cities": ["Balgrim's Hold", "Gildenspire", "Thaldor's Vault", "Coinreach", "Aurholm", "Barterdeep", "Silvervein", "Kazad Auric", "Prosperhall", "Gemforge", "Tradebar", "Vaultheim", "Goldenmead", "Mintgate", "Auricspire"],
+		"spyNames": ["Broker", "Appraiser", "Coinshadow", "Assayer", "Exchanger"],
+		"civilopediaText": [
+			{"text":"Desc"},
+			{"text":"Desc"},
+        ]
+	},
+	
+	//Mordraugr of Thanatos Imperium
+	{
+		"name": "Thanatos Imperium",
+		"leaderName": "Mordraugr",
+		"adjective": ["Thanatorian"],
+		"startBias": ["Tundra"],
+	//	"preferredVictoryType": "domination",
+	//	"personality": "",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [25, 30, 25],
+		"innerColor": [70, 150, 90],
+
+		"uniqueName": "Most Profane Throne",
+		"uniques": ["Comment [Perform an [Unholy Ritual] once every era, consuming [Soul]s for powerful empire-wide effects]",
+					"Comment [Gain 1 [Soul] upon defeating a non-[Barbarian] unit]",
+					"Comment [Gain 5 [Soul] constructing each unique type of [Faith] building (once per building type per city)]",
+					
+					//Backend
+					
+					],
+		"cities": ["Mordheim", "Thanora", "Erevos", "Blackspire", "Necropolis Prime", "Gravemarch", "Soulforge", "Obsidian Reach", "Deathwatch", "Morvath", "Vespera", "Doomgate", "Tenebris", "Ravencrown", "Cryptveil"],
+		"spyNames": ["Undertaker", "Reaper", "Whisper", "Pale Shade", "Soulstalker"],
+		"civilopediaText": [
+			{"text":"Desc"},
+			{"text":"Desc"},
+        ]
+	},
+	
 	//Template
 	/*
 	{
@@ -2852,6 +2986,47 @@
 
 		"uniqueName": "UniqueAbility",
 		"uniques": ["Comment [This Civ can do X, Y, and Z]",
+					
+					],
+		"cities": ["City1", "City2", "City3", "City4", "City5", "City6", "City7", "City8", "City9", "City10", "City11", "City12", "City13", "City14", "City15"],
+		"spyNames": ["Spy1","Spy2","Spy3","Spy4","Spy5"],
+		"civilopediaText": [
+			{"text":"Desc"},
+			{"text":"Desc"},
+        ]
+	},
+	*/
+	
+	/* PENDING because no way to automatically swap every 20 turns. Please contact me on Unciv Discord server if you know a workaround.
+	//Mikohime of Tsukikage Kenzoku
+	{
+		"name": "Tsukikage Kenzoku",
+		"leaderName": "Mikohime",
+		"adjective": ["Kenzoku"],
+		"startBias": ["Coast", "Mountain"],
+	//	"preferredVictoryType": "Scientific",
+	//	"personality": "",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [50, 20, 70], 
+		"innerColor": [200, 200, 255],
+
+		"uniqueName": "Getsumei Bansho",
+		"uniques": ["Comment [Cycle between [Waning] and [Waxing] every 20 turns after discovering [Calendar]]",
+					"Comment [You may force [Waning] or [Waxing] state earlier once per era]",
+					"Comment [\n[Waning]: \n• +1 [Faith], +1 [Science] from [Moonlit Altar], +1 more to each every 2 eras\n• +15% Strength when defending]",
+					"Comment [\n[Waxing]: \n• -33%[Faith] cost of purchasing units and buildings\n• All units gain [Unobstructed Vision]]",
 					
 					],
 		"cities": ["City1", "City2", "City3", "City4", "City5", "City6", "City7", "City8", "City9", "City10", "City11", "City12", "City13", "City14", "City15"],

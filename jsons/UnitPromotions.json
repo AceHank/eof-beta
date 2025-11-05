@@ -431,10 +431,10 @@
 		]
 	},
 	
-	//Imperium~~~~~~~
+	//Teutonica Imperium~~~~~~~
 	{
 		"name": "Magitek",
-		"uniques": ["Comment [Reduces all damage taken by 2, increased by 2 upon entering new era (up to 15)]",
+		"uniques": ["Comment [Reduces damage taken by 2, increased by 2 upon entering new era (up to 15)]",
 					
 					"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <hidden from users>",
 					"[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <hidden from users>",
@@ -544,6 +544,38 @@
 		]
 	},
 	
+	//Khassiya Dynasty
+	{
+		"name": "Outmaneuver",		
+		"uniques": ["Comment [+50% Flanking bonus if Mounted, ignores Zone of Control if not]",
+					"[+50]% to Flank Attack bonuses <for [Mounted] units> <hidden from users>",
+					"Ignores Zone of Control <for [non-[Mounted]] units> <hidden from users>",
+		]
+	},
+	
+	//Shield Dwarven Kingdom
+	{
+		"name": "Runic Armament",
+		"uniques": ["Comment [Receive double the combat bonus from [Great General]]",
+			"[+15]% Strength bonus for [{Military} {Runic Armament}] units within [2] tiles <for [Great General] units> <hidden from users>",
+		]
+	},
+	
+	//Gold Dwarven Collective
+	{
+		"name": "Caravan Escort",
+		"uniques": ["Transfer Movement to [Civilian]",
+					"[+15]% Strength <when stacked with a [Civilian] unit>",
+		]
+	},
+	
+	//Thanatos Imperium
+	{
+		"name": "Disturbing Presence",
+		"uniques": ["Comment [When attacked, the attacker suffers -5% Strength for 3 turns. This effect may stacks.]",
+		]
+	},
+	
 	//Universal~~~~~~~
 	{
 		"name": "Vigorous",
@@ -630,7 +662,28 @@
 	},
 	{
 		"name": "Heavily Armored",
-		"uniques": ["[+15]% Strength <vs [Melee] units>"]
+		"uniques": [
+			"Comment [25% damage reduction, up to 15 damage]",
+			"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [12] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [16] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [20] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [24] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [28] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [32] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [36] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [40] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [44] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [48] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [52] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [56] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [60] HP in a single attack> <hidden from users>",
+			]
+	},
+	{
+		"name": "Greenskin",
+		"uniques": ["[This Unit] heals [3] HP <upon turn end>"]		
 	},
 	{
 		"name": "Plunderer",
@@ -659,15 +712,6 @@
 					]
 	},
 	
-	//Khassiya Dynasty
-	{
-		"name": "Outmaneuver",		
-		"uniques": ["Comment [+50% Flanking bonus if Mounted, ignores Zone of Control if not]",
-					"[+50]% to Flank Attack bonuses <for [Mounted] units> <hidden from users>",
-					"Ignores Zone of Control <for [non-[Mounted]] units> <hidden from users>",
-		]
-	},
-	
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
 	//Abilities (promotions that needs more than 1 promotion to function) are placed in the section below								  //
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
@@ -685,7 +729,7 @@
 	},
 	{
 		"name": "Elusive",
-		"uniques": ["Comment [Withdraws before Melee combat once per turn]",
+		"uniques": ["Comment [Withdraws before Melee combat once every 2 turns.]",
 		
 					"[This Unit] gains the [Elusive Active] status for [1] turn(s) <upon turn end> <for units without [Elusive Cooldown]> <hidden from users>",
 		]
@@ -842,7 +886,7 @@
 	//Harpies Tribe~~~~~~~
 	{
 		"name": "Galestorm Leap",		
-		"uniques": ["Comment [Teleport up to 5 tiles away. Cooldown: 12 turns.]", 
+		"uniques": ["Comment [Teleport up to 5 tiles away. Only useable as first action. Cooldown: 12 turns.]", 
 					"[This Unit] gains the [Galestorm Leap Active] status for [1] turn(s) <for [0] movement> <for units without [Galestorm Leap Cooldown]> <hidden from users>",
 					"[This Unit] gains the [Galestorm Leap Cooldown] status for [12] turn(s) <upon gaining the [Galestorm Leap Active] status> <hidden from users>", 
 					]
@@ -1802,6 +1846,14 @@
 					"[This Unit] gains the [Polymorphic Cooldown] status for [5] turn(s) <upon gaining the [Aspect of Seal] status> <hidden from users>",
 		]
 	},
+	
+	//Shield Dwarven Kingdom
+	{
+		"name": "Charger",
+		"uniques": ["Comment [Attack applies [Broken] for 1 turn. [Broken] unit has no defensive terrain bonus and can't Fortify.]",
+					"[Target Unit] gains the [Broken] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>",
+		]
+	},	
 	
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
 	//							Neutral List																			  //

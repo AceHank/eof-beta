@@ -1760,6 +1760,181 @@
 							]
 			},
 	
+	//Shield Dwarven Kingdom
+	{
+		"name": "Dwarven Forge",
+		"uniqueTo": "Shield Dwarven Kingdom",
+		"cost": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Automatically built in all cities where it is buildable",
+			"Only available <when above [2] [City-level Counter]>",
+			"[+15]% Production when constructing [Land] units [in this city]",
+			"[+1 Production] from [Iron] tiles [in this city]",
+			"Will not be displayed in Civilopedia",
+			]
+	},
+	
+	//Gold Dwarven Collective
+	{
+		"name": "Buy Circus Maximus",
+		"uniqueTo": "Gold Dwarven Collective",
+		"cost": 125,
+		"uniques": ["Comment [Instantly purchase [Circus Maximus] with [Gold]]",
+					"Gain a free [Circus Maximus] [in this city] <hidden from users>",
+					"Unbuildable", "BuyNatWonder <hidden from users>", 
+					"Will not be displayed in Civilopedia",
+					
+					"Only available <in cities without a [Circus Maximus]>", "Cost increases by [30] per owned city",
+					
+					],
+		"requiredTech": "Horseback Riding"
+	},
+	{
+		"name": "Buy National College",
+		"uniqueTo": "Gold Dwarven Collective",
+		"cost": 125,
+		"uniques": ["Comment [Instantly purchase [National College] with [Gold]]",
+					"Gain a free [National College] [in this city] <hidden from users>",
+					"Unbuildable", "BuyNatWonder <hidden from users>",
+					"Will not be displayed in Civilopedia",
+					
+					"Only available <in cities without a [National College]> <hidden from users>", "Cost increases by [30] per owned city",
+					
+					
+		],
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Buy National Epic",
+		"uniqueTo": "Gold Dwarven Collective",
+		"cost": 125,
+		"culture": 1,
+		"uniques": ["Comment [Instantly purchase [National Epic] with [Gold]]",
+					"Gain a free [National Epic] [in this city] <hidden from users>",
+					"Unbuildable", "BuyNatWonder <hidden from users>",
+					"Will not be displayed in Civilopedia",
+		
+					"Only available <in cities without a [National Epic]> <hidden from users>",	"Cost increases by [30] per owned city",
+		],
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Buy Heroic Epic",
+		"uniqueTo": "Gold Dwarven Collective",
+		"cost": 125,
+		"culture": 1,
+		"uniques": ["Comment [Instantly purchase [Heroic Epic] with [Gold]]",
+					"Gain a free [Heroic Epic] [in this city] <hidden from users>",
+					"Unbuildable", "BuyNatWonder <hidden from users>",
+					"Will not be displayed in Civilopedia",
+		
+					"Only available <in cities without a [Heroic Epic]> <hidden from users>", "Cost increases by [30] per owned city",
+		],
+		"requiredTech": "Iron Working"
+	},
+	{
+		"name": "Buy Grand Temple",
+		"uniqueTo": "Gold Dwarven Collective",
+		"cost": 125,
+		"culture": 1,
+		"uniques": ["Comment [Instantly purchase [Grand Temple] with [Gold]]",
+					"Gain a free [Grand Temple] [in this city] <hidden from users>",
+					"Unbuildable", "BuyNatWonder <hidden from users>",
+					"Will not be displayed in Civilopedia",
+		
+					"Only available <in cities without a [Grand Temple]> <hidden from users>", "Cost increases by [30] per owned city",
+		],
+		"requiredTech": "Theology"
+	},
+	{
+		"name": "Buy National Treasury",
+		"uniqueTo": "Gold Dwarven Collective",
+		"cost": 125,
+		"culture": 1,
+		"uniques": ["Comment [Instantly purchase [National Treasury] with [Gold]]",
+					"Gain a free [National Treasury] [in this city] <hidden from users>",
+					"Unbuildable", "BuyNatWonder <hidden from users>",
+					"Will not be displayed in Civilopedia",
+		
+					"Only available <in cities without a [National Treasury]> <hidden from users>", "Cost increases by [30] per owned city",
+		],
+		"requiredTech": "Guilds"
+	},
+	{
+		"name": "Buy Oxford University",
+		"uniqueTo": "Gold Dwarven Collective",
+		"cost": 125,
+		"culture": 1,
+		"uniques": ["Comment [Instantly purchase [Oxford University] with [Gold]]",
+					"Gain a free [Oxford University] [in this city] <hidden from users>",
+					"Unbuildable", "BuyNatWonder <hidden from users>",
+					"Will not be displayed in Civilopedia",
+		
+					"Only available <in cities without a [Oxford University]> <hidden from users>", "Cost increases by [30] per owned city",
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Buy Ironworks",
+		"uniqueTo": "Gold Dwarven Collective",
+		"cost": 125,
+		"culture": 1,
+		"uniques": ["Comment [Instantly purchase [Ironworks] with [Gold]]",
+					"Gain a free [Ironworks] [in this city] <hidden from users>",
+					"Unbuildable", "BuyNatWonder <hidden from users>",
+					"Will not be displayed in Civilopedia",
+		
+					"Only available <in cities without a [Ironworks]> <hidden from users>", "Cost increases by [30] per owned city",
+		],
+		"requiredTech": "Machinery"
+	},
+	{
+		"name": "Buy Hermitage",
+		"uniqueTo": "Gold Dwarven Collective",
+		"cost": 125,
+		"culture": 1,
+		"uniques": ["Comment [Instantly purchase [Hermitage] with [Gold]]",
+					"Gain a free [Hermitage] [in this city] <hidden from users>",
+					"Unbuildable", "BuyNatWonder <hidden from users>",
+					"Will not be displayed in Civilopedia",
+		
+					"Only available <in cities without a [Hermitage]> <hidden from users>", "Cost increases by [30] per owned city",
+		],
+		"requiredTech": "Architecture"
+	},
+	{
+		"name": "Buy National Intelligence Agency",
+		"uniqueTo": "Gold Dwarven Collective",
+		"cost": 125,
+		"culture": 1,
+		"uniques": ["Comment [Instantly purchase [National Intelligence Agency] with [Gold]]",
+					"Gain a free [National Intelligence Agency] [in this city] <hidden from users>",
+					"Unbuildable", "BuyNatWonder <hidden from users>",
+					"Will not be displayed in Civilopedia",
+		
+					"Only available <in cities without a [National Intelligence Agency]> <hidden from users>", "Cost increases by [30] per owned city",
+		],
+		"requiredTech": "Radio"
+	},
+	
+	//Thanatos Imperium
+	{
+		"name": "Black Citadel",
+		"uniqueTo": "Thanatos Imperium",
+		"replaces": "Castle",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"faith": 2,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Civil Service",
+		"uniques": [
+					"Destroyed when the city is captured",
+					"Comment [Unlocked at [Civil Service] vs [Chivalry]]",
+					"Comment [Enemy units within 2-tile radius of this city suffer -5% Strength and -5 HP when healing, doubled if adjacent]",
+		],
+	},
 	
 	/*
 		{

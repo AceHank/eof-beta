@@ -9,12 +9,19 @@
 		"[-50]% to Flank Attack bonuses <vs [Flank Resist] units>",
 		"[+50]% to Flank Attack bonuses <vs [Blinded] units>",
 		
+		//Thanatos Imperium
+		"[-5]% Strength <within [2] tiles of a [BlackCitadel]>",
+		"[-5]% Strength <within [1] tiles of a [BlackCitadel]>",
+		"[-5] HP when healing <within [2] tiles of a [BlackCitadel]>",
+		"[-5] HP when healing <within [1] tiles of a [BlackCitadel]>",
 		//The Chroniclers
 		"[-10]% Strength <vs [The Chroniclers] units> <during a Golden Age>",
+		//The Justfolk
+		"[-5]% Strength <vs [The Justfolk] units> <for every [20] [[Military] Units]>",
 		//The Kaleeki
-		"Provides [1] [CD Limit] <if [Increase Chrono Disruption Limit] is constructed by anybody> <hidden from users>",
-		"Provides [1] [CD Limit] <if [Increase Chrono Disruption Limit I] is constructed by anybody> <hidden from users>",
-		"Provides [1] [CD Limit] <if [Increase Chrono Disruption Limit II] is constructed by anybody> <hidden from users>",
+		"Provides [1] [CD Limit] <if [Increase Chrono Disruption Limit] is constructed by anybody>",
+		"Provides [1] [CD Limit] <if [Increase Chrono Disruption Limit I] is constructed by anybody>",
+		"Provides [1] [CD Limit] <if [Increase Chrono Disruption Limit II] is constructed by anybody>",
 
         // Filtering uniques must be listed here to tell RulesetValidator they're OK despite untyped
         "Aircraft"
@@ -37,11 +44,7 @@
 		//Phrygian Kingdom
 		"[This Unit] gains the [Binded] status for [3] turn(s) <upon damaging a [Gordian Knot] unit>",
 		//Thanatos Imperium
-		"[-5]% Strength <within [2] tiles of a [BlackCitadel]>",
-		"[-5]% Strength <within [1] tiles of a [BlackCitadel]>",
-		"[-5] HP when healing <within [2] tiles of a [BlackCitadel]>",
-		"[-5] HP when healing <within [1] tiles of a [BlackCitadel]>",
-		"[-5]% Strength <for [3] turns> <upon entering combat> <vs [Disturbing Presence] units> <when attacking>", //Bugged? Instead of triggering only when attacking, it's -5% Strength when attacking. Same behaviour with <when defending>
+		"[-5]% Strength <for [3] turns> <upon entering combat> <vs [Disturbing Presence] units> <when attacking>" //Bugged? Instead of triggering only when attacking, it's -5% Strength when attacking. Same behaviour with <when defending>
 		//Troglodyte
 		"[This Unit] takes [10] damage <upon damaging a [Retribution] unit> <for [Melee] units> <for [non-[Air]] units>", 
 		"[This Unit] takes [5] damage <upon damaging a [Retribution] unit> <for [Ranged] units> <for [non-[Air]] units>",

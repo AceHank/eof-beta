@@ -754,4 +754,72 @@
 		]
 	},
 	
+	//Thanatos Imperium
+	{
+		"name": "Soul",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen <for [non-[Thanatos Imperium]] Civilizations>", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "FKLimit",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "TOLimit",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "ELimit",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "ARLimit",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "SHLimit",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	
 ]

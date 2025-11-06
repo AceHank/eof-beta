@@ -491,16 +491,29 @@
 					"[+1 Happiness] from every [Armory] <hidden from users>", 
 					"[+1 Happiness] from every [Military Academy] <hidden from users>", 
 					
-					"[2] free [Pitlord] units appear <upon adopting [Tradition Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]> <hidden from users>", 
-					"[2] free [Pitlord] units appear <upon adopting [Liberty Complete]> <before adopting [Tradition Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]> <hidden from users>", 
-					"[2] free [Pitlord] units appear <upon adopting [Honor Complete]> <before adopting [Liberty Complete]><before adopting [Tradition Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]> <hidden from users>", 
-					"[2] free [Pitlord] units appear <upon adopting [Piety Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Tradition Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]> <hidden from users>", 
-					"[2] free [Pitlord] units appear <upon adopting [Patronage Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Tradition Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]> <hidden from users>", 
-					"[2] free [Pitlord] units appear <upon adopting [Commerce Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Tradition Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]> <hidden from users>", 
-					"[2] free [Pitlord] units appear <upon adopting [Rationalism Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Tradition Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]> <hidden from users>", 
-					"[2] free [Pitlord] units appear <upon adopting [Freedom Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Tradition Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]> <hidden from users>", 
-					"[2] free [Pitlord] units appear <upon adopting [Autocracy Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Tradition Complete]><before adopting [Order Complete]> <hidden from users>",
-					"[2] free [Pitlord] units appear <upon adopting [Order Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Tradition Complete]> <hidden from users>",
+					"Provides [2] [Horses] <with [Counter Something]> <hidden from users>",
+					
+					"[2] free [Pitlord] units appear <upon adopting [Tradition Complete]> <without [Counter Something]> <hidden from users>", 
+					"[2] free [Pitlord] units appear <upon adopting [Liberty Complete]> <without [Counter Something]> <hidden from users>", 
+					"[2] free [Pitlord] units appear <upon adopting [Honor Complete]> <without [Counter Something]> <hidden from users>", 
+					"[2] free [Pitlord] units appear <upon adopting [Piety Complete]> <without [Counter Something]> <hidden from users>", 
+					"[2] free [Pitlord] units appear <upon adopting [Patronage Complete]> <without [Counter Something]> <hidden from users>", 
+					"[2] free [Pitlord] units appear <upon adopting [Commerce Complete]> <without [Counter Something]> <hidden from users>", 
+					"[2] free [Pitlord] units appear <upon adopting [Rationalism Complete]> <without [Counter Something]> <hidden from users>", 
+					"[2] free [Pitlord] units appear <upon adopting [Freedom Complete]> <without [Counter Something]> <hidden from users>", 
+					"[2] free [Pitlord] units appear <upon adopting [Autocracy Complete]> <without [Counter Something]> <hidden from users>",
+					"[2] free [Pitlord] units appear <upon adopting [Order Complete]> <without [Counter Something]> <hidden from users>",
+					
+					"Instantly gain [1] [Counter Something] <upon adopting [Tradition Complete]> <hidden from users>",
+					"Instantly gain [1] [Counter Something] <upon adopting [Liberty Complete]> <hidden from users>",
+					"Instantly gain [1] [Counter Something] <upon adopting [Honor Complete]> <hidden from users>",
+					"Instantly gain [1] [Counter Something] <upon adopting [Piety Complete]> <hidden from users>",
+					"Instantly gain [1] [Counter Something] <upon adopting [Patronage Complete]> <hidden from users>",
+					"Instantly gain [1] [Counter Something] <upon adopting [Commerce Complete]> <hidden from users>",
+					"Instantly gain [1] [Counter Something] <upon adopting [Rationalism Complete]> <hidden from users>",
+					"Instantly gain [1] [Counter Something] <upon adopting [Freedom Complete]> <hidden from users>",
+					"Instantly gain [1] [Counter Something] <upon adopting [Autocracy Complete]> <hidden from users>",
+					"Instantly gain [1] [Counter Something] <upon adopting [Order Complete]> <hidden from users>",
 					], 
 		"cities": ["Meg'thath","Agruk","Zonnol","Volvellath","Azrarad","Xolmonach","Zoz'guleth","Eg'thuth","Mir'gumoth","Barthrolloz","Ath'tannuth","Thul'gog",
 			"Kil'ganath","Dalvoloch","Gannoros","Xorthrizar","Trezgemith"],
@@ -2904,11 +2917,9 @@
 					"Comment [-5% Unhappiness from Population in cities with [Wine]]",
 					"Comment [May buy National Wonder with 1000 [Gold] at an increasing price (500), bypassing its building requirements]",
 					"[+3 Culture] from [Customs house] tiles [in all cities]",
-					"[+1000 Gold] [in capital]",
 					
 					//Mechanism
 					"May buy [BuyNatWonder] buildings for [1000] [Gold] [in all cities] at an increasing price ([500]) <hidden from users>",
-					"May buy [Walls] buildings for [1000] [Gold] [in all cities] at an increasing price ([500]) <hidden from users>",
 					"Dwarven Nation <hidden from users>",
 					
 					],
@@ -2945,15 +2956,71 @@
 		"innerColor": [70, 150, 90],
 
 		"uniqueName": "Most Profane Throne",
-		"uniques": ["Comment [Perform an [Unholy Ritual] once every era, consuming [Soul]s for powerful empire-wide effects]",
+		"uniques": ["Comment [Cast an [Unholy Ritual] once every era, consuming [Soul]s for powerful empire-wide effects]",
 					"Comment [Gain 1 [Soul] upon defeating a non-[Barbarian] unit]",
-					"Comment [Gain 5 [Soul] constructing each unique type of [Faith] building (once per building type per city)]",
+					"Comment [Gain 5 [Soul]s upon constructing each unique type of [Faith] building (once per building type per city)]",
 					
 					//Backend
+					"Instantly gain [1] [Soul] <upon defeating a [non-[Barbarian]] unit> <hidden from users>",
+					"Triggers a [Unholy Ritual] event <upon entering a new era> <hidden from users>",
+					
+					//Unholy Ritual
+					//Forbidden Knowledge
+					"[+1 Science] [in all cities] <for every [FKLimit]> <hidden from users>",
+					//Enlightenment
+					"Instantly gain [3] [Golden Age points] <upon turn end> <for every [Cities]> <for every [ELimit]> <hidden from users>",
+					//Ascencion Rite
+					"[+5]% Great Person generation [in all cities] <for every [ARLimit]> <hidden from users>",
+					//Soul Harvest
+					"Instantly gain [2] [SHLimit] <hidden from users>",
 					
 					],
 		"cities": ["Mordheim", "Thanora", "Erevos", "Blackspire", "Necropolis Prime", "Gravemarch", "Soulforge", "Obsidian Reach", "Deathwatch", "Morvath", "Vespera", "Doomgate", "Tenebris", "Ravencrown", "Cryptveil"],
 		"spyNames": ["Undertaker", "Reaper", "Whisper", "Pale Shade", "Soulstalker"],
+		"civilopediaText": [
+			{"text":"Desc"},
+			{"text":"Desc"},
+        ]
+	},
+	
+	//Juris Neglectia of The Justfolk
+	{
+		"name": "The Justfolk",
+		"leaderName": "Juris Neglectia",
+		"adjective": ["Justfolk"],
+		"startBias": ["Grassland"],
+	//	"preferredVictoryType": "Domination",
+	//	"personality": "",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [80, 30, 30],
+		"innerColor": [180, 150, 70],
+
+		"uniqueName": "Justice Against the Oppresor",
+		"uniques": ["Comment [+100% Yield and effectiveness of [Fortified Farm] for 5 turns upon entering a war with Major Civilizations, doubled if defensive war]",
+					"Comment [Enemy Civilizations gain [-5]% Strength against our units for every 20 Military units they own]",
+					"Starts with [Liberty] adopted",
+					
+					//backend
+					"Provides [1] [Marker] <for [5] turns> <upon declaring war on [Major] Civilizations> <hidden from users>",
+					"Provides [1] [Marker] <for [10] turns> <upon being declared war on by [Major] Civilizations> <hidden from users>",
+					"[+100]% Yield from every [Fortified Farm] <with [Marker]> <hidden from users>",
+					"[All] units gain the [Militia] promotion <hidden from users>",
+					
+					],
+		"cities": ["Thulu", "Isenmaar", "Ototh", "Tihnas", "Tulihmek", "Usimbar", "Shur", "Peromar", "Sundavey", "Yuruk", "Ziruk", "Sermith"],
+		"spyNames": ["Dah", "Dihmeth", "Asmiz", "Asai"],
 		"civilopediaText": [
 			{"text":"Desc"},
 			{"text":"Desc"},

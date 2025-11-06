@@ -2031,12 +2031,17 @@
 					"[+65]% Strength <after discovering [Plastics]> <hidden from users>",								//86
 					"[+40]% Strength <after discovering [Mobile Tactics]> <hidden from users>",							//100
 					
-					"Can transform to [Clockwerk Automata (Havoc)] <for [1] movement> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Hunter)] <for [1] movement> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [March]> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [Formation II]> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [Woodsman]> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [Blitz]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Havoc)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Hunter)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <for units with [March]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <for units with [Formation II]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <for units with [Woodsman]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <for units with [Blitz]> <hidden from users>",
+					
+					//Transform cooldown related stuffs
+					"[This Unit] gains the [Chronos Battle Protocol] promotion <hidden from users>",
+					"[This Unit] gains the [Transform Cooldown] status for [4] turn(s) <upon losing the [Chronos Battle Protocol] promotion> <hidden from users>",
+					"[This Unit] gains the [Chronos Battle Protocol] promotion <upon losing the [Transform Cooldown] status> <hidden from users>",
 					
 					"Consumes [1] [Automata Parts] <hidden from users>",
 					"Never appears as a Barbarian unit <hidden from users>",],
@@ -2071,12 +2076,17 @@
 					"[+100]% Strength <vs [City]> <hidden from users>",													
 					"[+250]% Strength <vs [City]> <after discovering [Rocketry]> <hidden from users>",					
 					
-					"Can transform to [Clockwerk Automata (Aegis)] <for [1] movement> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Hunter)] <for [1] movement> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [March]> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [Formation II]> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [Woodsman]> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [Blitz]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Aegis)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Hunter)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <for units with [March]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <for units with [Formation II]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <for units with [Woodsman]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <for units with [Blitz]> <hidden from users>",
+					
+					//Transform cooldown related stuffs
+					"[This Unit] gains the [Chronos Battle Protocol] promotion <hidden from users>",
+					"[This Unit] gains the [Transform Cooldown] status for [4] turn(s) <upon losing the [Chronos Battle Protocol] promotion> <hidden from users>",
+					"[This Unit] gains the [Chronos Battle Protocol] promotion <upon losing the [Transform Cooldown] status> <hidden from users>",
 					
 					"Consumes [1] [Automata Parts] <hidden from users>",
 					"Never appears as a Barbarian unit <hidden from users>", 
@@ -2113,12 +2123,17 @@
 					"[+100]% Strength <after discovering [Ballistics]> <hidden from users>",							//60
 					"[+170]% Strength <after discovering [Advanced Ballistics]> <hidden from users>",					//80an
 					
-					"Can transform to [Clockwerk Automata (Aegis)] <for [1] movement> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Havoc)] <for [1] movement> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [March]> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [Formation II]> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [Woodsman]> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [Blitz]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Aegis)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Havoc)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <for units with [March]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <for units with [Formation II]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <for units with [Woodsman]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <for units with [Blitz]> <hidden from users>",
+					
+					//Transform cooldown related stuffs
+					"[This Unit] gains the [Chronos Battle Protocol] promotion <hidden from users>",
+					"[This Unit] gains the [Transform Cooldown] status for [4] turn(s) <upon losing the [Chronos Battle Protocol] promotion> <hidden from users>",
+					"[This Unit] gains the [Chronos Battle Protocol] promotion <upon losing the [Transform Cooldown] status> <hidden from users>",
 					
 					"Consumes [1] [Automata Parts] <hidden from users>",
 					"Never appears as a Barbarian unit <hidden from users>", 
@@ -2151,9 +2166,14 @@
 					"[+50]% Strength <after discovering [Plastics]> <hidden from users>",								//70
 					"[+50]% Strength <after discovering [Mobile Tactics]> <hidden from users>",							//90
 					
-					"Can transform to [Clockwerk Automata (Aegis)] <for [1] movement> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Havoc)] <for [1] movement> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Hunter)] <for [1] movement> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Aegis)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Havoc)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Hunter)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <hidden from users>",
+					
+					//Transform cooldown related stuffs
+					"[This Unit] gains the [Chronos Battle Protocol] promotion <hidden from users>",
+					"[This Unit] gains the [Transform Cooldown] status for [4] turn(s) <upon losing the [Chronos Battle Protocol] promotion> <hidden from users>",
+					"[This Unit] gains the [Chronos Battle Protocol] promotion <upon losing the [Transform Cooldown] status> <hidden from users>",
 					
 					"Consumes [1] [Automata Parts] <hidden from users>",
 					"Never appears as a Barbarian unit <hidden from users>", 
@@ -2498,6 +2518,24 @@
 		"promotions": ["Disturbing Presence"]
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
+	},
+	
+	//The Justfolk
+	{
+		"name": "Frontman",
+		"uniqueTo": "The Justfolk",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"promotions": ["Man-at-Arms", "Unity in Misery"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
 	},
 	
 ]

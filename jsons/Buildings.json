@@ -1925,6 +1925,7 @@
 		"replaces": "Castle",
 		"cityStrength": 7,
 		"cityHealth": 25,
+		"cost": 160,
 		"faith": 2,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Walls",
@@ -1935,19 +1936,92 @@
 					"Comment [Enemy units within 2-tile radius of this city suffer -5% Strength and -5 HP when healing, doubled if adjacent]",
 		],
 	},
+		{
+			"name": "Shrine Limiter",
+			"uniqueTo": "Thanatos Imperium",
+			"cost": 1,
+			"uniques": ["Destroyed when the city is captured <hidden from users>", "Comment [Ignore this building]",
+						"Cannot be purchased", "Instantly gain [5] [Soul]",
+						"Automatically built in all cities where it is buildable", "Only available <in cities with a [Shrine]>",
+						"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>"]
+		},
+		{
+			"name": "Temple Limiter",
+			"uniqueTo": "Thanatos Imperium",
+			"cost": 1,
+			"uniques": ["Destroyed when the city is captured <hidden from users>", "Comment [Ignore this building]",
+						"Cannot be purchased", "Instantly gain [5] [Soul]",
+						"Automatically built in all cities where it is buildable", "Only available <in cities with a [Temple]>",
+						"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>"]
+		},
+		{
+			"name": "Black Citadel Limiter",
+			"uniqueTo": "Thanatos Imperium",
+			"cost": 1,
+			"uniques": ["Destroyed when the city is captured <hidden from users>", "Comment [Ignore this building]",
+						"Cannot be purchased", "Instantly gain [5] [Soul]",
+						"Automatically built in all cities where it is buildable", "Only available <in cities with a [Black Citadel]>",
+						"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>"]
+		},
+		{
+			"name": "Cathedral Limiter",
+			"uniqueTo": "Thanatos Imperium",
+			"cost": 1,
+			"uniques": ["Destroyed when the city is captured <hidden from users>", "Comment [Ignore this building]",
+						"Cannot be purchased", "Instantly gain [5] [Soul]",
+						"Automatically built in all cities where it is buildable", "Only available <in cities with a [Cathedral]>",
+						"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>"]
+		},
+		{
+			"name": "Monastery Limiter",
+			"uniqueTo": "Thanatos Imperium",
+			"cost": 1,
+			"uniques": ["Destroyed when the city is captured <hidden from users>", "Comment [Ignore this building]",
+						"Unbuildable", "Cannot be purchased", "Instantly gain [5] [Soul]",
+						"Automatically built in all cities where it is buildable", "Only available <in cities with a [Monastery]>",
+						"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>"]
+		},
+		{
+			"name": "Mosque Limiter",
+			"uniqueTo": "Thanatos Imperium",
+			"cost": 1,
+			"uniques": ["Destroyed when the city is captured <hidden from users>", "Comment [Ignore this building]",
+						"Cannot be purchased", "Instantly gain [5] [Soul]",
+						"Automatically built in all cities where it is buildable", "Only available <in cities with a [Mosque]>",
+						"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>"]
+		},
+		{
+			"name": "Pagoda Limiter",
+			"uniqueTo": "Thanatos Imperium",
+			"cost": 1,
+			"uniques": ["Destroyed when the city is captured <hidden from users>", "Comment [Ignore this building]",
+						"Cannot be purchased", "Instantly gain [5] [Soul]",
+						"Automatically built in all cities where it is buildable", "Only available <in cities with a [Pagoda]>",
+						"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>"]
+		},
 	
-	/*
+	
 		{
 			"name": "Do X",
 			"cost": 1,
 			"hurryCostModifier": -90,
 			"uniques": [
+					"Free [Clockwerk Automata (Aegis)] appears"
+					
+					]
+		},
+		{
+			"name": "Do Y",
+			"cost": 1,
+			"hurryCostModifier": -90,
+			"uniques": [
 			
+					"Instantly gain [100] [Soul] <hidden from users>",
 					
 					]
 		},
 		
-	*/
+	
 	/*
 	//TEST PURPOSE
 	
@@ -1956,12 +2030,22 @@
 			"cost": 1,
 			"hurryCostModifier": -90,
 			"uniques": [
-			
-					"Instantly gain [1] [TR Limit] <hidden from users>",
-					"Provides [10] [Automata Parts] <hidden from users>",
+						"",
 					
 					]
 		},
 	
 	*/
+	
+	/* BACKEND TEMPLATE
+		{
+			"name": "BuildingName",
+			"uniqueTo": "CivName",
+			"cost": 1,
+			"uniques": ["Destroyed when the city is captured <hidden from users>", "Comment [Ignore this building]",
+						"Unbuildable", "Cannot be purchased",
+						"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>"]
+		},
+	*/
+	
 ]

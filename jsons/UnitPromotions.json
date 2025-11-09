@@ -556,7 +556,7 @@
 	//Shield Dwarven Kingdom
 	{
 		"name": "Runic Armament",
-		"uniques": ["Comment [Receive double the combat bonus from [Great General]]",
+		"uniques": ["Comment [Double the combat bonus received from [Great General]]",
 			"[+15]% Strength bonus for [{Military} {Runic Armament}] units within [2] tiles <for [Great General] units> <hidden from users>",
 		]
 	},
@@ -1052,19 +1052,26 @@
 	
 	//Merfolk Council
 	{
-		"name": "Ensnare",
-		"uniques": ["Comment [Attack applies [Ensnared] to enemy Land, Embarked, and pre-Renaissance era Water units for 1 turn. [Ensnared] units can't move and can't Melee attack. Cooldown: 8 turns.]",
-					"[Target Unit] gains the [Ensnared] status for [2] turn(s) <upon damaging a [{non-[Ensnared]} {Land}] unit> <for units without [Ensnare Cooldown]> <hidden from users>",
-					"[Target Unit] gains the [Ensnared] status for [2] turn(s) <upon damaging a [{non-[Ensnared]} {Embarked}] unit> <for units without [Ensnare Cooldown]> <hidden from users>",
-					"[Target Unit] gains the [Ensnared] status for [2] turn(s) <upon damaging a [{non-[Ensnared]} {Ancient era}] unit> <for units without [Ensnare Cooldown]> <hidden from users>",
-					"[Target Unit] gains the [Ensnared] status for [2] turn(s) <upon damaging a [{non-[Ensnared]} {Classical era}] unit> <for units without [Ensnare Cooldown]> <hidden from users>",
-					"[Target Unit] gains the [Ensnared] status for [2] turn(s) <upon damaging a [{non-[Ensnared]} {Medieval era}] unit> <for units without [Ensnare Cooldown]> <hidden from users>",
-					"[+1]% Strength <for units without [Ensnare Cooldown]> <hidden from users>",
-					"[This Unit] gains the [Ensnare Cooldown] status for [8] turn(s) <upon damaging a [Land] unit> <for units without [Ensnare Cooldown]> <hidden from users>"]
+		"name": "Ensnaring Attack",
+		"uniques": ["Comment [Attack applies [Ensnared] to enemy Land, Embarked, and pre-Industrial era Water units for 1 turn. [Ensnared] units can't move and can't Melee attack. Cooldown: 8 turns.]",
+					"[Target Unit] gains the [Ensnared] status for [2] turn(s) <upon damaging a [Land] unit> <for units without [Ensnaring Attack Cooldown]> <hidden from users>",
+					"[Target Unit] gains the [Ensnared] status for [2] turn(s) <upon damaging a [Embarked] unit> <for units without [Ensnaring Attack Cooldown]> <hidden from users>",
+					"[Target Unit] gains the [Ensnared] status for [2] turn(s) <upon damaging a [{Water} {Ancient era}] unit> <for units without [Ensnaring Attack Cooldown]> <hidden from users>",
+					"[Target Unit] gains the [Ensnared] status for [2] turn(s) <upon damaging a [{Water} {Classical era}] unit> <for units without [Ensnaring Attack Cooldown]> <hidden from users>",
+					"[Target Unit] gains the [Ensnared] status for [2] turn(s) <upon damaging a [{Water} {Medieval era}] unit> <for units without [Ensnaring Attack Cooldown]> <hidden from users>",
+					"[Target Unit] gains the [Ensnared] status for [2] turn(s) <upon damaging a [{Water} {Renaissance era}] unit> <for units without [Ensnaring Attack Cooldown]> <hidden from users>",
+					"[+1]% Strength <for units without [Ensnaring Attack Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Ensnaring Attack Cooldown] status for [8] turn(s) <upon damaging a [Land] unit> <for units without [Ensnaring Attack Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Ensnaring Attack Cooldown] status for [8] turn(s) <upon damaging a [Embarked] unit> <for units without [Ensnaring Attack Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Ensnaring Attack Cooldown] status for [8] turn(s) <upon damaging a [{Water} {Ancient era}] unit> <for units without [Ensnaring Attack Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Ensnaring Attack Cooldown] status for [8] turn(s) <upon damaging a [{Water} {Classical era}] unit> <for units without [Ensnaring Attack Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Ensnaring Attack Cooldown] status for [8] turn(s) <upon damaging a [{Water} {Medieval era}] unit> <for units without [Ensnaring Attack Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Ensnaring Attack Cooldown] status for [8] turn(s) <upon damaging a [{Water} {Renaissance era}] unit> <for units without [Ensnaring Attack Cooldown]> <hidden from users>",
+					]
 	},
 	{
-		"name": "Ensnare Cooldown",
-		"uniques": ["Comment [Ensnare on cooldown.]"]
+		"name": "Ensnaring Attack Cooldown",
+		"uniques": ["Comment [Ensnaring Attack on cooldown.]"]
 	},
 	
 	//Leonin Kingdom~~~~~~~
@@ -1125,7 +1132,7 @@
 	//High Elf Concordat~~~~~~~
 	{
 		"name": "Second Wind",
-		"uniques": ["Comment [Heals 15 HP and gain immunity from attack until your turn upon reaching 25 HP or less. Can only be activated once.]",
+		"uniques": ["Comment [Heals 15 HP and cannot be attacked for 1 turn upon reaching 25 HP or less. Can only be activated once.]",
 					"[This Unit] gains the [Second Wind Active] promotion <hidden from users>",
 					"[This Unit] loses the [Second Wind Active] promotion <upon losing at least [1] HP in a single attack> <when below [26] HP> <for units with [Second Wind Active]> <hidden from users>",
 					]		
@@ -1332,9 +1339,9 @@
 		"name": "Shocknade",		
 		"uniques": ["Comment [Attack applies [Stunned] for 1 turn to Armored/Construct units. Cooldown: 10 turns.]", 
 					"[+1]% Strength <for units without [Shocknade Cooldown]> <hidden from users>",
-					"[Target Unit] gains the [Stunned] status for [1] turn(s) <upon damaging a [{non-[IsStunned]} {non-[Construct]} {Armored}] unit> <for units without [Shocknade Cooldown]> <hidden from users>",
-					"[Target Unit] gains the [Stunned] status for [1] turn(s) <upon damaging a [{non-[IsStunned]} {non-[Armored]} {Construct}] unit> <for units without [Shocknade Cooldown]> <hidden from users>",
-					"[Target Unit] gains the [Stunned] status for [1] turn(s) <upon damaging a [{non-[IsStunned]} {Armored} {Construct}] unit> <for units without [Shocknade Cooldown]> <hidden from users>",
+					"[Target Unit] gains the [Stunned] status for [1] turn(s) <upon damaging a [{non-[Construct]} {Armored}] unit> <for units without [Shocknade Cooldown]> <hidden from users>",
+					"[Target Unit] gains the [Stunned] status for [1] turn(s) <upon damaging a [{non-[Armored]} {Construct}] unit> <for units without [Shocknade Cooldown]> <hidden from users>",
+					"[Target Unit] gains the [Stunned] status for [1] turn(s) <upon damaging a [{Armored} {Construct}] unit> <for units without [Shocknade Cooldown]> <hidden from users>",
 					"[This Unit] gains the [Shocknade Cooldown] status for [10] turn(s) <upon damaging a [All] unit> <for units without [Shocknade Cooldown]> <hidden from users>"
 					]
 	},
@@ -1600,7 +1607,6 @@
 	{
 		"name": "Chronos Battle Protocol",
 		"uniques": ["Comment [May transform between 4 protocols]",
-					"[This Unit] gains the [Transform Cooldown] status for [4] turn(s) <upon losing the [Chronos Battle Protocol] promotion> <hidden from users>",
 					],
 	},
 	{
@@ -1887,6 +1893,67 @@
 		]
 	},	
 	
+	//Goblin Horde
+	{
+		"name": "Horde Raider",
+		"uniques": ["Comment [May steal a Luxury resource on this tile (if any)]",
+					"[This Unit] gains the [Steal Luxury] status for [1] turn(s) <for all movement> <in [{unimproved} {Enemy}] tiles> <in [Luxury resource] tiles> <hidden from users>",
+					
+					//Stockpiled
+					"Instantly gain [1] [FursToken] <upon gaining the [Steal Luxury] status> <in [Furs] tiles> <hidden from users>",
+					"Instantly gain [1] [CottonToken] <upon gaining the [Steal Luxury] status> <in [Cotton] tiles> <hidden from users>",
+					"Instantly gain [1] [DyesToken] <upon gaining the [Steal Luxury] status> <in [Dyes] tiles> <hidden from users>",
+					"Instantly gain [1] [GemsToken] <upon gaining the [Steal Luxury] status> <in [Gems] tiles> <hidden from users>",
+					"Instantly gain [1] [GoldOreToken] <upon gaining the [Steal Luxury] status> <in [Gold Ore] tiles> <hidden from users>",
+					"Instantly gain [1] [SilverToken] <upon gaining the [Steal Luxury] status> <in [Silver] tiles> <hidden from users>",
+					"Instantly gain [1] [IncenseToken] <upon gaining the [Steal Luxury] status> <in [Incense] tiles> <hidden from users>",
+					"Instantly gain [1] [IvoryToken] <upon gaining the [Steal Luxury] status> <in [Ivory] tiles> <hidden from users>",
+					"Instantly gain [1] [SilkToken] <upon gaining the [Steal Luxury] status> <in [Silk] tiles> <hidden from users>",
+					"Instantly gain [1] [SpicesToken] <upon gaining the [Steal Luxury] status> <in [Spices] tiles> <hidden from users>",
+					"Instantly gain [1] [WineToken] <upon gaining the [Steal Luxury] status> <in [Wine] tiles> <hidden from users>",
+					"Instantly gain [1] [SugarToken] <upon gaining the [Steal Luxury] status> <in [Sugar] tiles> <hidden from users>",
+					"Instantly gain [1] [MarbleToken] <upon gaining the [Steal Luxury] status> <in [Marble] tiles> <hidden from users>",
+					"Instantly gain [1] [WhalesToken] <upon gaining the [Steal Luxury] status> <in [Whales] tiles> <hidden from users>",
+					"Instantly gain [1] [PearlsToken] <upon gaining the [Steal Luxury] status> <in [Pearls] tiles> <hidden from users>",
+					"Instantly gain [1] [CitrusToken] <upon gaining the [Steal Luxury] status> <in [Citrus] tiles> <hidden from users>",
+					"Instantly gain [1] [CopperToken] <upon gaining the [Steal Luxury] status> <in [Copper] tiles> <hidden from users>",
+					"Instantly gain [1] [CrabToken] <upon gaining the [Steal Luxury] status> <in [Crab] tiles> <hidden from users>",
+					"Instantly gain [1] [SaltToken] <upon gaining the [Steal Luxury] status> <in [Salt] tiles> <hidden from users>",
+					"Instantly gain [1] [TrufflesToken] <upon gaining the [Steal Luxury] status> <in [Truffles] tiles> <hidden from users>",
+					
+					"Remove [Luxury] resources from this tile <upon gaining the [Steal Luxury] status> <hidden from users>",
+		]
+	},	
+	{
+		"name": "Steal Luxury",
+		"uniques": ["Comment [May steal a Luxury resource on this tile (if any)]",
+		]
+	},	
+	{
+		"name": "Mend",
+		"uniques": ["Comment [Activate to instantly heal 25 HP. Only available when below 50 HP. Cooldown: 15 turns.]",
+					"[This Unit] gains the [Mend Cooldown] status for [15] turn(s) <for [0] movement> <for units without [Mend Cooldown]> <when below [50] HP> <hidden from users>",
+					"[This Unit] heals [25] HP <upon gaining the [Mend Cooldown] status> <hidden from users>",
+		]
+	},	
+	{
+		"name": "Mend Cooldown",
+		"uniques": ["Comment [Mend is on cooldown.]",
+		]
+	},	
+	{
+		"name": "Ensnare",		
+		"uniques": ["Comment [Attack applies [Ensnared] to enemy Land units for 1 turn. [Ensnared] units can't move and can't Melee attack. Cooldown: 8 turns.]",
+					"[Target Unit] gains the [Ensnared] status for [2] turn(s) <upon damaging a [{non-[Ensnared]} {Land}] unit> <for units without [Ensnare Cooldown]> <hidden from users>",
+					"[+1]% Strength <for units without [Ensnare Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Ensnare Cooldown] status for [8] turn(s) <upon damaging a [Wounded] unit> <for units without [Ensnare Cooldown]> <hidden from users>"
+					]
+	},
+	{
+		"name": "Ensnare Cooldown",
+		"uniques": ["Comment [Ensnare on cooldown.]"]
+	},
+	
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
 	//							Neutral List																			  //
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
@@ -1904,7 +1971,7 @@
 	
 	{
 		"name": "Stunned",
-		"uniques": ["[This Unit] loses [999] movement <upon turn start>", "IsStunned <hidden from users>",
+		"uniques": ["[This Unit] loses [999] movement <upon turn start>",
 					"Cannot attack", "Cannot move", 
 					"[-15]% Strength", 
 					"No defensive terrain bonus", 

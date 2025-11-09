@@ -1,52 +1,5 @@
 [	
 	
-	//Test Purpose
-		{
-			"name": "Meo",
-			"unitType": "Sword",
-			"replaces": "Warrior",
-			"uniqueTo": "Celestial Beings",
-			"movement": 5,
-			"strength": 10,
-			"cost": 1,
-			"hurryCostModifier": -90,
-			"promotions": ["Sturdy"],
-			"uniques": ["Ignores terrain cost", "[This Unit] gains [100] XP <upon turn end>", "May travel on Water tiles without embarking",
-						"[+5] Sight", "Can move immediately once bought", "Can see over obstacles",
-						
-						//Put test stuffs below
-						
-			],
-			"attackSound": "nonmetalhit"
-			"religiousStrength": 1000
-		},
-		{
-			"name": "Meo 2",
-			"unitType": "Sword",
-			"replaces": "Warrior",
-			"uniqueTo": "Drow Village",
-			"movement": 5,
-			"strength": 10,
-			"cost": 1,
-			"hurryCostModifier": -90,
-			"promotions": ["Disturbing Presence"],
-			"uniques": ["Ignores terrain cost", "[This Unit] gains [100] XP <upon turn end>", "May travel on Water tiles without embarking",
-						"[+5] Sight", "Can move immediately once bought", "Can see over obstacles",
-						
-						//Put test stuffs below
-					
-					"[+100]% Strength <during the [Classical era]> <hidden from users>",						//10
-					"[+200]% Strength <during the [Medieval era]> <hidden from users>",							//15
-					"[+300]% Strength <during the [Renaissance era]> <hidden from users>",						//20
-					"[+400]% Strength <during the [Industrial era]> <hidden from users>",						//25
-					"[+600]% Strength <during the [Modern era]> <hidden from users>",							//35
-					"[+900]% Strength <during the [Atomic era]> <hidden from users>",							//50
-					"[+1400]% Strength <starting from the [Information era]> <hidden from users>",				//70
-						
-			],
-			"attackSound": "nonmetalhit"
-			"religiousStrength": 1000
-		},
 		
 	//OVERWRITES STUFF
 	{
@@ -2031,17 +1984,15 @@
 					"[+65]% Strength <after discovering [Plastics]> <hidden from users>",								//86
 					"[+40]% Strength <after discovering [Mobile Tactics]> <hidden from users>",							//100
 					
-					"Can transform to [Clockwerk Automata (Havoc)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Hunter)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <for units with [March]> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <for units with [Formation II]> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <for units with [Woodsman]> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <for units with [Blitz]> <hidden from users>",
+					//Transform related stuffs
+					"Can transform to [Clockwerk Automata (Havoc)] <for [1] movement> <for [non-[Transform Cooldown]] units> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Hunter)] <for [1] movement> <for [non-[Transform Cooldown]] units> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [non-[Transform Cooldown]] units> <for units with [March]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [non-[Transform Cooldown]] units> <for units with [Formation II]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [non-[Transform Cooldown]] units> <for units with [Woodsman]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [non-[Transform Cooldown]] units> <for units with [Blitz]> <hidden from users>",
 					
-					//Transform cooldown related stuffs
-					"[This Unit] gains the [Chronos Battle Protocol] promotion <hidden from users>",
-					"[This Unit] gains the [Transform Cooldown] status for [4] turn(s) <upon losing the [Chronos Battle Protocol] promotion> <hidden from users>",
-					"[This Unit] gains the [Chronos Battle Protocol] promotion <upon losing the [Transform Cooldown] status> <hidden from users>",
+					"[This Unit] gains the [Transform Cooldown] status for [4] turn(s) <hidden from users>",
 					
 					"Consumes [1] [Automata Parts] <hidden from users>",
 					"Never appears as a Barbarian unit <hidden from users>",],
@@ -2076,17 +2027,15 @@
 					"[+100]% Strength <vs [City]> <hidden from users>",													
 					"[+250]% Strength <vs [City]> <after discovering [Rocketry]> <hidden from users>",					
 					
-					"Can transform to [Clockwerk Automata (Aegis)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Hunter)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <for units with [March]> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <for units with [Formation II]> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <for units with [Woodsman]> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <for units with [Blitz]> <hidden from users>",
+					//Transform related stuffs
+					"Can transform to [Clockwerk Automata (Aegis)] <for [1] movement> <for [non-[Transform Cooldown]] units> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Hunter)] <for [1] movement> <for [non-[Transform Cooldown]] units> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [non-[Transform Cooldown]] units> <for units with [March]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [non-[Transform Cooldown]] units> <for units with [Formation II]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [non-[Transform Cooldown]] units> <for units with [Woodsman]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [non-[Transform Cooldown]] units> <for units with [Blitz]> <hidden from users>",
 					
-					//Transform cooldown related stuffs
-					"[This Unit] gains the [Chronos Battle Protocol] promotion <hidden from users>",
-					"[This Unit] gains the [Transform Cooldown] status for [4] turn(s) <upon losing the [Chronos Battle Protocol] promotion> <hidden from users>",
-					"[This Unit] gains the [Chronos Battle Protocol] promotion <upon losing the [Transform Cooldown] status> <hidden from users>",
+					"[This Unit] gains the [Transform Cooldown] status for [4] turn(s) <hidden from users>",
 					
 					"Consumes [1] [Automata Parts] <hidden from users>",
 					"Never appears as a Barbarian unit <hidden from users>", 
@@ -2123,17 +2072,15 @@
 					"[+100]% Strength <after discovering [Ballistics]> <hidden from users>",							//60
 					"[+170]% Strength <after discovering [Advanced Ballistics]> <hidden from users>",					//80an
 					
-					"Can transform to [Clockwerk Automata (Aegis)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Havoc)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <for units with [March]> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <for units with [Formation II]> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <for units with [Woodsman]> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <for units with [Blitz]> <hidden from users>",
+					//Transform related stuffs
+					"Can transform to [Clockwerk Automata (Aegis)] <for [1] movement> <for [non-[Transform Cooldown]] units> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Havoc)] <for [1] movement> <for [non-[Transform Cooldown]] units> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [non-[Transform Cooldown]] units> <for units with [March]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [non-[Transform Cooldown]] units> <for units with [Formation II]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [non-[Transform Cooldown]] units> <for units with [Woodsman]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [non-[Transform Cooldown]] units> <for units with [Blitz]> <hidden from users>",
 					
-					//Transform cooldown related stuffs
-					"[This Unit] gains the [Chronos Battle Protocol] promotion <hidden from users>",
-					"[This Unit] gains the [Transform Cooldown] status for [4] turn(s) <upon losing the [Chronos Battle Protocol] promotion> <hidden from users>",
-					"[This Unit] gains the [Chronos Battle Protocol] promotion <upon losing the [Transform Cooldown] status> <hidden from users>",
+					"[This Unit] gains the [Transform Cooldown] status for [4] turn(s) <hidden from users>",
 					
 					"Consumes [1] [Automata Parts] <hidden from users>",
 					"Never appears as a Barbarian unit <hidden from users>", 
@@ -2166,14 +2113,12 @@
 					"[+50]% Strength <after discovering [Plastics]> <hidden from users>",								//70
 					"[+50]% Strength <after discovering [Mobile Tactics]> <hidden from users>",							//90
 					
-					"Can transform to [Clockwerk Automata (Aegis)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Havoc)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Hunter)] <for [1] movement> <for [Chronos Battle Protocol] units> <removing the [Chronos Battle Protocol] promotion/status> <hidden from users>",
+					//Transform related stuffs
+					"Can transform to [Clockwerk Automata (Aegis)] <for [1] movement> <for [non-[Transform Cooldown]] units> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Havoc)] <for [1] movement> <for [non-[Transform Cooldown]] units> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Hunter)] <for [1] movement> <for [non-[Transform Cooldown]] units> <hidden from users>",
 					
-					//Transform cooldown related stuffs
-					"[This Unit] gains the [Chronos Battle Protocol] promotion <hidden from users>",
-					"[This Unit] gains the [Transform Cooldown] status for [4] turn(s) <upon losing the [Chronos Battle Protocol] promotion> <hidden from users>",
-					"[This Unit] gains the [Chronos Battle Protocol] promotion <upon losing the [Transform Cooldown] status> <hidden from users>",
+					"[This Unit] gains the [Transform Cooldown] status for [4] turn(s) <hidden from users>",
 					
 					"Consumes [1] [Automata Parts] <hidden from users>",
 					"Never appears as a Barbarian unit <hidden from users>", 
@@ -2483,7 +2428,7 @@
 		"replaces": "Great Merchant",
 		"unitType": "Civilian",
 		"uniques": [
-			"Comment [Can undertake a trade mission with City-State, giving a large sum of gold and [25] Influence. Increasing by 5 Influence per era.]",
+			"Comment [Can undertake a trade mission with City-State, giving a large sum of gold and 25 Influence. Increasing by 5 Influence per era.]",
 			"Comment [Gaining [Gilded Envoy] doesn't increase the cost of other Great Person]",
 			
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence <during the [Ancient era]> <hidden from users>",
@@ -2537,5 +2482,87 @@
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
+	
+	//Goblin Horde
+	{
+		"name": "Hobgoblin",
+		"uniqueTo": "Goblin Horde",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"promotions": ["Mend"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Wolfrider",
+		"uniqueTo": "Goblin Horde",
+		"replaces": "Horseman",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"promotions": ["Ensnare"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	
+	//Test Purpose
+		{
+			"name": "Meo",
+			"unitType": "Sword",
+			"replaces": "Warrior",
+			"uniqueTo": "Goblin Horde",
+			"movement": 5,
+			"strength": 10,
+			"cost": 1,
+			"hurryCostModifier": -90,
+			"promotions": ["Sturdy", "Horde Raider"],
+			"uniques": ["Ignores terrain cost", "[This Unit] gains [100] XP <upon turn end>", "May travel on Water tiles without embarking",
+						"[+5] Sight", "Can move immediately once bought", "Can see over obstacles",
+						
+						//Put test stuffs below
+						
+			],
+			"attackSound": "nonmetalhit"
+			"religiousStrength": 1000
+		},
+		{
+			"name": "Meo 2",
+			"unitType": "Sword",
+			"replaces": "Warrior",
+			"uniqueTo": "Drow Village",
+			"movement": 5,
+			"strength": 10,
+			"cost": 1,
+			"hurryCostModifier": -90,
+			"promotions": ["Disturbing Presence"],
+			"uniques": ["Ignores terrain cost", "[This Unit] gains [100] XP <upon turn end>", "May travel on Water tiles without embarking",
+						"[+5] Sight", "Can move immediately once bought", "Can see over obstacles",
+						
+						//Put test stuffs below
+					
+					"[+100]% Strength <during the [Classical era]> <hidden from users>",						//10
+					"[+200]% Strength <during the [Medieval era]> <hidden from users>",							//15
+					"[+300]% Strength <during the [Renaissance era]> <hidden from users>",						//20
+					"[+400]% Strength <during the [Industrial era]> <hidden from users>",						//25
+					"[+600]% Strength <during the [Modern era]> <hidden from users>",							//35
+					"[+900]% Strength <during the [Atomic era]> <hidden from users>",							//50
+					"[+1400]% Strength <starting from the [Information era]> <hidden from users>",				//70
+						
+			],
+			"attackSound": "nonmetalhit"
+			"religiousStrength": 1000
+		},
 	
 ]

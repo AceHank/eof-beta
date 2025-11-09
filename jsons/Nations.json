@@ -1987,30 +1987,30 @@
 		"outerColor": [194,160,119],
 		"innerColor": [162,9,50],
 		"uniqueName": "Fierce and Courageous",
-		"uniques": ["Comment [Military land units gain +7% Strength for each promotion they gained from the promotions tree]",
+		"uniques": ["Comment [Military land units gain +5% Strength for each promotion they gained from the promotions tree]",
 					"Comment [Gain free [Palisade] for cities settled within 2 tiles of a [Jungle]]",
 		
 					"Gain a free [Palisade] [in all cities] <within [2] tiles of a [Jungle]> <hidden from users>",
 					//Melee, Mounted, Armor
-					"[+7]% Strength <for units with [Shock I]> <hidden from users>", "[+7]% Strength <for units with [Shock II]> <hidden from users>", "[+7]% Strength <for units with [Shock III]> <hidden from users>",
-					"[+7]% Strength <for units with [Drill I]> <hidden from users>", "[+7]% Strength <for units with [Drill II]> <hidden from users>", "[+7]% Strength <for units with [Drill III]> <hidden from users>",
-					"[+7]% Strength <for units with [Charge]> <hidden from users>", "[+7]% Strength <for units with [Besiege]> <hidden from users>", "[+7]% Strength <for units with [Blitz]> <hidden from users>",
-					"[+7]% Strength <for units with [Formation I]> <hidden from users>", "[+7]% Strength <for units with [Formation II]> <hidden from users>",
-					"[+7]% Strength <for units with [Woodsman]> <hidden from users>", "[+7]% Strength <for units with [Amphibious]> <hidden from users>", "[+7]% Strength <for units with [Medic]> <hidden from users>", "[+7]% Strength <for units with [Medic II]> <hidden from users>",
+					"[+5]% Strength <for units with [Shock I]> <hidden from users>", "[+5]% Strength <for units with [Shock II]> <hidden from users>", "[+5]% Strength <for units with [Shock III]> <hidden from users>",
+					"[+5]% Strength <for units with [Drill I]> <hidden from users>", "[+5]% Strength <for units with [Drill II]> <hidden from users>", "[+5]% Strength <for units with [Drill III]> <hidden from users>",
+					"[+5]% Strength <for units with [Charge]> <hidden from users>", "[+5]% Strength <for units with [Besiege]> <hidden from users>", "[+5]% Strength <for units with [Blitz]> <hidden from users>",
+					"[+5]% Strength <for units with [Formation I]> <hidden from users>", "[+5]% Strength <for units with [Formation II]> <hidden from users>",
+					"[+5]% Strength <for units with [Woodsman]> <hidden from users>", "[+5]% Strength <for units with [Amphibious]> <hidden from users>", "[+5]% Strength <for units with [Medic]> <hidden from users>", "[+5]% Strength <for units with [Medic II]> <hidden from users>",
 					//Ranged, Siege
-					"[+7]% Strength <for units with [Accuracy I]> <hidden from users>", "[+7]% Strength <for units with [Accuracy II]> <hidden from users>", "[+7]% Strength <for units with [Accuracy III]> <hidden from users>",
-					"[+7]% Strength <for units with [Barrage I]> <hidden from users>", "[+7]% Strength <for units with [Barrage II]> <hidden from users>", "[+7]% Strength <for units with [Barrage III]> <hidden from users>",
-					"[+7]% Strength <for units with [Volley]> <hidden from users>", "[+7]% Strength <for units with [Extended Range]> <hidden from users>", "[+7]% Strength <for units with [Indirect Fire]> <hidden from users>",
+					"[+5]% Strength <for units with [Accuracy I]> <hidden from users>", "[+5]% Strength <for units with [Accuracy II]> <hidden from users>", "[+5]% Strength <for units with [Accuracy III]> <hidden from users>",
+					"[+5]% Strength <for units with [Barrage I]> <hidden from users>", "[+5]% Strength <for units with [Barrage II]> <hidden from users>", "[+5]% Strength <for units with [Barrage III]> <hidden from users>",
+					"[+5]% Strength <for units with [Volley]> <hidden from users>", "[+5]% Strength <for units with [Extended Range]> <hidden from users>", "[+5]% Strength <for units with [Indirect Fire]> <hidden from users>",
 					//Scout
-					"[+7]% Strength <for units with [Scouting I]> <hidden from users>", "[+7]% Strength <for units with [Scouting II]> <hidden from users>", "[+7]% Strength <for units with [Scouting III]> <hidden from users>",
-					"[+7]% Strength <for units with [Survivalism I]> <hidden from users>", "[+7]% Strength <for units with [Survivalism II]> <hidden from users>", "[+7]% Strength <for units with [Survivalism III]> <hidden from users>",
+					"[+5]% Strength <for units with [Scouting I]> <hidden from users>", "[+5]% Strength <for units with [Scouting II]> <hidden from users>", "[+5]% Strength <for units with [Scouting III]> <hidden from users>",
+					"[+5]% Strength <for units with [Survivalism I]> <hidden from users>", "[+5]% Strength <for units with [Survivalism II]> <hidden from users>", "[+5]% Strength <for units with [Survivalism III]> <hidden from users>",
 					//Helicopter
-					"[+7]% Strength <for units with [Mobility I]> <hidden from users>", "[+7]% Strength <for units with [Mobility II]> <hidden from users>", "[+7]% Strength <for units with [Anti-Armor I]> <hidden from users>", "[+7]% Strength <for units with [Anti-Armor II]> <hidden from users>",
+					"[+5]% Strength <for units with [Mobility I]> <hidden from users>", "[+5]% Strength <for units with [Mobility II]> <hidden from users>", "[+5]% Strength <for units with [Anti-Armor I]> <hidden from users>", "[+5]% Strength <for units with [Anti-Armor II]> <hidden from users>",
 					//Mixed but for Land only
-					"[+7]% Strength <for [Land] units> <for units with [Cover I]> <hidden from users>", "[+7]% Strength <for [Land] units> <for units with [Cover II]> <hidden from users>", 
-					"[+7]% Strength <for [Land] units> <for units with [March]> <hidden from users>", "[+7]% Strength <for [Land] units> <for units with [Mobility]> <hidden from users>",
-					"[+7]% Strength <for [Land] units> <for units with [Sentry]> <hidden from users>", "[+7]% Strength <for [Land] units> <for units with [Logistics]> <hidden from users>",
-					"[+7]% Strength <for [Land] units> <for units with [Ambush I]> <hidden from users>", "[+7]% Strength <for [Land] units> <for units with [Ambush II]> <hidden from users>",
+					"[+5]% Strength <for [Land] units> <for units with [Cover I]> <hidden from users>", "[+5]% Strength <for [Land] units> <for units with [Cover II]> <hidden from users>", 
+					"[+5]% Strength <for [Land] units> <for units with [March]> <hidden from users>", "[+5]% Strength <for [Land] units> <for units with [Mobility]> <hidden from users>",
+					"[+5]% Strength <for [Land] units> <for units with [Sentry]> <hidden from users>", "[+5]% Strength <for [Land] units> <for units with [Logistics]> <hidden from users>",
+					"[+5]% Strength <for [Land] units> <for units with [Ambush I]> <hidden from users>", "[+5]% Strength <for [Land] units> <for units with [Ambush II]> <hidden from users>",
 					],
 		"cities": ["Antiopea","Melanippe","Hippolyta","Thermodosa","Orithyia","Andromacheia","Lysippeia","Euryaleia","Cyreneia","Myrineia","Arktos",
 			"Xandar","Mynaria"],
@@ -2867,10 +2867,10 @@
 		"uniqueName": "Of Anvil and Hammer",
 		"uniques": [
 					"Comment [-5% Unhappiness from Population in cities with [Wine]]",
-					"[+1 Production] from all [Forge] buildings",
-					"Comment [Gain a free secondary [Forge] in cities with at least 3 resources improved with [Mine] and/or [Quarry]]",
+					"[+2 Gold] from all [Forge] buildings",
+					"Comment [Gain a free secondary [Forge] in cities with at least 3 [Mine] and/or [Quarry]]",
 					"Comment [Units trained in cities with two [Forge] gain the [Runic Armament] promotion]",
-					"Comment [\n[Runic Armament]: \nDoubles the combat bonus from [Great General]]",
+					"Comment [\n[Runic Armament]: \nDouble the combat bonus received from [Great General]]",
 					
 					//Mechanism
 					"[All] units gain the [Runic Armament] promotion <in cities with a [Forge]> <in cities with a [Dwarven Forge]> <hidden from users>",
@@ -3008,7 +3008,7 @@
 		"innerColor": [180, 150, 70],
 
 		"uniqueName": "Justice Against the Oppresor",
-		"uniques": ["Comment [+100% Yield and effectiveness of [Fortified Farm] for 5 turns upon entering a war with Major Civilizations, doubled if defensive war]",
+		"uniques": ["Comment [+100% Yield and effectiveness of [Fortified Farm] for 5 turns upon entering a war with Major Civilizations, double the duration if defensive war]",
 					"Comment [Enemy Civilizations gain [-5]% Strength against our units for every 20 Military units they own]",
 					"Starts with [Liberty] adopted",
 					
@@ -3027,14 +3027,12 @@
         ]
 	},
 	
-	//Template
-	/*
+	//Ragzlin of Goblin  Horde
 	{
-		"name": "Name Government-type",
-		"leaderName": "(Title) Name",
-		"adjective": ["Name-adj"],
-		"startBias": ["Desert"],
-		"preferredVictoryType": "Cultural",
+		"name": "Goblin Horde",
+		"leaderName": "Ragzlin",
+		"adjective": ["Greenskins"],
+		"preferredVictoryType": "Domination",
 	//	"personality": "",
 		
 		"startIntroPart1": ".",
@@ -3048,24 +3046,51 @@
 		"neutralHello": ".",
 		"hateHello": ".",
 		"tradeRequest": ".",
-					
-		"outerColor": [100, 100, 100],
-		"innerColor": [100, 100, 100],
+		
+		"outerColor": [40, 60, 30],
+		"innerColor": [135, 115, 70],
 
-		"uniqueName": "UniqueAbility",
-		"uniques": ["Comment [This Civ can do X, Y, and Z]",
+		"uniqueName": "Greenskin Raider",
+		"uniques": [
+					"Comment [Military units may steal a Luxury resource from an unimproved Enemy tiles, removing and gaining them for yourself (up to 3 times)]",
+					"Earn [25]% of the damage done to [City] units as [Gold] <for [Melee] units>",
+					"[+15]% Strength <within [2] tiles of a [{Enemy} {City center}]>",
+					"Comment [All units heal 1 HP upon turn end]",
+					
+					//backend
+					"[Military] units gain the [Horde Raider] promotion <hidden from users>",
+					
+					"Provides [1] [Furs] <for every [FursToken]> <hidden from users>",
+					"Provides [1] [Cotton] <for every [CottonToken]> <hidden from users>",
+					"Provides [1] [Dyes] <for every [DyesToken]> <hidden from users>",
+					"Provides [1] [Gems] <for every [GemsToken]> <hidden from users>",
+					"Provides [1] [Gold Ore] <for every [GoldOreToken]> <hidden from users>",
+					"Provides [1] [Silver] <for every [SilverToken]> <hidden from users>",
+					"Provides [1] [Incense] <for every [IncenseToken]> <hidden from users>",
+					"Provides [1] [Ivory] <for every [IvoryToken]> <hidden from users>",
+					"Provides [1] [Silk] <for every [SilkToken]> <hidden from users>",
+					"Provides [1] [Spices] <for every [SpicesToken]> <hidden from users>",
+					"Provides [1] [Wine] <for every [WineToken]> <hidden from users>",
+					"Provides [1] [Sugar] <for every [SugarToken]> <hidden from users>",
+					"Provides [1] [Marble] <for every [MarbleToken]> <hidden from users>",
+					"Provides [1] [Whales] <for every [WhalesToken]> <hidden from users>",
+					"Provides [1] [Pearls] <for every [PearlsToken]> <hidden from users>",
+					"Provides [1] [Citrus] <for every [CitrusToken]> <hidden from users>",
+					"Provides [1] [Copper] <for every [CopperToken]> <hidden from users>",
+					"Provides [1] [Crab] <for every [CrabToken]> <hidden from users>",
+					"Provides [1] [Salt] <for every [SaltToken]> <hidden from users>",
+					"Provides [1] [Truffles] <for every [FursToken]> <hidden from users>",
 					
 					],
-		"cities": ["City1", "City2", "City3", "City4", "City5", "City6", "City7", "City8", "City9", "City10", "City11", "City12", "City13", "City14", "City15"],
-		"spyNames": ["Spy1","Spy2","Spy3","Spy4","Spy5"],
+		"cities": ["Muckgulch", "Grimtooth", "Snagga Hold", "Bogspine", "Cragbelch", "Rotfen", "Gnashpit", "Dribblemarch", "Sootmire", "Ironmaw", "Festerpeak", "Skulkshade", "Toadblight", "Mirewatch", "Stenchgate"],
+		"spyNames": ["Skiv", "Grib", "Nogga", "Twitch", "Fung"]
 		"civilopediaText": [
 			{"text":"Desc"},
 			{"text":"Desc"},
         ]
 	},
-	*/
 	
-	/* PENDING because no way to automatically swap every 20 turns. Please contact me on Unciv Discord server if you know a workaround.
+	/* SHELVED cause currently no idea on how to do the cycle system
 	//Mikohime of Tsukikage Kenzoku
 	{
 		"name": "Tsukikage Kenzoku",
@@ -3095,6 +3120,46 @@
 					"Comment [You may force [Waning] or [Waxing] state earlier once per era]",
 					"Comment [\n[Waning]: \n• +1 [Faith], +1 [Science] from [Moonlit Altar], +1 more to each every 2 eras\n• +15% Strength when defending]",
 					"Comment [\n[Waxing]: \n• -33%[Faith] cost of purchasing units and buildings\n• All units gain [Unobstructed Vision]]",
+					
+					//backend
+					
+					],
+		"cities": ["City1", "City2", "City3", "City4", "City5", "City6", "City7", "City8", "City9", "City10", "City11", "City12", "City13", "City14", "City15"],
+		"spyNames": ["Spy1","Spy2","Spy3","Spy4","Spy5"],
+		"civilopediaText": [
+			{"text":"Desc"},
+			{"text":"Desc"},
+        ]
+	},
+	*/
+	
+	//Template
+	/*
+	{
+		"name": "EmpireName",
+		"leaderName": "LeaderName",
+		"adjective": ["PeopleName"],
+		"startBias": ["TerrainName"],
+		"preferredVictoryType": "VictoryName",
+	//	"personality": "",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+					
+		"outerColor": [100, 100, 100],
+		"innerColor": [100, 100, 100],
+
+		"uniqueName": "UniqueAbility",
+		"uniques": ["Comment [ThisCivCanDoXYandZ]",
 					
 					],
 		"cities": ["City1", "City2", "City3", "City4", "City5", "City6", "City7", "City8", "City9", "City10", "City11", "City12", "City13", "City14", "City15"],

@@ -95,7 +95,7 @@
 				"uniques": [
 						"Only available <when above [24] [Soul]> <hidden from users>",
 						
-						"Comment [+25% [Science] for 10 turns. Cost 25 [Soul]s.]",
+						"Comment [+25% [Science] for 10 turns. Cost 25 [Soul].]",
 						"Comment [+1 [Science] in all cities for every Forbidden Knowledge casted]",
 						
 						//backend
@@ -110,7 +110,7 @@
 				"uniques": [
 						"Only available <when above [24] [Soul]> <hidden from users>",
 						
-						"Comment [+25% Strength and +1 Movement for 10(+Thanatos' Oath count x 2) turns. Cost 25 [Soul]s.]",
+						"Comment [+25% Strength and +1 Movement for 10(+Thanatos' Oath count x 2) turns. Cost 25 [Soul].]",
 						"Comment [+2 turns of duration for every Thanatos' Oath casted]",
 						
 						//backend
@@ -144,45 +144,45 @@
 				"uniques": [
 						"Only available <when above [29] [Soul]> <hidden from users>",
 						
-						"Comment [Empire enters golden age. Cost 30 [Soul]s.]",
+						"Comment [Empire enters golden age. Cost 30 [Soul].]",
 						"Comment [+3 Golden Age points per city for every Enlightenment casted]",
 						
 						//backend
 						"Empire enters golden age <hidden from users>",
 						
 						"Instantly gain [1] [ELimit] <hidden from users>",
-						"Instantly gain [-25] [Soul] <hidden from users>",
+						"Instantly gain [-30] [Soul] <hidden from users>",
 						
 				]
 			},
 			{
 				"text": "Ascension Rite",
 				"uniques": [						
-						"Only available <when above [49] [Soul]> <hidden from users>",
+						"Only available <when above [44] [Soul]> <hidden from users>",
 						
-						"Comment [Gain a free Great Person. Cost 50 [Soul]s.]",
+						"Comment [Gain a free Great Person. Cost 45 [Soul].]",
 						"Comment [+5% Great Person generation in all cities for every Ascension Rite casted]",
 						
 						//backend
 						"Free Great Person <hidden from users>",
 						
 						"Instantly gain [1] [ARLimit] <hidden from users>",
-						"Instantly gain [-40] [Soul] <hidden from users>",
+						"Instantly gain [-45] [Soul] <hidden from users>",
 						
 				]
 			},
 			{
 				"text": "Soul Harvest",
 				"uniques": [
-						"Comment [Gain [Faith] & [Gold] equal to 10(+Soul Harvest count) times stockpiled [Soul]s. Consumes all [Soul]s.]",
-						"Comment [+5 [Soul]s multiplier for every Soul Harvest casted]",
+						"Comment [Gain [Faith] & [Gold] equal to 10(+Soul Harvest count x 5) times stockpiled [Soul]. Consumes all [Soul].]",
+						"Comment [+5 [Soul] multiplier for every Soul Harvest casted]",
 						
 						//backend
 						"Instantly gain [5] [Gold] <for every [Soul]> <for every [SHLimit]> <hidden from users>",
 						"Instantly gain [5] [Faith] <for every [Soul]> <for every [SHLimit]> <hidden from users>",
 						
 						"Instantly gain [1] [SHLimit] <hidden from users>",
-						"Instantly gain [-1] [Soul] <for every [Soul]> <hidden from users>",
+						"Set [Soul] to [0] <hidden from users>",
 						
 				]
 			},

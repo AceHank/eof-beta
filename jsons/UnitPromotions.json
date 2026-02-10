@@ -269,7 +269,19 @@
 	{
 		"name": "Spire Damage Block",
 		"uniques": ["Comment [Reduces damage taken by 10 when adjacent to a [City center] with [Curative Spire]]",
-					"[This Unit] gains the [Superior Defense] status for [10] turn(s) <upon turn end> <for [non-[Air]] units> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+					
+					"[+1]% Strength <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [7] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [9] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [10] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+
 		]
 	},
 	
@@ -557,7 +569,7 @@
 	{
 		"name": "Runic Armament",
 		"uniques": ["Comment [Double the combat bonus received from [Great General]]",
-			"[+15]% Strength bonus for [{Military} {Runic Armament}] units within [2] tiles <for [Great General] units> <hidden from users>",
+			"[+15]% Strength bonus for [{non-[Great General]} {Runic Armament}] units within [2] tiles <hidden from users>",
 		]
 	},
 	
@@ -585,7 +597,7 @@
 		]
 	},
 	{
-		"name": "Man-at-Arms",
+		"name": "Militia",
 		"uniques": ["Comment [May build [Fortified Farm], [Road], and remove terrain features]",
 					"Can build [Road] improvements on tiles <hidden from users>",
 					"Can build [Fortified Farm] improvements on tiles <hidden from users>",
@@ -709,7 +721,7 @@
 	},
 	{
 		"name": "Greenskin",
-		"uniques": ["[This Unit] heals [3] HP <upon turn end>"]		
+		"uniques": ["[This Unit] heals [1] HP <upon turn end>"]
 	},
 	{
 		"name": "Plunderer",
@@ -1748,7 +1760,7 @@
 	//Bakunawa's Chosen
 	{
 		"name": "Mind Spike",
-		"uniques": ["Comment [Attack applies [Disoriented] for 2 turns. [Disoriented] unit has -1 Range and will miss 50% of its Melee attack.]",
+		"uniques": ["Comment [Attack applies [Disoriented] for 2 turns. [Disoriented] unit has -1 Range if Ranged and will miss 50% of its attack if Melee.]",
 					"[Target Unit] gains the [Disoriented] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
 					]
 	},
@@ -1896,8 +1908,8 @@
 	//Goblin Horde
 	{
 		"name": "Horde Raider",
-		"uniques": ["Comment [May steal a Luxury resource on this tile (if any)]",
-					"[This Unit] gains the [Steal Luxury] status for [1] turn(s) <for all movement> <in [{unimproved} {Enemy}] tiles> <in [Luxury resource] tiles> <hidden from users>",
+		"uniques": ["Comment [May steal a Luxury resource on this tile]",
+					"[This Unit] gains the [Steal Luxury] status for [1] turn(s) <for all movement> <in [{unimproved} {Enemy}] tiles> <in [Luxury resource] tiles> <when below [3] [Counter Something]> <hidden from users>",
 					
 					//Stockpiled
 					"Instantly gain [1] [FursToken] <upon gaining the [Steal Luxury] status> <in [Furs] tiles> <hidden from users>",
@@ -1922,11 +1934,12 @@
 					"Instantly gain [1] [TrufflesToken] <upon gaining the [Steal Luxury] status> <in [Truffles] tiles> <hidden from users>",
 					
 					"Remove [Luxury] resources from this tile <upon gaining the [Steal Luxury] status> <hidden from users>",
+					"Instantly gain [1] [Counter Something] <upon gaining the [Steal Luxury] status> <hidden from users>",
 		]
 	},	
 	{
 		"name": "Steal Luxury",
-		"uniques": ["Comment [May steal a Luxury resource on this tile (if any)]",
+		"uniques": ["Comment [May steal a Luxury resource on this tile]",
 		]
 	},	
 	{

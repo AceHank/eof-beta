@@ -320,6 +320,8 @@
 			"[+1 Production] <after discovering [Chemistry]>", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "M"
 	},
+	
+	/*
 	{
 		"name": "Dwarven Quarry",
 		"uniqueTo": "Shield Dwarven Kingdom",
@@ -329,15 +331,16 @@
 		"uniques": [
 			"Provides [1] [City-level Counter] <hidden from users>", 
 			
-			/*
-			"Provides [1] [City-level Counter] <in [Stone] tiles> <hidden from users>", 
-			"Provides [1] [City-level Counter] <in [Marble] tiles> <hidden from users>", 
-			*/
+			
+		//	"Provides [1] [City-level Counter] <in [Stone] tiles> <hidden from users>", 
+		//	"Provides [1] [City-level Counter] <in [Marble] tiles> <hidden from users>", 
+			
 			
 			"Will not be displayed in Civilopedia",
 			"[+1 Production] <after discovering [Chemistry]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "Q"
 	},
+	*/
 	
 	//The Justfolk
 	{

@@ -115,7 +115,9 @@
 		"uniqueName": "Endless Horde",
 		"uniques": ["[+15]% Production when constructing [{Military} {Land}] units [in all cities] <in cities with a [Barracks]>",
 					"[+25]% to Flank Attack bonuses",
-					"Comment [All units heal 3 HP upon turn end]",
+					"Comment [All units heal 1 HP upon turn end]",
+					
+					"[All] units gain the [Greenskin] promotion <hidden from users>",
 					], 
 		"cities": ["Gholug","Xruul","Tagdud","Mazoga","Uloth","Shelur","Lambug","Gashnakh","Borgakh","Rogmesh","Bugdurash","Shagar",
 			"Nargol","Yotul","Homraz","Gonk","Mor"],
@@ -485,7 +487,7 @@
 		"uniqueName": "Crimson Sky",
 		"uniques": [
 					"Comment [+1 [Happiness] from every [Barracks], [Armory], and [Military Academy]]",
-					"Comment [2 free [Pitlord]s appear upon completing your first Policy tree]",
+					"Comment [2 free [Pitlord]s appear upon completing your first Policy tree (also provides 2 [Horses])]",
 					
 					"[+1 Happiness] from every [Barracks] <hidden from users>", 
 					"[+1 Happiness] from every [Armory] <hidden from users>", 
@@ -2611,7 +2613,7 @@
 
 		"uniqueName": "Per Morbus Arcanorum Vivemus",
 		"uniques": ["Comment [+34% [Production] when constructing [Settler] in cities with 5 or less Population]",
-					"Comment [-15% Growth in cities with 5 or less Population]",
+					"Comment [-10% Growth in cities with 5 or less Population]",
 					
 					"Comment [\n[Mana Tainted]:]",
 					"Comment [Land units has a 15% chance to gain [Bleeding] for 2 turns and [Crippled] for 1 turn upon taking damage.]",
@@ -2619,7 +2621,7 @@
 					
 					"[Land] units gain the [Mana Tainted] promotion <hidden from users>",
 					"[+34]% Production when constructing [Settler] units [in all cities] <in cities with less than [6] [Population]> <hidden from users>",
-					"[-15]% growth [in all cities] <in cities with less than [6] [Population]> <hidden from users>",
+					"[-10]% growth [in all cities] <in cities with less than [6] [Population]> <hidden from users>",
 					"Instantly gain [8] [Counter Something] <upon gaining a [Blight Spores] unit> <hidden from users>",
 					"Instantly gain [-1] [Counter Something] <upon turn end> <with [Counter Something]> <hidden from users>",
 					
@@ -2868,9 +2870,9 @@
 		"uniques": [
 					"Comment [-5% Unhappiness from Population in cities with [Wine]]",
 					"[+2 Gold] from all [Forge] buildings",
-					"Comment [Gain a free secondary [Forge] in cities with at least 3 [Mine] and/or [Quarry]]",
-					"Comment [Units trained in cities with two [Forge] gain the [Runic Armament] promotion]",
-					"Comment [\n[Runic Armament]: \nDouble the combat bonus received from [Great General]]",
+					"Comment [Gain a free secondary [Forge] in cities with at least 3 [Mine]]",
+					"Comment [Units trained in cities with two [Forge]s receive double the combat bonus from [Great General]]",
+				//	"Comment [\n[Runic Armament]: \nDouble the combat bonus received from [Great General]]",
 					
 					//Mechanism
 					"[All] units gain the [Runic Armament] promotion <in cities with a [Forge]> <in cities with a [Dwarven Forge]> <hidden from users>",
@@ -2956,9 +2958,9 @@
 		"innerColor": [70, 150, 90],
 
 		"uniqueName": "Most Profane Throne",
-		"uniques": ["Comment [Cast an [Unholy Ritual] once every era, consuming [Soul]s for powerful empire-wide effects]",
+		"uniques": ["Comment [Cast an [Unholy Ritual] once every era, consuming [Soul] for powerful empire-wide effects (See Civilopedia for the list)]",
 					"Comment [Gain 1 [Soul] upon defeating a non-[Barbarian] unit]",
-					"Comment [Gain 5 [Soul]s upon constructing each unique type of [Faith] building (once per building type per city)]",
+					"Comment [Gain 5 [Soul] upon constructing [Faith] building (once per building name per city)]",
 					
 					//Backend
 					"Instantly gain [1] [Soul] <upon defeating a [non-[Barbarian]] unit> <hidden from users>",
@@ -2980,6 +2982,12 @@
 		"civilopediaText": [
 			{"text":"Desc"},
 			{"text":"Desc"},
+			{"text":"Unholy Ritual list:"},
+			{"text":"Forbidden Knowledge: +25% [Science] for 10 turns. Cost 25 [Soul]. +1 [Science] in all cities for every Forbidden Knowledge casted"},
+			{"text":"Thanatos' Oath: +25% Strength and +1 Movement for 10(+Thanatos' Oath count x 2) turns. Cost 25 [Soul]. +2 turns of duration for every Thanatos' Oath casted"},
+			{"text":"Enlightenment: Empire enters golden age. Cost 30 [Soul]. +3 Golden Age points per city for every Enlightenment casted"},
+			{"text":"Ascension Rite: Gain a free Great Person. Cost 50 [Soul]. +5% Great Person generation in all cities for every Ascension Rite casted"},
+			{"text":"Soul Harvest: Gain [Faith] & [Gold] equal to 10(+Soul Harvest count) times stockpiled [Soul]. Consumes all [Soul]. +5 [Soul] multiplier for every Soul Harvest casted"},
         ]
 	},
 	
@@ -3059,6 +3067,7 @@
 					
 					//backend
 					"[Military] units gain the [Horde Raider] promotion <hidden from users>",
+					"[All] units gain the [Greenskin] promotion <hidden from users>",
 					
 					"Provides [1] [Furs] <for every [FursToken]> <hidden from users>",
 					"Provides [1] [Cotton] <for every [CottonToken]> <hidden from users>",
@@ -3079,7 +3088,7 @@
 					"Provides [1] [Copper] <for every [CopperToken]> <hidden from users>",
 					"Provides [1] [Crab] <for every [CrabToken]> <hidden from users>",
 					"Provides [1] [Salt] <for every [SaltToken]> <hidden from users>",
-					"Provides [1] [Truffles] <for every [FursToken]> <hidden from users>",
+					"Provides [1] [Truffles] <for every [TrufflesToken]> <hidden from users>",
 					
 					],
 		"cities": ["Muckgulch", "Grimtooth", "Snagga Hold", "Bogspine", "Cragbelch", "Rotfen", "Gnashpit", "Dribblemarch", "Sootmire", "Ironmaw", "Festerpeak", "Skulkshade", "Toadblight", "Mirewatch", "Stenchgate"],
@@ -3089,6 +3098,7 @@
 			{"text":"Desc"},
         ]
 	},
+	
 	
 	/* SHELVED cause currently no idea on how to do the cycle system
 	//Mikohime of Tsukikage Kenzoku

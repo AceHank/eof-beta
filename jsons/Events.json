@@ -84,7 +84,7 @@
 		],
 	},
 	
-	//Thanatos Imperium
+	//Thanatos Theocracy
 	{
 		"name": "Unholy Ritual",
 		"text": "We have ushered into a new age, the Unholy Ritual must be performed to appease to the dead gods!",
@@ -182,7 +182,8 @@
 						"Instantly gain [5] [Faith] <for every [Soul]> <for every [SHLimit]> <hidden from users>",
 						
 						"Instantly gain [1] [SHLimit] <hidden from users>",
-						"Set [Soul] to [0] <hidden from users>",
+						"Instantly gain [-1] [Soul] <for every [Soul]> <hidden from users>",
+					//	"Set [Soul] to [0] <hidden from users>", //Seems there is a bug when setting to 0
 						
 				]
 			},

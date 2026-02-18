@@ -16,6 +16,8 @@
             "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor",
 			
 			//Mechanism
+			//Arata Clan Yamajiro
+            "YamajiroMarker <in cities with a [Yamajiro]> <hidden from users>",
 			//Thanatos Imperium Black Citadel
             "BlackCitadel <in cities with a [Black Citadel]> <hidden from users>",
 			//Just War fix compa

@@ -8,12 +8,13 @@
 		"[-100]% to Flank Attack bonuses <vs [Flank Immune] units>",
 		"[-50]% to Flank Attack bonuses <vs [Flank Resist] units>",
 		"[+50]% to Flank Attack bonuses <vs [Blinded] units>",
-		
-		//Thanatos Imperium
-		"[-5]% Strength <within [2] tiles of a [BlackCitadel]>",
-		"[-5]% Strength <within [1] tiles of a [BlackCitadel]>",
-		"[-5] HP when healing <within [2] tiles of a [BlackCitadel]>",
-		"[-5] HP when healing <within [1] tiles of a [BlackCitadel]>",
+		//Arata Clan
+		"[-99] Movement <within [1] tiles of a [YamajiroMarker]> <in [Enemy] tiles>",
+		//Thanatos Theocracy
+		"[-5]% Strength <within [2] tiles of a [BlackCitadel]> <in [Enemy] tiles>",
+		"[-5]% Strength <within [1] tiles of a [BlackCitadel]> <in [Enemy] tiles>",
+		"[-5] HP when healing <within [2] tiles of a [BlackCitadel]> <in [Enemy] tiles>",
+		"[-5] HP when healing <within [1] tiles of a [BlackCitadel]> <in [Enemy] tiles>",
 		//The Chroniclers
 		"[-10]% Strength <vs [The Chroniclers] units> <during a Golden Age>",
 		//The Justfolk
@@ -43,7 +44,7 @@
 		"[This Unit] gains the [Elune's Rooted] status for [2] turn(s) <upon entering a [Enchanted Forest] tile> <in [Enemy Land] tiles> <for units without [Elune's Protection]> <if [Elune's Shrine] is constructed by anybody>",
 		//Phrygian Kingdom
 		"[This Unit] gains the [Binded] status for [3] turn(s) <upon damaging a [Gordian Knot] unit>",
-		//Thanatos Imperium
+		//Thanatos Theocracy
 		"[-5]% Strength <for [3] turns> <upon damaging a [Disturbing Presence] unit>",
 		//Troglodyte
 		"[This Unit] takes [10] damage <upon damaging a [Retribution] unit> <for [Melee] units> <for [non-[Air]] units>", 

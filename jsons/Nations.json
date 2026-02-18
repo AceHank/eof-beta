@@ -2933,9 +2933,9 @@
         ]
 	},
 	
-	//Mordraugr of Thanatos Imperium
+	//Mordraugr of Thanatos Theocracy
 	{
-		"name": "Thanatos Imperium",
+		"name": "Thanatos Theocracy",
 		"leaderName": "Mordraugr",
 		"adjective": ["Thanatorian"],
 		"startBias": ["Tundra"],
@@ -3024,7 +3024,7 @@
 					"Provides [1] [Marker] <for [5] turns> <upon declaring war on [Major] Civilizations> <hidden from users>",
 					"Provides [1] [Marker] <for [10] turns> <upon being declared war on by [Major] Civilizations> <hidden from users>",
 					"[+100]% Yield from every [Fortified Farm] <with [Marker]> <hidden from users>",
-					"[All] units gain the [Militia] promotion <hidden from users>",
+					"[All] units gain the [Armed Farmer] promotion <hidden from users>",
 					
 					],
 		"cities": ["Thulu", "Isenmaar", "Ototh", "Tihnas", "Tulihmek", "Usimbar", "Shur", "Peromar", "Sundavey", "Yuruk", "Ziruk", "Sermith"],
@@ -3093,6 +3093,49 @@
 					],
 		"cities": ["Muckgulch", "Grimtooth", "Snagga Hold", "Bogspine", "Cragbelch", "Rotfen", "Gnashpit", "Dribblemarch", "Sootmire", "Ironmaw", "Festerpeak", "Skulkshade", "Toadblight", "Mirewatch", "Stenchgate"],
 		"spyNames": ["Skiv", "Grib", "Nogga", "Twitch", "Fung"]
+		"civilopediaText": [
+			{"text":"Desc"},
+			{"text":"Desc"},
+        ]
+	},
+	
+	//Arata Takemura of Arata Clan
+	{
+		"name": "Arata Clan",
+		"leaderName": "Arata Takemura",
+		"adjective": ["The Arata"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+	//	"personality": "",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [160, 20, 20],
+		"innerColor": [230, 200, 120],
+
+		"uniqueName": "Indomitable Resolve",
+		"uniques": ["No damage penalty for wounded units",
+					"Comment [Gain 10 [Culture] per era upon expending a Great Person unit]",
+					"Comment [Free [Archer Maiden] appears upon gaining a Great Person unit before Industrial Era]",
+					"Comment [\n[Archer Maiden]: Archery unit with Strength that scales with the strongest available Archer-line unit. They have [Shock I], [Extended Range], and an active ability to attack over obstacle]",
+					
+					//backend
+					"Free [Archer Maiden] appears <upon gaining a [Great Person] unit> <before the [Industrial era]> <hidden from users>",
+					"Gain [10] [Culture] <upon expending a [Great Person] unit> <for every [Era number]> <hidden from users>",
+					
+					],
+		"cities": ["City1", "City2", "City3", "City4", "City5", "City6", "City7", "City8", "City9", "City10", "City11", "City12", "City13", "City14", "City15"],
+		"spyNames": ["Spy1","Spy2","Spy3","Spy4","Spy5"],
 		"civilopediaText": [
 			{"text":"Desc"},
 			{"text":"Desc"},

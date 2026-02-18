@@ -2452,10 +2452,10 @@
 		"movement": 2
 	},
 	
-	//Thanatos Imperium
+	//Thanatos Theocracy
 	{
 		"name": "Dreadguard",
-		"uniqueTo": "Thanatos Imperium",
+		"uniqueTo": "Thanatos Theocracy",
 		"replaces": "Knight",
 		"unitType": "Mounted",
 		"movement": 4,
@@ -2522,6 +2522,46 @@
 		"attackSound": "horse"
 	},
 	
+	//Arata Clan
+	{
+		"name": "Archer Maiden",
+		"unitType": "Archery",
+		"uniqueTo": "Arata Clan",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 7,
+		"cost": 1,
+		"upgradesTo": "Gatling Gun",
+		"uniques": [			
+					//STR Scaling
+					"[+4] Strength <after discovering [Construction]> <hidden from users>",
+					"[+7] Strength <after discovering [Machinery]> <hidden from users>",
+					
+					//stuff
+					"Will not be displayed in Civilopedia <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>", 
+					"Unbuildable <hidden from users>", "Cannot be purchased <hidden from users>",
+		],
+		"promotions": ["Shock I", "Extended Range", "Rain of Arrows"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Bushi",
+		"uniqueTo": "Arata Clan",
+		"replaces": "Longswordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 24,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Rifleman",
+		"uniques": ["Comment [Upgrades to [Rifleman] vs [Musketman]]"],
+		"promotions": ["Shock I", "Unyielding"],
+		"obsoleteTech": "Rifling",
+		"requiredResource": "Iron",
+		"attackSound": "metalhit"
+	},
+
 	
 	//Test Purpose
 		{

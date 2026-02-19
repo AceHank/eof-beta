@@ -2011,6 +2011,19 @@
 		]
 	},
 		
+	//Hide Clan
+	{
+		"name": "Hidden Village",
+		"uniqueTo": "Hide Clan",
+		"replaces": "Barracks",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["All newly-trained [Military] units [in this city] receive the [Kizuna] promotion",
+		
+					"New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"
+					],
+		"requiredTech": "Bronze Working"
+	},
 	
 	/*
 	//TEST PURPOSE

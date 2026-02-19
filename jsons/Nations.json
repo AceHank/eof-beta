@@ -3062,12 +3062,14 @@
 		"uniques": [
 					"Comment [Military units may steal a Luxury resource from an unimproved Enemy tiles, removing and gaining them for yourself (up to 3 times)]",
 					"Earn [25]% of the damage done to [City] units as [Gold] <for [Melee] units>",
-					"[+15]% Strength <within [2] tiles of a [{Enemy} {City center}]>",
+					"Comment [+15% Strength within 2-tiles of an Enemy [City center]]",						//needed this because I can't stand the "a Enemy" instead of "an Enemy"
 					"Comment [All units heal 1 HP upon turn end]",
 					
 					//backend
 					"[Military] units gain the [Horde Raider] promotion <hidden from users>",
 					"[All] units gain the [Greenskin] promotion <hidden from users>",
+					
+					"[+15]% Strength <within [2] tiles of a [{Enemy} {City center}]> <hidden from users>",
 					
 					"Provides [1] [Furs] <for every [FursToken]> <hidden from users>",
 					"Provides [1] [Cotton] <for every [CottonToken]> <hidden from users>",
@@ -3127,21 +3129,66 @@
 		"uniques": ["No damage penalty for wounded units",
 					"Comment [Gain 10 [Culture] per era upon expending a Great Person unit]",
 					"Comment [Free [Archer Maiden] appears upon gaining a Great Person unit before Industrial Era]",
-					"Comment [\n[Archer Maiden]: Archery unit with Strength that scales with the strongest available Archer-line unit. They have [Shock I], [Extended Range], and an active ability to attack over obstacle]",
+					"Comment [\n[Archer Maiden]: Archery unit with Strength that scales with the strongest available Archer-line unit. They have [Shock I], [Extended Range], and an active ability to gain +25% Strength and attack over obstacle]",
 					
 					//backend
 					"Free [Archer Maiden] appears <upon gaining a [Great Person] unit> <before the [Industrial era]> <hidden from users>",
 					"Gain [10] [Culture] <upon expending a [Great Person] unit> <for every [Era number]> <hidden from users>",
 					
 					],
-		"cities": ["City1", "City2", "City3", "City4", "City5", "City6", "City7", "City8", "City9", "City10", "City11", "City12", "City13", "City14", "City15"],
-		"spyNames": ["Spy1","Spy2","Spy3","Spy4","Spy5"],
+		"cities": ["Aratake", "Masashiro", "Tetsumori", "Katsuyama", "Takashiro", "Nobukawa", "Tadamori", "Kenryuzaka", "Masatora", "Shigemura", "Katsuhara", "Motokane", "Takemori", "Yoshikawa", "Muneshima"],
+		"spyNames": ["Masakatsu", "Tadanori", "Katsutora", "Shigemasa", "Nobuyori"],
 		"civilopediaText": [
 			{"text":"Desc"},
 			{"text":"Desc"},
         ]
 	},
 	
+	//Hide Kageyoshi of Hide Clan
+	{
+		"name": "Hide Clan",
+		"leaderName": "Hide Kageyoshi",
+		"adjective": ["The Hide"],
+		"startBias": ["Mountain"],
+	//	"personality": "",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+					
+		"outerColor": [45, 45, 45],
+		"innerColor": [0, 100, 90],
+
+		"uniqueName": "Shadow Network",
+		"uniques": [
+					"[+1] Sight",
+					"Comment [Starts with [Shinobi] instead of [Warrior]]",
+					"Comment [Military units can see over obstacles in Enemy territory]",
+					"Comment [+100% spy effectiveness for 10 turns upon entering a war with Major Civilizations]",
+					
+					//backend
+					"[+100]% spy effectiveness [in all cities] <for [10] turns> <upon entering a war with [Major] Civilizations> <hidden from users>",
+					"[+100]% spy effectiveness [in enemy cities] <for [10] turns> <upon entering a war with [Major] Civilizations> <hidden from users>",
+					"[Military] units gain the [Alert] promotion <hidden from users>",
+					"[Warrior] units gain the [ShinobiTransform] promotion <before turn number [1]> <hidden from users>",
+					"Free [Shinobi] appears <hidden from users>",
+					
+					],
+		"cities": ["Kageyama", "Kurokawa", "Shinokage", "Yamishiro", "Kagemori", "Kurotsuki", "Hisame", "Oborozaka", "Kagehara", "Tsukigakure", "Kurohama", "Shirakage", "Yorukawa", "Kageishi", "Kurozane"],
+		"spyNames": ["Kagemaru", "Hayakage", "Shiranui", "Kuroto", "Yamikaze"],
+		"civilopediaText": [
+			{"text":"Desc"},
+			{"text":"Desc"},
+        ]
+	},
 	
 	/* SHELVED cause currently no idea on how to do the cycle system
 	//Mikohime of Tsukikage Kenzoku

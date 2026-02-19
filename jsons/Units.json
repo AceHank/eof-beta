@@ -2561,7 +2561,22 @@
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
 	},
-
+	
+	//Hide Clan
+	{
+		"name": "Shinobi",
+		"uniqueTo": "Hide Clan",
+		"replaces": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 40,
+		"requiredTech": "Agriculture",
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["Invisibility", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost", "Shadow Exit", "Phantom Unit", "Kizuna"],
+		"attackSound": "nonmetalhit"
+	},
 	
 	//Test Purpose
 		{

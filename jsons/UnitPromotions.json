@@ -614,6 +614,56 @@
 		]
 	},
 	
+	//Hide Clan
+	{
+		"name": "Alert",
+		"uniques": [
+					"Can see over obstacles <in [Enemy] tiles>",
+		]
+	},	
+	{
+		"name": "ShinobiTransform",
+		"uniques": [
+					"[This Unit] takes [100] damage",
+		]
+	},	
+	{
+		"name": "Kizuna",
+		"uniques": ["Comment [+1 Strength for every 2 [Shinobi] owned, up to +15.]",
+		
+					"[+1] Strength <when number of [[Shinobi] Units] is equal to [2]> <hidden from users>",	"[+2] Strength <when number of [[Shinobi] Units] is equal to [4]> <hidden from users>",	"[+3] Strength <when number of [[Shinobi] Units] is equal to [6]> <hidden from users>",
+					"[+4] Strength <when number of [[Shinobi] Units] is equal to [10]> <hidden from users>", "[+5] Strength <when number of [[Shinobi] Units] is equal to [12]> <hidden from users>", "[+6] Strength <when number of [[Shinobi] Units] is equal to [14]> <hidden from users>",
+					"[+7] Strength <when number of [[Shinobi] Units] is equal to [16]> <hidden from users>", "[+8] Strength <when number of [[Shinobi] Units] is equal to [18]> <hidden from users>", "[+9] Strength <when number of [[Shinobi] Units] is equal to [20]> <hidden from users>",
+					"[+10] Strength <when number of [[Shinobi] Units] is equal to [22]> <hidden from users>", "[+11] Strength <when number of [[Shinobi] Units] is equal to [24]> <hidden from users>",	"[+12] Strength <when number of [[Shinobi] Units] is equal to [26]> <hidden from users>",
+					"[+13] Strength <when number of [[Shinobi] Units] is equal to [28]> <hidden from users>", "[+14] Strength <when number of [[Shinobi] Units] is equal to [30]> <hidden from users>",	"[+15] Strength <when number of [[Shinobi] Units] is equal to [32]> <hidden from users>",
+		]
+	},	
+	{
+		"name": "Phantom Unit",
+		"uniques": ["Comment [May enter foreign tiles without open border. Invisible to non-adjacent units in non-Enemy territory. Gain double the bonus and limit of [Kizuna] starting from the Renaissance era.]",
+					
+					"May enter foreign tiles without open borders <hidden from users>",
+					"Invisible to non-adjacent units <in [non-[Enemy]] tiles> <hidden from users>",
+					
+					"[+1] Strength <when number of [[Shinobi] Units] is equal to [2]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+2] Strength <when number of [[Shinobi] Units] is equal to [4]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+3] Strength <when number of [[Shinobi] Units] is equal to [6]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+4] Strength <when number of [[Shinobi] Units] is equal to [8]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+5] Strength <when number of [[Shinobi] Units] is equal to [10]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+6] Strength <when number of [[Shinobi] Units] is equal to [12]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+7] Strength <when number of [[Shinobi] Units] is equal to [14]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+8] Strength <when number of [[Shinobi] Units] is equal to [16]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+9] Strength <when number of [[Shinobi] Units] is equal to [18]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+10] Strength <when number of [[Shinobi] Units] is equal to [20]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+11] Strength <when number of [[Shinobi] Units] is equal to [22]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+12] Strength <when number of [[Shinobi] Units] is equal to [24]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+13] Strength <when number of [[Shinobi] Units] is equal to [26]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+14] Strength <when number of [[Shinobi] Units] is equal to [28]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+15] Strength <when number of [[Shinobi] Units] is equal to [30]> <starting from the [Renaissance era]> <hidden from users>",
+		]
+	},	
+	
+	
 	//Universal~~~~~~~
 	{
 		"name": "Vigorous",
@@ -1994,6 +2044,25 @@
 					"[This Unit] gains the [Debuff Immune] status for [1] turn(s) <upon losing at least [1] HP in a single attack> <when below [51] HP> <hidden from users>",
 					"[This Unit] gains the [Debuff Immune] status for [1] turn(s) <upon losing at least [1] HP in a single attack> <when below [26] HP> <hidden from users>",
 		]
+	},
+	
+	//Hide Clan
+	{
+		"name": "Shadow Exit",	//Shadow Exit
+		"uniques": ["Comment [Activate to gain Invisibility for 2 turn and may teleport 3-tiles away. Only useable as first action. Can only be used once.]",
+					"[This Unit] gains the [Shadow Exit Active] status for [1] turn(s) <for [0] movement> <if it hasn't used other actions yet> <removing the [Shadow Exit] promotion/status> <hidden from users>",	
+					],
+	},
+	{
+		"name": "Shadow Exit Active",
+		"uniques": ["Invisible to others",
+					"May Paradrop to [All] tiles up to [3] tiles away",
+					
+					]
+	},
+	{
+		"name": "Shadow Exit Cooldown",
+		"uniques": ["Comment [Shadow Exit is on Cooldown]"]
 	},
 	
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//

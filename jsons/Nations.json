@@ -258,6 +258,7 @@
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Cultural",
 		"personality": "Warden of Harmony",
+		"style": "ForestElven",
 		
 		"startIntroPart1": "Aia Sylvanna! The Queen of the Elven, protector of the sacred lands. ",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
@@ -282,6 +283,9 @@
 		
 					"[+1 Culture] from every [Forest] <with [1] to [6] neighboring [Forest] tiles> <hidden from users>", 
 					"[+1 Faith] from every [Jungle] <with [1] to [6] neighboring [Jungle] tiles> <hidden from users>",
+					
+					"Free [Swordsman] appears",
+					"Free [Longswordsman] appears",
 					
 					"[+5]% [Culture] from every [Ancestor Tree] <when number of [[Ancestor Tree] Buildings] is more than [1]> <hidden from users>",
 					"[+1 Culture] from all [Ancestor Tree] buildings <for every [4] [[Ancestor Tree] Buildings]> <when number of [[Ancestor Tree] Buildings] is more than [3]> <hidden from users>",
@@ -2185,9 +2189,9 @@
 
 		"uniqueName": "Black Land, My River",
 		"uniques": ["Comment [Before founding Pantheon, gain enough [Faith] for a Pantheon upon researching [Masonry]]",
-					"Comment [Receive a Pantheon belief upon completing the first [Sphinx] and World Wonder]",
+					"Comment [Adopt a Pantheon belief upon completing the first [Sphinx] and World Wonder]",
 					"Comment [Gain access to exclusive Pantheon beliefs]",
-		
+					
 					"Gain a free [Pantheon] belief <upon building a [Sphinx] improvement> <when below [2] [Kemetian First Sphinx]> <hidden from users>", 
 					"Gain a free [Pantheon] belief <upon constructing [World Wonder]> <when below [2] [Kemetian First Wonder]> <hidden from users>",
 					"Gain enough Faith for a Pantheon <upon discovering [Masonry] technology> <before founding a Pantheon> <hidden from users>",
@@ -2316,6 +2320,7 @@
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Diplomatic",
 	//	"personality": "The Protector",
+	//	"style": "ForestElven",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
@@ -2333,13 +2338,15 @@
 		"innerColor": [85, 150, 60],
 
 		"uniqueName": "Sanctuary of Elune",
-		"uniques": ["Comment [Military units have 30% chance to receive [Sanctuary] for 2 turns when damaged in Friendly territory. 100% for [Wisp] and Civilian. Each unit can only receive [Sanctuary] once every 10 turns.]",
+		"uniques": ["Comment [When damaged in your territory, all units gain [Sanctuary] until the start of its turn. Only one unit can be in a [Sanctuary]. This ability has 5 turns of cooldown.]",
 					"Comment [[Wisp] may enchant a [Forest]/[Jungle]. Enemy moving into [Enchanted Forest] will be [Rooted] for 2 turns once every 6 turns.]",
 					"Comment []",
 					"Comment [[Rooted]: Can't move. Can't Melee attack.]",
 					"Comment [[Sanctuary]: This unit cannot be attacked. [Sanctuary] is lost upon attacking.]",
 					
 					"[All] units gain the [Elune's Protection] promotion <hidden from users>",
+					
+					"Instantly gain [-1] [Elune Protection Cooldown] <upon turn start> <when above [0] [Elune Protection Cooldown]> <hidden from users>",
 					
 					],
 		"cities": ["Darnassus", "Moonshade", "Starfall", "Shalazzar", "Twilightglade", "Astra'thar", "Eldersong", "Teldrassil", "Gloomspire", "Nightvale", "Moonglade", "Silvergrove", "Dreamsong", 
@@ -2377,7 +2384,7 @@
 		"uniqueName": "Together for Her",
 		"uniques": ["Comment [Gain Golden Age points upon discovering technology equal to 5 per era the technology belongs to (modified by game speed)]",
 					"Comment [Every third Military Land unit gained is spawned as [Undead]]",
-					"Comment [[Bound to Serve]: For every 10 Military Land units lost, a free strongest available Melee footman unit spawns as [Undead]]",
+					"Comment [[Bound to Serve]: For every 10 Military Land units lost, a free strongest available Melee footman unit spawns as [Undead] at next turn start]",
 					
 					//Aellenarian Sanctum
 					"[-100]% Unhappiness from [Aellenarian Scholar] [in all cities] <hidden from users>",
@@ -2970,11 +2977,11 @@
 					//Forbidden Knowledge
 					"[+1 Science] [in all cities] <for every [FKLimit]> <hidden from users>",
 					//Enlightenment
-					"Instantly gain [3] [Golden Age points] <upon turn end> <for every [Cities]> <for every [ELimit]> <hidden from users>",
+					"[+25]% Golden Age length <for every [ELimit]> <hidden from users>",
 					//Ascencion Rite
-					"[+5]% Great Person generation [in all cities] <for every [ARLimit]> <hidden from users>",
+					"[+10]% Great Person generation [in all cities] <for every [ARLimit]> <hidden from users>",
 					//Soul Harvest
-					"Instantly gain [2] [SHLimit] <hidden from users>",
+					"Instantly gain [1] [SHLimit] <hidden from users>",
 					
 					],
 		"cities": ["Mordheim", "Thanora", "Erevos", "Blackspire", "Necropolis Prime", "Gravemarch", "Soulforge", "Obsidian Reach", "Deathwatch", "Morvath", "Vespera", "Doomgate", "Tenebris", "Ravencrown", "Cryptveil"],
@@ -2983,11 +2990,11 @@
 			{"text":"Desc"},
 			{"text":"Desc"},
 			{"text":"Unholy Ritual list:"},
-			{"text":"Forbidden Knowledge: +25% [Science] for 10 turns. Cost 25 [Soul]. +1 [Science] in all cities for every Forbidden Knowledge casted"},
-			{"text":"Thanatos' Oath: +25% Strength and +1 Movement for 10(+Thanatos' Oath count x 2) turns. Cost 25 [Soul]. +2 turns of duration for every Thanatos' Oath casted"},
-			{"text":"Enlightenment: Empire enters golden age. Cost 30 [Soul]. +3 Golden Age points per city for every Enlightenment casted"},
-			{"text":"Ascension Rite: Gain a free Great Person. Cost 50 [Soul]. +5% Great Person generation in all cities for every Ascension Rite casted"},
-			{"text":"Soul Harvest: Gain [Faith] & [Gold] equal to 10(+Soul Harvest count) times stockpiled [Soul]. Consumes all [Soul]. +5 [Soul] multiplier for every Soul Harvest casted"},
+			{"text":"Forbidden Knowledge: +50% [Science] for 10 turns. Cost 25 [Soul]. +1 [Science] in all cities for every Forbidden Knowledge casted"},
+			{"text":"Thanatos' Oath: +25% Strength and +1 Movement for 10(+Thanatos' Oath count x 3) turns. Cost 25 [Soul]. +3 turns of duration for every Thanatos' Oath casted"},
+			{"text":"Enlightenment: Empire enters golden age. Cost 30 [Soul]. +25% Golden Age length for every Enlightenment casted"},
+			{"text":"Ascension Rite: Gain a free Great Person. Cost 45 [Soul]. +10% Great Person generation in all cities for every Ascension Rite casted"},
+			{"text":"Soul Harvest: Gain [Faith] & [Gold] equal to 5(+Soul Harvest count) times stockpiled [Soul]. Consumes all [Soul]. +5 [Soul] multiplier for every Soul Harvest casted"},
         ]
 	},
 	
@@ -3127,9 +3134,9 @@
 
 		"uniqueName": "Indomitable Resolve",
 		"uniques": ["No damage penalty for wounded units",
-					"Comment [Gain 10 [Culture] per era upon expending a Great Person unit]",
+					"Comment [Gain 10 [Culture] per Era number upon expending a Great Person unit]",
 					"Comment [Free [Archer Maiden] appears upon gaining a Great Person unit before Industrial Era]",
-					"Comment [\n[Archer Maiden]: Archery unit with Strength that scales with the strongest available Archer-line unit. They have [Shock I], [Extended Range], and an active ability to gain +25% Strength and attack over obstacle]",
+					"Comment [\n[Archer Maiden]: Archery unit with Strength that scales with the strongest available Archer-line unit. They have [Shock I], [Extended Range], and an active ability to gain Attack Over Obstacle and +25% Strength]",
 					
 					//backend
 					"Free [Archer Maiden] appears <upon gaining a [Great Person] unit> <before the [Industrial era]> <hidden from users>",
@@ -3165,7 +3172,7 @@
 		"tradeRequest": ".",
 					
 		"outerColor": [45, 45, 45],
-		"innerColor": [0, 100, 90],
+		"innerColor": [15, 145, 126],
 
 		"uniqueName": "Shadow Network",
 		"uniques": [
@@ -3184,6 +3191,58 @@
 					],
 		"cities": ["Kageyama", "Kurokawa", "Shinokage", "Yamishiro", "Kagemori", "Kurotsuki", "Hisame", "Oborozaka", "Kagehara", "Tsukigakure", "Kurohama", "Shirakage", "Yorukawa", "Kageishi", "Kurozane"],
 		"spyNames": ["Kagemaru", "Hayakage", "Shiranui", "Kuroto", "Yamikaze"],
+		"civilopediaText": [
+			{"text":"Desc"},
+			{"text":"Desc"},
+        ]
+	},
+	
+	//Tʼaan of Ekkimil Empire
+	{
+		"name": "Ekkimil Empire",
+		"leaderName": "Tʼaan",
+		"adjective": ["Ekkimili"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Scientific",
+	//	"personality": "",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+					
+		"outerColor": [20, 30, 60],
+		"innerColor": [120, 180, 140],
+
+		"uniqueName": "Heir of the Dying Star",
+		"uniques": ["Comment [A [Herald] appears upon ending a Golden Age and upon losing a city]",
+					"Comment [After ending a Golden Age, all units gain +1 Movement for 5 turns]",
+					"Comment [The first time a Major Civilization declares war on you, a [Great Scientist] appears]",
+					"Comment [[Herald]: This unit has both [Missionary] and [Inquisitor] ability without having to be consumed. Also provides +2 [Science], +2 [Faith] when ending a turn adjacent to a Friendly or Allies City-States' [City center]]",
+					
+					//backend
+					"Free [Herald] appears <upon ending a Golden Age> <hidden from users>",
+					"Free [Herald] appears <upon losing a city> <hidden from users>",
+					
+					"Free [Great Scientist] appears <upon being declared war on by [Major] Civilizations> <when below [1] [First Something]> <hidden from users>",
+					"Instantly gain [1] [First Something] <upon being declared war on by [Major] Civilizations> <when below [1] [First Something]> <hidden from users>",
+							
+					"Provides [1] [Marker] <for [5] turns> <upon ending a Golden Age> <hidden from users>",					
+					"[+1] Movement <with [Marker]> <hidden from users>",					
+					
+					"[+1 Science, +1 Faith] from every [Jungle] <in tiles adjacent to [Patlani Witz] tiles> <hidden from users>",
+					
+					],
+		"cities": ["Ekʼbalamtuun", "Kʼinichnal", "Yaxkʼulha", "Tzʼikinhaab", "Saknikteʼ", "Chakmolha", "Itzamkʼan", "Bʼalamha", 
+			"Nojwitz", "Kʼuhulchan", "Ixmutal", "Ahaukin", "Tuunilnah", "Kʼabnal", "Uxlajchan"],
+		"spyNames": ["Ajk'in","Chak Tok","Balam","Ikal","K'an Ek"],
 		"civilopediaText": [
 			{"text":"Desc"},
 			{"text":"Desc"},

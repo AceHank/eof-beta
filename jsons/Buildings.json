@@ -579,7 +579,7 @@
 		"hurryCostModifier": 25,
 		"production": 2,
 		"requiredTech": "Metal Casting",
-		"uniques": ["Comment [Doesn't require nearby worked [Iron]]", "[+15]% Production when constructing [Spaceship part] units [in this city]",
+		"uniques": ["Comment [Doesn't require nearby worked [Iron]]",
 			"[+15]% Production when constructing [Land] units [in this city]"]
 	},
 	
@@ -1028,6 +1028,19 @@
 			{"text": "A temple to the Sun, decorated with the everburning flame inside. The temple is well guarded to prevent the everburning flame to be stolen."},
         ]
 	},
+		{
+			"name": "Sun Palace",
+			"replaces" : "Palace",
+			"uniqueTo": "Salamander Empire",
+			"isNationalWonder": true,
+			"production": 3,
+			"science": 3,
+			"gold": 3,
+			"culture": 1,
+			"cityStrength": 2.5,
+			"cost": 0,
+			"uniques": ["Can carry [1] extra [Air] units", "Indicates the capital city", "Will not be displayed in Civilopedia"]
+		},
 	
 	//The Eternals
 	{
@@ -2025,6 +2038,22 @@
 		"requiredTech": "Bronze Working"
 	},
 	
+	//Ekkimil Empire
+	{
+		"name": "Floating Pyramid",
+		"uniqueTo": "Ekkimil Empire",
+		"replaces": "Temple",
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Creates a [Patlani Witz] improvement on a specific tile",
+					"Comment [[Patlani Witz] is an improvement that has +2 [Gold] and provides +1 [Science], +1 [Faith] to adjacent [Jungle] tiles]",
+					"Only available <when religion is enabled>", "Destroyed when the city is captured",
+					]
+	},
+	
 	/*
 	//TEST PURPOSE
 		{
@@ -2032,7 +2061,16 @@
 			"cost": 1,
 			"hurryCostModifier": -90,
 			"uniques": [
-					"Triggers a [Unholy Ritual] event"
+					"Free [Dreadguard] appears",
+					"Free [Hammerguard] appears",
+					"Free [Custodian] appears",
+					"Free [Shinobi] appears",
+					"Free [Aragoto Blademaster] appears",
+					"Free [Hobgoblin] appears",
+					"Free [Bear Cavalier] appears",
+					"Free [Wolfrider] appears",
+					"Free [Archer Maiden] appears",
+					"Free [Gilded Envoy] appears",
 					
 					]
 		},
@@ -2046,7 +2084,6 @@
 					
 					]
 		},
-	
 	*/
 	
 	/* BACKEND TEMPLATE

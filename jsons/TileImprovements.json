@@ -18,6 +18,8 @@
 			//Mechanism
 			//Arata Clan Yamajiro
             "YamajiroMarker <in cities with a [Yamajiro]> <hidden from users>",
+			//Ekkimil Empire
+			"CityStatesMarker <for [City-States] Civilizations> <hidden from users>",
 			//Thanatos Imperium Black Citadel
             "BlackCitadel <in cities with a [Black Citadel]> <hidden from users>",
 			//Just War fix compa
@@ -365,6 +367,20 @@
 			"Gives a defensive bonus of [30]% <with [Marker]> <hidden from users>",
 			],
 		"shortcutKey": "F"
+	},
+	
+	//Ekkimil Empire
+	{
+		"name": "Patlani Witz",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Ekkimil Empire",
+		"gold": 2,
+		"uniques": ["Great Improvement", "Will not be displayed in Civilopedia",
+					"Comment [+1 [Science], +1 [Faith] to adjacent [Jungle] tiles]",
+					],
+		"civilopediaText": [
+			{"text": "Desc"},
+        ]
 	},
 	
 	/*

@@ -584,7 +584,7 @@
 	//Thanatos Theocracy
 	{
 		"name": "Disturbing Presence",
-		"uniques": ["Comment [When attacked, the attacker suffers -5% Strength for 3 turns. This effect may stacks.]",
+		"uniques": ["Comment [Units attacking this unit receive [Baned] for 1 turn.]",
 		]
 	},
 	
@@ -629,40 +629,56 @@
 	},	
 	{
 		"name": "Kizuna",
-		"uniques": ["Comment [+1 Strength for every 2 [Shinobi] owned, up to +15.]",
+		"uniques": ["Comment [+5% Strength for every 2 [Shinobi] in Enemy territory, up to +50%.]",
 		
-					"[+1] Strength <when number of [[Shinobi] Units] is equal to [2]> <hidden from users>",	"[+2] Strength <when number of [[Shinobi] Units] is equal to [4]> <hidden from users>",	"[+3] Strength <when number of [[Shinobi] Units] is equal to [6]> <hidden from users>",
-					"[+4] Strength <when number of [[Shinobi] Units] is equal to [10]> <hidden from users>", "[+5] Strength <when number of [[Shinobi] Units] is equal to [12]> <hidden from users>", "[+6] Strength <when number of [[Shinobi] Units] is equal to [14]> <hidden from users>",
-					"[+7] Strength <when number of [[Shinobi] Units] is equal to [16]> <hidden from users>", "[+8] Strength <when number of [[Shinobi] Units] is equal to [18]> <hidden from users>", "[+9] Strength <when number of [[Shinobi] Units] is equal to [20]> <hidden from users>",
-					"[+10] Strength <when number of [[Shinobi] Units] is equal to [22]> <hidden from users>", "[+11] Strength <when number of [[Shinobi] Units] is equal to [24]> <hidden from users>",	"[+12] Strength <when number of [[Shinobi] Units] is equal to [26]> <hidden from users>",
-					"[+13] Strength <when number of [[Shinobi] Units] is equal to [28]> <hidden from users>", "[+14] Strength <when number of [[Shinobi] Units] is equal to [30]> <hidden from users>",	"[+15] Strength <when number of [[Shinobi] Units] is equal to [32]> <hidden from users>",
+					"[+5]% Strength <when number of [[ShinobiActive] Units] is more than [1]> <hidden from users>",	
+					"[+5]% Strength <when number of [[ShinobiActive] Units] is more than [3]> <hidden from users>",	
+					"[+5]% Strength <when number of [[ShinobiActive] Units] is more than [5]> <hidden from users>",
+					"[+5]% Strength <when number of [[ShinobiActive] Units] is more than [7]> <hidden from users>", 
+					"[+5]% Strength <when number of [[ShinobiActive] Units] is more than [9]> <hidden from users>", 
+					"[+5]% Strength <when number of [[ShinobiActive] Units] is more than [11]> <hidden from users>",
+					"[+5]% Strength <when number of [[ShinobiActive] Units] is more than [13]> <hidden from users>", 
+					"[+5]% Strength <when number of [[ShinobiActive] Units] is more than [15]> <hidden from users>", 
+					"[+5]% Strength <when number of [[ShinobiActive] Units] is more than [17]> <hidden from users>",
+					"[+5]% Strength <when number of [[ShinobiActive] Units] is more than [19]> <hidden from users>", 
 		]
 	},	
 	{
 		"name": "Phantom Unit",
-		"uniques": ["Comment [May enter foreign tiles without open border. Invisible to non-adjacent units in non-Enemy territory. Gain double the bonus and limit of [Kizuna] starting from the Renaissance era.]",
+		"uniques": ["Comment [May enter foreign tiles without open border. Invisible to non-adjacent units. [Kizuna] also provides flat +2 Strength for every 2 [Shinobi] in Enemy territory (up to +20) starting from the Renaissance era.]",
 					
 					"May enter foreign tiles without open borders <hidden from users>",
-					"Invisible to non-adjacent units <in [non-[Enemy]] tiles> <hidden from users>",
+					"Invisible to non-adjacent units <hidden from users>",
 					
-					"[+1] Strength <when number of [[Shinobi] Units] is equal to [2]> <starting from the [Renaissance era]> <hidden from users>",
-					"[+2] Strength <when number of [[Shinobi] Units] is equal to [4]> <starting from the [Renaissance era]> <hidden from users>",
-					"[+3] Strength <when number of [[Shinobi] Units] is equal to [6]> <starting from the [Renaissance era]> <hidden from users>",
-					"[+4] Strength <when number of [[Shinobi] Units] is equal to [8]> <starting from the [Renaissance era]> <hidden from users>",
-					"[+5] Strength <when number of [[Shinobi] Units] is equal to [10]> <starting from the [Renaissance era]> <hidden from users>",
-					"[+6] Strength <when number of [[Shinobi] Units] is equal to [12]> <starting from the [Renaissance era]> <hidden from users>",
-					"[+7] Strength <when number of [[Shinobi] Units] is equal to [14]> <starting from the [Renaissance era]> <hidden from users>",
-					"[+8] Strength <when number of [[Shinobi] Units] is equal to [16]> <starting from the [Renaissance era]> <hidden from users>",
-					"[+9] Strength <when number of [[Shinobi] Units] is equal to [18]> <starting from the [Renaissance era]> <hidden from users>",
-					"[+10] Strength <when number of [[Shinobi] Units] is equal to [20]> <starting from the [Renaissance era]> <hidden from users>",
-					"[+11] Strength <when number of [[Shinobi] Units] is equal to [22]> <starting from the [Renaissance era]> <hidden from users>",
-					"[+12] Strength <when number of [[Shinobi] Units] is equal to [24]> <starting from the [Renaissance era]> <hidden from users>",
-					"[+13] Strength <when number of [[Shinobi] Units] is equal to [26]> <starting from the [Renaissance era]> <hidden from users>",
-					"[+14] Strength <when number of [[Shinobi] Units] is equal to [28]> <starting from the [Renaissance era]> <hidden from users>",
-					"[+15] Strength <when number of [[Shinobi] Units] is equal to [30]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+2] Strength <when number of [[ShinobiActive] Units] is more than [1]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+2] Strength <when number of [[ShinobiActive] Units] is more than [3]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+2] Strength <when number of [[ShinobiActive] Units] is more than [5]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+2] Strength <when number of [[ShinobiActive] Units] is more than [7]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+2] Strength <when number of [[ShinobiActive] Units] is more than [9]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+2] Strength <when number of [[ShinobiActive] Units] is more than [11]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+2] Strength <when number of [[ShinobiActive] Units] is more than [13]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+2] Strength <when number of [[ShinobiActive] Units] is more than [15]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+2] Strength <when number of [[ShinobiActive] Units] is more than [17]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+2] Strength <when number of [[ShinobiActive] Units] is more than [19]> <starting from the [Renaissance era]> <hidden from users>",
 		]
 	},	
 	
+	//Ekkimil Empire
+	{
+		"name": "Blood Rite",
+		"uniques": [
+					"Comment [+5% Strength for every 15 HP missing from the target enemy]",
+					"Earn [25]% of killed [Military] unit's [Strength] as [Faith]",
+					
+					"[+5]% <vs [85orBelow] units> Strength <hidden from users>",
+					"[+5]% <vs [70orBelow] units> Strength <hidden from users>",
+					"[+5]% <vs [55orBelow] units> Strength <hidden from users>",
+					"[+5]% <vs [40orBelow] units> Strength <hidden from users>",
+					"[+5]% <vs [25orBelow] units> Strength <hidden from users>",
+					"[+5]% <vs [10orBelow] units> Strength <hidden from users>",
+					
+		]
+	},			
 	
 	//Universal~~~~~~~
 	{
@@ -738,9 +754,9 @@
 	},
 	{
 		"name": "Sanctuary",		//This should only be gained in opponent's turn, because of Sanctuary First Turn.
-		"uniques": ["Comment [This unit cannot be attacked. [Sanctuary] is lost upon attacking.]", "IsSanctuary",
-					"[This Unit] loses the [Sanctuary] promotion <upon damaging a [All] unit> <for units without [Sanctuary First Turn]> <hidden from users>",
-					"[This Unit] loses the [Sanctuary] status <upon damaging a [All] unit> <for units without [Sanctuary First Turn]> <hidden from users>",
+		"uniques": ["Comment [This unit cannot be attacked. [Sanctuary] is lost upon attacking.]", "IsSanctuary", "[+1]% Strength",
+					"[This Unit] loses the [Sanctuary] promotion <upon entering combat> <for units without [Sanctuary First Turn]> <hidden from users>",
+					"[This Unit] loses the [Sanctuary] status <upon entering combat> <for units without [Sanctuary First Turn]> <hidden from users>",
 					"[This Unit] gains the [Sanctuary First Turn] status for [1] turn(s) <upon gaining the [Sanctuary] status> <hidden from users>",
 		],
 	},
@@ -1416,10 +1432,10 @@
 	{
 		"name": "Elune's Protection",
 		"uniques": ["Comment [This unit has gained the grace of Elune's protection]",
-					"[This Unit] gains the [Sanctuary] status for [2] turn(s) <upon losing at least [1] HP in a single attack> <with [30]% chance> <for [{non-[Wisp]} {Military}] units> <for units without [Elune's Protection Cooldown]> <hidden from users>",
-					"[This Unit] gains the [Sanctuary] status for [2] turn(s) <upon losing at least [1] HP in a single attack> <for [Civilian] units> <for units without [Elune's Protection Cooldown]> <hidden from users>",
-					"[This Unit] gains the [Sanctuary] status for [2] turn(s) <upon losing at least [1] HP in a single attack> <for [Wisp] units> <for units without [Elune's Protection Cooldown]> <hidden from users>",
-					"[This Unit] gains the [Elune's Protection Cooldown] status for [8] turn(s) <upon gaining the [Sanctuary] status> <hidden from users>",
+		
+					"[This Unit] gains the [Sanctuary] status for [1] turn(s) <upon losing at least [1] HP in a single attack> <for [All] units> <in [your] tiles> <without [Elune Protection Cooldown]> <hidden from users>",
+					"Instantly gain [5] [Elune Protection Cooldown] <upon gaining the [Sanctuary] status> <when below [1] [Elune Protection Cooldown]> <hidden from users>",
+					
 		]
 	},
 	{
@@ -1865,7 +1881,7 @@
 			{"text": "[Aspect of Eagle]: Gain Flying"}
 			{"text": "[Aspect of Tortoise]: Reduces damage taken by 10"}
 			{"text": "[[Aspect of Horse]: +1 Movement"}
-			{"text": "[[Aspect of Owl]: +2 Sight, Can see over obstacle and invis unit"}
+			{"text": "[[Aspect of Owl]: +2 Sight, can see over obstacle and can see Invisibility unit"}
 			{"text": "[[Aspect of Seal]: This unit is [Water Creature]"}
 		]
 	},
@@ -2019,7 +2035,7 @@
 	
 	//Arata Clan
 	{
-		"name": "Rain of Arrows",	//Rain of Arrows
+		"name": "Rain of Arrows",
 		"uniques": ["Comment [Activate to gain +25% Strength and can attack over obstacle until the end of this turn. Cooldown: 7 turns.]",
 					"[This Unit] gains the [Rain of Arrows Active] status for [1] turn(s) <for [0] movement> <for units without [Rain of Arrows Cooldown]> <hidden from users>",	
 					],
@@ -2048,7 +2064,7 @@
 	
 	//Hide Clan
 	{
-		"name": "Shadow Exit",	//Shadow Exit
+		"name": "Shadow Exit",
 		"uniques": ["Comment [Activate to gain Invisibility for 2 turn and may teleport 3-tiles away. Only useable as first action. Can only be used once.]",
 					"[This Unit] gains the [Shadow Exit Active] status for [1] turn(s) <for [0] movement> <if it hasn't used other actions yet> <removing the [Shadow Exit] promotion/status> <hidden from users>",	
 					],
@@ -2237,6 +2253,16 @@
 					],
 	},
 	{
+		"name": "Poisoned",
+		"uniques": ["Comment [Take 5 damage upon turn end and -5 HP when healing.]",
+					
+					"[This Unit] takes [5] damage <upon turn end> <hidden from users>",
+					"[-5] HP when healing <hidden from users>",
+					
+					"[-1]% Strength <hidden from users>",
+					]
+	},
+	{
 		"name": "Rooted",
 		"uniques": ["Cannot move", 
 					"Cannot attack <for [Melee] units>",
@@ -2315,6 +2341,7 @@
 					"[This Unit] loses the [Frozen] status <upon gaining the [Frozen] status> <hidden from users>",
 					"[This Unit] loses the [Infected] status <upon gaining the [Infected] status> <hidden from users>",
 					"[This Unit] loses the [Marked] status <upon gaining the [Marked] status> <hidden from users>",
+					"[This Unit] loses the [Poisoned] status <upon gaining the [Poisoned] status> <hidden from users>",
 					"[This Unit] loses the [Rooted] status <upon gaining the [Rooted] status> <hidden from users>",
 					"[This Unit] loses the [Elune's Rooted] status <upon gaining the [Elune's Rooted] status> <hidden from users>",
 					"[This Unit] loses the [Shackled] status <upon gaining the [Shackled] status> <hidden from users>",
@@ -2343,6 +2370,7 @@
 					"[This Unit] loses the [Frozen] status <upon gaining the [Debuff Immune] status> <hidden from users>",
 					"[This Unit] loses the [Infected] status <upon gaining the [Debuff Immune] status> <hidden from users>",
 					"[This Unit] loses the [Marked] status <upon gaining the [Debuff Immune] status> <hidden from users>",
+					"[This Unit] loses the [Poisoned] status <upon gaining the [Debuff Immune] status> <hidden from users>",
 					"[This Unit] loses the [Rooted] status <upon gaining the [Debuff Immune] status> <hidden from users>",
 					"[This Unit] loses the [Elune's Rooted] status <upon gaining the [Debuff Immune] status> <hidden from users>",
 					"[This Unit] loses the [Shackled] status <upon gaining the [Debuff Immune] status> <hidden from users>",
@@ -2354,6 +2382,7 @@
 		],
 	},
 	
+	/*
 	//TEST PURPOSE
 	{
 		"name": "Light Foot",
@@ -2370,8 +2399,7 @@
 			"Will not be displayed in Civilopedia"
 		]
 	},
-	
-	//Debuffs List
+	*/
 	
 	//Back end stuff
 	{

@@ -1065,7 +1065,7 @@
 		"name": "Lava Bomb",
 		"unitType": "Atomic Bomber",
 		"movement": 1,
-		"strength": 5,
+		"strength": 20,
 		"rangedStrength": 20,
 		"range": 3,
 		"cost": 1000,
@@ -1082,11 +1082,11 @@
 					//Backend stuffs
 					"[Target Unit] gains the [Lava Eruption] status for [1] turn(s) <upon damaging a [All] unit> <hidden from users>",
 					
-					"[+100]% Strength <starting from the [Medieval era]> <hidden from users>",
-					"[+150]% Strength <starting from the [Industrial era]> <hidden from users>",
-					"[+150]% Strength <starting from the [Modern era]> <hidden from users>",
-					"[+150]% Strength <starting from the [Atomic era]> <hidden from users>",
-					"[+150]% Strength <starting from the [Information era]> <hidden from users>",
+					"[+20] Strength <starting from the [Medieval era]> <hidden from users>",		
+					"[+30] Strength <starting from the [Industrial era]> <hidden from users>",		
+					"[+30] Strength <starting from the [Modern era]> <hidden from users>",	
+					"[+30] Strength <starting from the [Atomic era]> <hidden from users>",		
+					"[+30] Strength <starting from the [Information era]> <hidden from users>",		
 					
 					"[+1] Range <starting from the [Renaissance era]> <hidden from users>",
 					"[+1] Range <starting from the [Modern era]> <hidden from users>",
@@ -1723,35 +1723,26 @@
 		"movement": 2,
 		"uniques": [
 					"Comment [May Enchant a [Forest] or [Jungle] twice after which the unit is consumed.]",
-					"Comment [Self-destructs when damaging to deal 30 damage to an enemy unit after 3 turns of being gained]",
+					"Comment [Self-destructs when declaring an attack to deal 15 damage to an enemy unit. Only active when target unit is in your territory and after 3 turns of being gained.]",
 					"Comment [Strength scales with era]",
 					"Can build [Land] improvements on tiles",
 					
-					"[+5] Strength <during the [Classical era]> <hidden from users>",							//10
-					"[+10] Strength <during the [Medieval era]> <hidden from users>",							//15
-					"[+15] Strength <during the [Renaissance era]> <hidden from users>",						//20
-					"[+20] Strength <during the [Industrial era]> <hidden from users>",							//25
-					"[+30] Strength <during the [Modern era]> <hidden from users>",								//35
-					"[+45] Strength <during the [Atomic era]> <hidden from users>",								//50
-					"[+65] Strength <starting from the [Information era]> <hidden from users>",					//70
-					
-					//Balancer
-					"[-100]% Strength <before discovering [Agriculture]> <hidden from users>",					
-					"[-200]% Strength <before discovering [Agriculture]> <hidden from users>",					
-					"[-300]% Strength <before discovering [Agriculture]> <hidden from users>",					
-					"[-400]% Strength <before discovering [Agriculture]> <hidden from users>",					
-					"[-600]% Strength <before discovering [Agriculture]> <hidden from users>",					
-					"[-900]% Strength <before discovering [Agriculture]> <hidden from users>",					
-					"[-1400]% Strength <before discovering [Agriculture]> <hidden from users>",				
+					"[+3] Strength <during the [Classical era]> <hidden from users>",							//8
+					"[+7] Strength <during the [Medieval era]> <hidden from users>",							//12
+					"[+13] Strength <during the [Renaissance era]> <hidden from users>",						//18
+					"[+15] Strength <during the [Industrial era]> <hidden from users>",							//20
+					"[+24] Strength <during the [Modern era]> <hidden from users>",								//29
+					"[+37] Strength <during the [Atomic era]> <hidden from users>",								//42
+					"[+55] Strength <starting from the [Information era]> <hidden from users>",					//60		
 					
 					"[This Unit] gains the [Cooldown] status for [3] turn(s) <hidden from users>",
-					"[Target Unit] takes [30] damage <upon damaging a [All] unit> <for units without [Cooldown]> <hidden from users>",
-					"[This Unit] takes [101] damage <upon damaging a [All] unit> <for units without [Cooldown]> <hidden from users>",
+					"[Target Unit] takes [100] damage <upon entering combat> <when attacking> <in [your] tiles> <for units without [Cooldown]> <hidden from users>",
+					"[This Unit] takes [101] damage <upon entering combat> <when attacking> <in [your] tiles> <for units without [Cooldown]> <hidden from users>",
 					"Can instantly construct a [Enchanted Forest] improvement <[2] times> <after which this unit is consumed> <hidden from users>",
 					
 		],
 		"promotions": ["Hovering"],
-		"cost": 70,
+		"cost": 1,
         "civilopediaText": [
 			{"text": "Flock of spirits roam around the forest. They are the lifeline of the forest and will not waver to sacrifice themselves to protect it."}
 		]
@@ -2432,7 +2423,7 @@
 		"replaces": "Great Merchant",
 		"unitType": "Civilian",
 		"uniques": [
-			"Comment [Can undertake a trade mission with City-State, giving a large sum of gold and 30 Influence, increasing by 5 Influence per era]",
+			"Comment [Can undertake a trade mission with City-State, giving a large sum of gold and 30 Influence, increasing by 5 Influence per era number]",
 			"Comment [[Gilded Envoy] has different pool from other Great Person, gaining [Gilded Envoy] doesn't increase the cost of other Great Person]",
 			
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence <during the [Ancient era]> <hidden from users>",
@@ -2546,7 +2537,7 @@
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Bushi",
+		"name": "Aragoto Blademaster",
 		"uniqueTo": "Arata Clan",
 		"replaces": "Longswordsman",
 		"unitType": "Sword",
@@ -2573,17 +2564,54 @@
 		"cost": 40,
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["Invisibility", "Never appears as a Barbarian unit"],
+		"uniques": ["Invisibility", 
+					"ActiveShinobi <in [Enemy] tiles> <hidden from users>",
+					"Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost", "Shadow Exit", "Phantom Unit", "Kizuna"],
 		"attackSound": "nonmetalhit"
 	},
+	
+	//Ekkimil Empire
+	{
+		"name": "Herald",
+		"unitType": "Civilian",
+		"uniqueTo": "Ekkimil Empire",
+		"uniques": [
+			"Comment [Gain +3 [Science], +3 [Faith] when ending turn adjacent to a Friendly or Allied City-State's [City center]]",
+            "Can Spread Religion <for [4] movement> <[2] times>",
+			"Can remove other religions from cities <in [Friendly] tiles> <once>",
+			"Prevents spreading of religion to the city it is next to",
+            "May enter foreign tiles without open borders",
+			"Gain [3] [Science] <upon turn end> <within [1] tiles of a [{Friendly} {CityStatesMarker}]> <hidden from users>",
+			"Gain [3] [Faith] <upon turn end> <within [1] tiles of a [{Friendly} {CityStatesMarker}]> <hidden from users>",
+			"Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia", "Religious Unit"],
+		"movement": 4,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Balam Champion",
+		"uniqueTo": "Ekkimil Empire",
+		"replaces": "Pikeman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 18,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"promotions": ["Blood Rite"],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+	},
+	
+	
 	
 	//Test Purpose
 		{
 			"name": "Meo",
 			"unitType": "Sword",
 			"replaces": "Warrior",
-			"uniqueTo": "Goblin Horde",
+			"uniqueTo": "Night Elven Enclave",
 			"movement": 5,
 			"strength": 10,
 			"cost": 1,
@@ -2593,7 +2621,8 @@
 						"[+5] Sight", "Can move immediately once bought", "Can see over obstacles",
 						
 						//Put test stuffs below
-						"[+15]% Strength bonus for [All] units within [2] tiles",
+						"[This Unit] gains the [Cooldown] status for [99] turn(s) <upon losing at least [1] HP in a single attack> <hidden from users>",
+						
 						
 						
 			],
